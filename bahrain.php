@@ -97,6 +97,11 @@
     <div class="container">
         <h2>Культура и традиции</h2>
 
+        <p>Большая часть населения Бахрейна живет на северо-востоке страны, в двух городах - Манама и Мухаррак. Всего на территории государства насчитывают более 11 национальностей: бахрейнцы, персы, арабы, пакистанцы, малаяли, курды, тамилы, тагалы, гуджаратцы, телугу, британцы и другие. Около 55% населения составляют бахнейнцы, 13% персы и 10% арабы.</p>
+        <p>Мужчин больше, чем женщин. На 6 мужчин приходится примерно 10 женщин. Основная часть населения - в возрасте от 15 до 64 лет.</p>
+
+        <?= $this->render('_population') ?>
+
         <p>Бахрейн - это достаточно либеральная страна в плане образа жизни. Но все же иностранцам, выбравшим жизнь в Королевстве Бахрейн или пребывающим здесь временно, стоит почитать ислам, его устои и традиции.</p>
 
         <p>Например, во время Рамадана (х.), общего мусульманского поста, на протяжении месяца в общественных зонах действуют ограничения на дневной приемы пищи.</p>
@@ -188,27 +193,13 @@
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between align-items-center">
                                 <div>
-                                    <nobr>230 Вт</nobr>, <nobr>50 Гц</nobr>, используется <a href="#">разъем типа G</a>
+                                    <nobr>230 Вт</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeG">разъем типа G</a>
                                 </div>
                                 <span class="text-right">
-                                    <img src="/img/outputs/type_g.svg" style="width:100px; max-width:100%;">
+                                    <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">
                                 </span>
                             </div>
                         </li>
-                        <!--<li class="list-group-item">
-                            <figure class="figure d-block">
-                                <div class="video-cover box-shadow">
-                                    <img alt="Лайфхак. Как подключиться в розетку на Кипре , Англии (Великобритании) или Гонконге без переходника." src="https://i.ytimg.com/vi/Sue7r6oRFgY/hqdefault.jpg" class="bg-image"/>
-                                    <div class="video-play-icon">
-                                        <i class="icon-controller-play"></i>
-                                    </div>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/Sue7r6oRFgY?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <figcaption class="figure-caption text-right">Английские розетки. Лайфхак<br>© Alexandr Idjon 2016</figcaption>
-                            </figure>
-                        </li>-->
                     </ul>
                 </div>
 

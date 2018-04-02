@@ -24,7 +24,7 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-8 offset-2">
+            <div class="col-lg-8 offset-lg-2">
                 <p>Республика Болгария расположена в Юго-Восточной Европе на Балканском полуострове. Государство омывается Чёрным морем на востоке, соседствует с Турцией, Грецией, Сербией, Македонией и Румынией.</p>
                 <p>Около 80% населения - православные христиане.</p>
 
@@ -38,8 +38,7 @@
                 <p>Температура Чёрного моря в пляжный сезон комфортная (до +25°C).</p>
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
-                        <img alt="Discover Bulgaria in 4K - Beautiful landscapes" src="https://i.ytimg.com/vi/JwjA9VpI7X0/maxresdefault.jpg" class="bg-image"
-                        />
+                        <img alt="Discover Bulgaria in 4K - Beautiful landscapes" src="https://i.ytimg.com/vi/JwjA9VpI7X0/maxresdefault.jpg" class="bg-image"/>
                         <div class="video-play-icon">
                             <i class="icon-controller-play"></i>
                         </div>

@@ -24,7 +24,7 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-8 offset-2">
+            <div class="col-lg-8 offset-lg-2">
                 <p>Доминиканская Республика находится на острове Гаити и занимает 3/4 его площади. По размерам это вторая островная страна, вслед за Кубой. Официальный язык - испанский, причем среди всех испаноговорящих стран Латинской Америки именно доминиканский вариант наиболее близок к тому языку, на котором говорят в Испании.</p>
 
                 <!--Карта-->
@@ -500,11 +500,11 @@
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between align-items-center">
                                 <div>
-                                    <nobr>110 Вт</nobr>, <nobr>60 Гц</nobr>, используются разъемы <a href="#">типа A и B</a>. Приборы заряжаются дольше чем обычно.
+                                    <nobr>110 Вт</nobr>, <nobr>60 Гц</nobr>, используются разъемы <a href="/journal/electric-sockets.html#typeA">типа A и B</a>. Приборы заряжаются дольше чем обычно.
                                 </div>
                                 <span class="text-right">
-                                    <img src="/img/outputs/type_a.svg" style="width:100px; max-width:100%;">
-                                    <img src="/img/outputs/type_b.svg" style="width:100px; max-width:100%;">
+                                    <img src="/img/electric/type_a.svg" style="width:100px; max-width:100%;">
+                                    <img src="/img/electric/type_b.svg" style="width:100px; max-width:100%;">
                                 </span>
                             </div>
                         </li>

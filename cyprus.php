@@ -132,10 +132,10 @@
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between align-items-center">
                                 <div>
-                                    <nobr>240 Вт</nobr>, <nobr>50 Гц</nobr>, используется <a href="#">разъем типа G</a>
+                                    <nobr>240 Вт</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeG">разъем типа G</a>
                                 </div>
                                 <span class="text-right">
-                                    <img src="/img/outputs/type_g.svg" style="width:100px; max-width:100%;">
+                                    <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">
                                 </span>
                             </div>
                         </li>
@@ -199,31 +199,18 @@
                 </div>
 
                 <div class="card">
-                    <div class="card-header">
-                        <span class="h6"><b>Консульство Кипра в Казахстане</b></span>
+                    <iframe src="https://www.google.com/maps/embed/v1/search?q=проспект+Мангилик+Ел.+55/2,+Астана,+Казахстан&key=AIzaSyBy4GyZglz_6mltKrjCVr0S1Vb33LHTJf4" allowfullscreen class="card-img-top w-100"></iframe>
+                    <div class="card-body">
+                        <h5>Консульство Кипра</h5>
+                        <p>
+                            Астана, пр. Мангилик Ел 55/2, офис 73<br>
+                            <small class="text-muted">Отель «Хилтон Астана»</small>
+                        </p>
+
+                        <p><i class="icon-phone"></i> +7 (7172) 25-39-52</p>
+                        <p><i class="icon-link"></i> <a href="http://cyprusconsulate.kz/ru/">cyprusconsulate.kz</a></p>
+
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    Астана, пр. Мангилик Ел 55/2, офис 73<br>
-                                    <small class="text-muted">Отель «Хилтон Астана»</small>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Телефон</div>
-                                <span>+7 (7172) 25-39-52</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Сайт</div>
-                                <span><a href="http://cyprusconsulate.kz/ru/">cyprusconsulate.kz</a></span>
-                            </div>
-                        </li>
-                    </ul>
                 </div>
 
                 <div class="card">
