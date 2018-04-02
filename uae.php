@@ -8,10 +8,10 @@
                             <b>Столица</b>: Абу-Даби<br>
                             <b>Официальный язык</b>: арабский<br>
                             <b>Религия</b>: ислам<br>
-                            <b>Валюта</b>: дирхам (1 дирхам = 100 филсов). Курс дирхама к доллару США – 3,6650.<br>
-                            <b>Территория</b>: 83 600 кв. км.<br>
-                            <b>Население</b>: 9 300 00 человек<br>
-                            <b>Часовой пояс</b>: UTC +4. Разница с Астаной -2 часа.
+                            <b>Валюта</b>: AED - дирхам (1 дирхам = 100 филсов)<br>
+                            <b>Территория</b>: 83 600 км²<br>
+                            <b>Население</b>: 9.3 млн человек<br>
+                            <b>Часовой пояс</b>: UTC +4. Разница с Астаной -2 часа
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@
   <section>
         <div class="container">
             <div class="row">
-                <div class="col-8 offset-2">
+                <div class="col-lg-8 offset-lg-2">
                     <p>ОАЭ — государство на северо-восточной части Аравийского полуострова, омываемое водами Персидского залива. Вдоль побережья сконцентрировано большое количество островков, которые также входят в состав ОАЭ.</p>
 
                     <!--Карта-->
@@ -39,7 +39,7 @@
                                 <i class="icon-controller-play"></i>
                             </div>
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" data-src="https://www.youtube.com/watch?v=yzuhDcKrBHI?&autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/yzuhDcKrBHI?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                         </div>
                         <figcaption class="figure-caption text-right">ОАЭ. Интересные факты об Эмиратах<br>© CoolTimes 2017</figcaption>
@@ -56,7 +56,7 @@
                                 <i class="icon-controller-play"></i>
                             </div>
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" data-src="https://vimeo.com/163940669?&autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/163940669?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                         </div>
                         <figcaption class="figure-caption text-right">UAE 2015<br>© Sasha 2016</figcaption>
@@ -299,7 +299,7 @@
                                 <i class="icon-controller-play"></i>
                             </div>
                             <div class="embed-responsive embed-responsive-21by9">
-                                <iframe class="embed-responsive-item" data-src="https://vimeo.com/203311480?&autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/203311480?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                             </div>
                         </div>
                         <figcaption class="figure-caption text-right">Desert in Dubai<br>© Anton Elchaninov 2017</figcaption>
@@ -343,9 +343,6 @@
 
 
             <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
-
-            <!--<script src="//f.sravni.ru/f/apps/build/widgets/sravni-widgets.js"></script>
-            <sravni-micro-widget type="mantravel" logo="false" partner="tonkosti.ru" theme="tonkosti.ru" data-countries="Азербайджан"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><style>sravni-micro-widget{text-align: center;display: block;position:relative}a.sravni-dl{font: 300 14px 'Open Sans', sans-serif; max-width:100%px; display:inline-block; color: #a7a7a7; text-decoration: none;border-bottom:1px solid #a7a7a7;}</style></sravni-micro-widget>-->
         </div>
     </section>
 

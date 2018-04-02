@@ -5,20 +5,13 @@
                         <div class="space-lg pb-0">
                             <h1 class="display-4 no-wrap">Россия</h1>
                             <div class="lead">
-                                <b>Столица</b>: Москва
-                                <br>
-                                <b>Официальный язык</b>: русский
-                                <br>
-                                <b>Валюта</b>: российский рубль 1USD = 57,50&nbsp;RUB (по&nbsp;данным на&nbsp;март 2018г)
-                                <br>
-                                <b>Территория</b>: 17&nbsp;125&nbsp;191&nbsp;кв.&nbsp;км.
-                                <br>
-                                <b>Население</b>: 146&nbsp;880&nbsp;432 человек
-                                <br>
+                                <b>Столица</b>: Москва<br>
+                                <b>Официальный язык</b>: русский<br>
+                                <b>Валюта</b>: RUB - российский рубль (1 рубль = 100 копеек)<br>
+                                <b>Территория</b>: 17 125 191 км²<br>
+                                <b>Население</b>: 144.3 млн человек<br>
                                 <b>Часовой пояс</b>: от&nbsp;UTC+2&nbsp;на западе (г. Калининград) до&nbsp;UTC+12&nbsp;на востоке
-                                (Камчатский край). Часовой пояс Москвы&nbsp;&mdash; GMT+3, разница с&nbsp;Астаной составляет
-                                &minus;3&nbsp;часа.
-
+                                (Камчатский край). Часовой пояс Москвы&nbsp;&mdash; GMT+3, разница с&nbsp;Астаной составляет &minus;3&nbsp;часа.
                             </div>
                         </div>
                     </div>
@@ -32,7 +25,7 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-8 offset-2">
+                    <div class="col-lg-8 offset-lg-2">
                         <p>Россия&nbsp;&mdash; многоликая страна с&nbsp;богатейшей и&nbsp;удивительной историей, что делает
                             ее&nbsp;привлекательной для множества туристов из&nbsp;других стран. Официальная столица России
                             Москва и&nbsp;культурная столица Санкт-Петербург, несомненно, являются самыми главными туристическими
@@ -65,7 +58,7 @@
                                     <i class="icon-controller-play"></i>
                                 </div>
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/9RfuxVZdtjY?autoplay=1" webkitallowfullscreen
+                                    <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/9RfuxVZdtjY?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen
                                         mozallowfullscreen allowfullscreen></iframe>
                                 </div>
                             </div>
@@ -82,7 +75,7 @@
                                     <i class="icon-controller-play"></i>
                                 </div>
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/w0eeb7ZDsqo?autoplay=1" webkitallowfullscreen
+                                    <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/w0eeb7ZDsqo?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen
                                         mozallowfullscreen allowfullscreen></iframe>
                                 </div>
                             </div>
@@ -415,7 +408,7 @@
                                     <i class="icon-controller-play"></i>
                                 </div>
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/P2depdsQQ_k?autoplay=1" webkitallowfullscreen
+                                    <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/P2depdsQQ_k?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen
                                         mozallowfullscreen allowfullscreen></iframe>
                                 </div>
                             </div>
@@ -470,9 +463,6 @@
                     112)</p>
 
                 <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
-
-                <!--<script src="//f.sravni.ru/f/apps/build/widgets/sravni-widgets.js"></script>
-            <sravni-micro-widget type="mantravel" logo="false" partner="tonkosti.ru" theme="tonkosti.ru" data-countries="Азербайджан"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><style>sravni-micro-widget{text-align: center;display: block;position:relative}a.sravni-dl{font: 300 14px 'Open Sans', sans-serif; max-width:100%px; display:inline-block; color: #a7a7a7; text-decoration: none;border-bottom:1px solid #a7a7a7;}</style></sravni-micro-widget>-->
             </div>
         </section>
 
@@ -539,7 +529,7 @@
                                     <i class="icon-controller-play"></i>
                                 </div>
                                 <div class="embed-responsive embed-responsive-16by9">
-                                    <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/-qu6w1Q5zEY?autoplay=1" webkitallowfullscreen
+                                    <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/-qu6w1Q5zEY?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen
                                         mozallowfullscreen allowfullscreen></iframe>
                                 </div>
                             </div>

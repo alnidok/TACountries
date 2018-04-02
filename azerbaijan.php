@@ -8,8 +8,8 @@
                         <b>Столица</b>: Баку<br>
                         <b>Официальный язык</b>: азербайджанский<br>
                         <b>Валюта</b>: AZN - азербайджанский манат (состоит из 100 гяпиков)<br>
-                        <b>Территория</b>: 86 600 кв. км.<br>
-                        <b>Население</b>: 9 705 600 человек<br>
+                        <b>Территория</b>: 86 600 км²<br>
+                        <b>Население</b>: 9.7 млн человек<br>
                         <b>Часовой пояс</b>: UTC +4. Разница с Астаной - 2 часа
                     </div>
                 </div>
@@ -24,7 +24,7 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-8 offset-2">
+            <div class="col-lg-8 offset-lg-2">
                 <p>Азербайджан, расположенный между двумя Кавказскими хребтами (Большим и Малым) и Каспийским морем, является уникальным уголком планеты. Здесь, на небольшой территории, есть почти все существующие на планете климатические зоны, за исключением тропиков. Буквально за несколько часов можно попасть из пустыни в вечные льды высокогорья, пересекая при этом полупустыню, степь, субтропики, густые лиственные леса и альпийские луга. Естественно, столь же разнообразны флора и фауна. Богата страна и полезными ископаемыми.</p>
 
                 <!--Карта-->
@@ -421,9 +421,6 @@
         <p>На территории Азербайджана действует система скорой медицинской помощи. Телефон для вызова - 103.</p>
 
         <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
-
-        <!--<script src="//f.sravni.ru/f/apps/build/widgets/sravni-widgets.js"></script>
-        <sravni-micro-widget type="mantravel" logo="false" partner="tonkosti.ru" theme="tonkosti.ru" data-countries="Азербайджан"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><style>sravni-micro-widget{text-align: center;display: block;position:relative}a.sravni-dl{font: 300 14px 'Open Sans', sans-serif; max-width:100%px; display:inline-block; color: #a7a7a7; text-decoration: none;border-bottom:1px solid #a7a7a7;}</style></sravni-micro-widget>-->
     </div>
 </section>
 

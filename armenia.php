@@ -8,8 +8,8 @@
                         <b>Столица</b>: Ереван<br>
                         <b>Официальный язык</b>: Армянский<br>
                         <b>Валюта</b>: ADM - армянский драм<br>
-                        <b>Территория</b>: 29 740 кв. км.<br>
-                        <b>Население</b>: 2 986 тысяч чел. (январь 2017)<br>
+                        <b>Территория</b>: 29 740 км²<br>
+                        <b>Население</b>: 2.9 млн человек (январь 2017)<br>
                         <b>Часовой пояс</b>: UTC +4. Разница с Астаной - 2 часа
                     </div>
                 </div>
@@ -24,7 +24,7 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-8 offset-2">
+            <div class="col-lg-8 offset-lg-2">
                 <p>Армения находится в южной части Закавказья. На севере граничит с Грузией, на западе – с Турцией, на юге – с Ираном, на юго-западе, востоке и северо-востоке – с Азербайджаном.</p>
 
                 <!--Карта-->
@@ -37,7 +37,7 @@
                             <i class="icon-controller-play"></i>
                         </div>
                         <div class="embed-responsive embed-responsive-21by9">
-                            <iframe class="embed-responsive-item" data-src="https://vimeo.com/223275622?&autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/223275622?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
                     <figcaption class="figure-caption text-right">Кавказ (Армения)<br>© FamilyFrames 2017</figcaption>

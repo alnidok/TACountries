@@ -1,1 +1,1 @@
-<script id="tripster" src="https://experience.tripster.ru/partner/?template=loader&version=2&partner=TESTPARTNER&country=<?=$name?>&order=top&num=3&script_id=tripster&widget_template=horizontal&width=100%25&height=700"></script>
+<script id="tripster" src="https://experience.tripster.ru/partner/?template=loader&version=2&partner=account&country=<?=$name?>&order=top&num=3&script_id=tripster&widget_template=horizontal&width=100%25&height=700"></script>
