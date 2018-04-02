@@ -84,7 +84,7 @@
         <li class="list-group-item">
             <div class="d-flex justify-content-between align-items-center">
                 <div>
-                    <nobr>230 В</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeG">разъем типа G</a>
+                    <nobr>230 Вт</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeG">разъем типа G</a>
                 </div>
                 <span class="text-right">
                     <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">
