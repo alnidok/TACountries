@@ -500,7 +500,7 @@
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between align-items-center">
                                 <div>
-                                    <nobr>110 Вт</nobr>, <nobr>60 Гц</nobr>, используются разъемы <a href="/journal/electric-sockets.html#typeA">типа A и B</a>. Приборы заряжаются дольше чем обычно.
+                                    <nobr>110 В</nobr>, <nobr>60 Гц</nobr>, используются разъемы <a href="/journal/electric-sockets.html#typeA">типа A и B</a>. Приборы заряжаются дольше чем обычно.
                                 </div>
                                 <span class="text-right">
                                     <img src="/img/electric/type_a.svg" style="width:100px; max-width:100%;">

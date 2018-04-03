@@ -59,7 +59,7 @@
                             <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/-Okqwj9CvOE?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
-                    <figcaption class="figure-caption text-right">Туристические жемчужины - Бора Бора / Bora Bora<br>© Самый Настоящий 2013</figcaption>
+                    <figcaption class="figure-caption text-right">Туристические жемчужины - Бора Бора<br>© Самый Настоящий 2013</figcaption>
                 </figure>
 
             </div>
@@ -146,7 +146,7 @@
                     </div>
                 </div>
             </div>
-    </div>
+        </div>
 </section>
 
 <section id="visa" class="bg-white">
@@ -184,6 +184,26 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="float-right icon-light-bulb"></i>
+                        <span class="h6"><b>Электросеть</b></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <nobr>220 В</nobr>, <nobr>50 и 60 Гц</nobr>, используются разъемы <a href="/journal/electric-sockets.html#typeC">типа C и E</a>
+                                </div>
+                                <span class="text-right">
+                                    <img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;">
+                                    <img src="/img/electric/type_e.svg" style="width:100px; max-width:100%;">
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
@@ -196,7 +216,8 @@
         <div class="row justify-content-between">
             <div class="col">
                 <p>Ввоз и вывоз местной и иностранной валют не ограничен, декларация необходима на сумму свыше 7500 EUR.</p>
-                <p>Беспошлинно можно ввозить до 200 сигарет или 100 сигарилл или 50 г табака, до 2 л вина и литра алкоголя крепче 22 °, до 500 г кофе, до 100 г чая, до 50 мл духов и 250 мл туалетной воды, а также других товаров на сумму до 5000 XPF. Запрещен ввоз всех продуктов питания животного происхождения, растений, плодов, оружия, боеприпасов и наркотиков, а также контрафактной продукции и искусственного жемчуга.</p>
+                <p>Беспошлинно можно ввозить до 200 сигарет или 100 сигарилл или 50 г табака, до 2 л вина и литра алкоголя крепче 22 °, до 500 г кофе, до 100 г чая, до 50 мл духов и 250 мл туалетной воды, а также других товаров на сумму до 5000 XPF.</p>
+                <p>Запрещен ввоз всех продуктов питания животного происхождения, растений, плодов, оружия, боеприпасов и наркотиков, а также контрафактной продукции и искусственного жемчуга.</p>
             </div>
         </div>
 
@@ -205,7 +226,7 @@
 
 <section id="transport" class="bg-white">
     <div class="container">
-        <h2>Транспорт</h2>      
+        <h2>Транспорт</h2>
 
         <div class="row justify-content-between">
             <div class="col-12 col-md-8 col-lg-7">

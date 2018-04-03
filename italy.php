@@ -83,6 +83,7 @@
     <div class="container">
         <ul class="nav nav-pills nav-fill">
             <li class="nav-item"><a class="nav-link" href="#culture">Культура</a></li>
+            <li class="nav-item"><a class="nav-link" href="#climate">Климат</a></li>
             <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
             <li class="nav-item"><a class="nav-link" href="#security">Безопасность</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
@@ -103,8 +104,13 @@
         <p>Итальянские традиции - это в первую очередь семейные ценности, здесь развит семейный бизнес, который является основой экономики страны. Именно семья для итальянца всегда поддержка и опора. Еще одной важной традицией считаются различные торжества, основные из них связаны с католическими праздниками. Многие туристы приезжают в Италию на Рождество, чтобы проникнуться атмосферой чуда, или в феврале на знаменитые карнавалы, когда в Венеции, Риме и других городах проходят красочные шествия и представления.</p>
         <p>Говоря о традициях Италии, следует упомянуть и о ее кухне, ведь, пожалуй, нет на земле более любимой еды, чем итальянская паста и пицца. Сейчас их готовят по всему свету, но самые вкусные блюда можно попробовать только в Италии. В основе итальянской кухни домашние рецепты из местных продуктов, характерных для Средиземноморья. Это, выращенные под жарким солнцем помидоры, черные маслины, копченная ветчина Прошутто, и самые дорогие грибы - трюфели. К вкуснейшим блюдам в любом ресторане вам подадут местное вино, которое по вкусу уступает только французскому. </p>
 
-        <h5>Праздники и официально нерабочие даты</h5>
+        <h3>Население</h3>
+        <p>80% населения — итальянцы, 13% — выходцы из других стран Европы (албанцы, австрийцы, швейцарцы, румыны, словенцы, поляки и другие), 3% населения — сардинцы, 2.5% — азиаты (в основном китайцы, шри-ланкийцы, индийцы), 1.5% — выходцы из стран Магриба, и выходцы из Южной Америки (аргентинцы, колумбийцы, бразильцы).</p>
+        <p>Соотношение мужчин и женщин - примерно 1/1.</p>
+        <p>В Италии - самая высокая продолжительность жизни. У женщин она составляет 85 лет, у мужчин – 80 лет.</p>
+        <?= $this->render('_population') ?>
 
+        <h5>Праздники и официально нерабочие даты</h5>
         <div class="card bg-secondary">
             <div class="card-body">
                 <h6 class="title-decorative">Нерабочие дни:</h6>
@@ -128,14 +134,22 @@
         </div>
     </div>
 </section>
-<section id="climate">
+
+<section id="climate" class="bg-white">
     <div class="container">
-        <h2>Климат</h2>
-        <p>Климат Италии мягкий, средиземноморский, постепенно сменяющийся умеренно континентальным при подъеме в Альпы. Горные системы защищают страну от сильных ветров. В основном здесь теплая зима от +5 до +20 градусов в разных регионах, и жаркое лето, которое чаще всего превышает планку в +30 градусов. В Альпах же зимы снежные, покров держится с ноября по апрель, позволяя работать горнолыжным курортам около полугода. Лето в горах прохладное, +15-+20 градусов и многие итальянцы уезжают сюда в отпуск отдохнуть от жары на побережье. </p>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Климат</h2>
+                <p>Климат Италии мягкий, средиземноморский, постепенно сменяющийся умеренно континентальным при подъеме в Альпы. Горные системы защищают страну от сильных ветров. В основном здесь теплая зима от +5 до +20 градусов в разных регионах, и жаркое лето, которое чаще всего превышает планку в +30 градусов. В Альпах же зимы снежные, покров держится с ноября по апрель, позволяя работать горнолыжным курортам около полугода. Лето в горах прохладное, +15 ... +20 градусов и многие итальянцы уезжают сюда в отпуск отдохнуть от жары на побережье. </p>
+            </div>
+            <div class="col-lg-6">
+                <div id="chart-climate"></div>
+            </div>
+        </div>
     </div>
 </section>
 
-<section id="visa" class="bg-white">
+<section id="visa">
     <div class="container">
         <h2>Посещение гражданами Казахстана</h2>
         <div class="row justify-content-between">
@@ -157,13 +171,16 @@
                                 <span></span>
                             </div>
                         </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div><i class="icon-news mr-1"></i> Регистрация</div>
-                                <span>обязательна</span>
-                            </div>
-                        </li>
                     </ul>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.google.com/maps/embed/v1/search?q=астана,+мкр-н+чубары,+ул.+космонавтов,+62&key=AIzaSyBy4GyZglz_6mltKrjCVr0S1Vb33LHTJf4" allowfullscreen class="card-img-top w-100"></iframe>
+                    <div class="card-body">
+                        <h5>Посольство Италии</h5>
+                        <p>Астана, мкр-н Чубары, ул. Космонавтов, 62</p>
+                        <p><i class="icon-phone"></i> +7 (7172) 24-33-90</p>
+                        <p><i class="icon-link"></i> <a href="https://ambastana.esteri.it/ambasciata_astana/ru/" target="_blank">ambastana.esteri.it</a></p>
+                    </div>
                 </div>
                 <div class="card">
                     <div class="card-header">
@@ -193,7 +210,7 @@
     </div>
 </section>
 
-<section id="security">
+<section id="security" class="bg-white">
     <div class="container">
         <h2>Безопасность</h2>
         <p>Италия, как и все страны западной Европы вполне безопасное место, как для жизни, так и для путешествий, несмотря на историю итальянской мафии, с которой туристы вряд ли когда-нибудь столкнуться. Безусловно в крупных городах, таких как Рим, Милан и особенно Неаполь надо быть осторожным в центральных районах и рядом с популярными достопримечательностями. Не стоит носить ценные вещи в задних карманах, оставлять без присмотра технику и телефоны, а также расплачиваться крупными купюрами. Вместо наличных лучше предпочесть банковские карты. Простые правила безопасности уберегут вас от встречи с карманниками и сохранят ваши вещи.
@@ -212,7 +229,8 @@
         <p>Стихийные бедствия в стране редки, но вполне возможны, ведь здесь сейсмоопасная зона и 2 действующих вулкана, кроме них летняя жара и засуха часто приводит к возникновению лесных пожаров, а в зимний период штормовое море представляет опасность для прибрежной зоны.</p>
     </div>
 </section>
-<section id="custom" class="bg-white">
+
+<section id="custom">
     <div class="container">
         <h2>Таможенный контроль</h2>
         <h5>Общая информация</h5>
@@ -227,7 +245,7 @@
     </div>
 </section>
 
-<section id="transport">
+<section id="transport" class="bg-white">
     <div class="container">
         <h2>Транспорт</h2>
         <div class="row justify-content-between">
@@ -296,15 +314,21 @@
                         </li>
                     </ul>
                 </div>
-                <div class="card">
-                    <img src="/img/country/italy/Roma_Metropolitana_e_Ferrovia_2015.png" alt="Карта метро Рима" data-action="zoom" class="img-fluid">
-                </div>
+
+                    <figure class="figure d-block">
+                        <div class="card mb-0">
+                            <img src="/img/country/italy/Roma_Metropolitana_e_Ferrovia_2015.png" alt="Карта метро Рима" data-action="zoom" class="img-fluid">
+                        </div>
+                        <figcaption class="figure-caption text-right">Карта метро Рима, <a href="/img/country/italy/Roma_Metropolitana_e_Ferrovia_2015.png">скачать</a></figcaption>
+                    </figure>
+
             </div>
         </div>
     </div>
 
 </section>
-<section id="auto" class="bg-white">
+
+<section id="auto">
     <div class="container">
         <h2>Автомобиль</h2>
         <div class="card mb-4">
@@ -319,7 +343,7 @@
     </div>
 </section>
 
-<section id="health">
+<section id="health" class="bg-white">
     <div class="container">
         <h2>Здравоохранение в Италии</h2>
         <p>Итальянская медицина находится на высоком уровне. В любой ситуации вам окажут профессииональную помощь, но чтобы она вас не разорила, необходимо предоставить медицинскую страховку. во всех городах страны есть госпитали, как государственные, так и частные. Уровень лечения в них не отличается</p>
@@ -335,7 +359,7 @@
     </div>
 </section>
 
-<section id="communication" class="bg-white">
+<section id="communication">
     <div class="container">
         <h2>Связь и коммуникации</h2>
 
@@ -380,12 +404,34 @@
                         </li>
                     </ul>
                 </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="float-right icon-light-bulb"></i>
+                        <span class="h6"><b>Электросеть</b></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <nobr>230 В</nobr>, <nobr>50 Гц</nobr>. Используются разъемы <a href="/journal/electric-sockets.html#typeL">типов C, F, L</a>
+                                </div>
+                                <span class="text-right">
+                                    <img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;">
+                                    <img src="/img/electric/type_f.svg" style="width:100px; max-width:100%;">
+                                    <img src="/img/electric/type_l.svg" style="width:100px; max-width:100%;">
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
 
     </div>
 </section>
-<section id="prices">
+
+<section id="prices" class="bg-white">
     <div class="container">
         <h2>Цены</h2>
         <p>Италия - дорогая страна, привыкшая к высокому потокутуристов, которые по традиции платят за все в 1,5-2 раза выше, чем местные жители. Внутри страны есть регионы с более и менеее высокими ценами, так отдыхать на юге значительно выгоднее, а посетить Венецию может быть весьма разорительно. Уютные апартаменты вдалеке от туристической суеты можно снять за 50-70 евро за ночь, а отель выходящий окнами на Гран-Канал может обойтись выше 1000 евро.</p>
@@ -395,7 +441,7 @@
     </div>
 </section>
 
-<section id="sight" class="bg-white">
+<section id="sight">
     <div class="container">
         <!--Блок экскурсий-->
         <?= $this->render('_excursions', $country) ?>

@@ -67,10 +67,15 @@
 
 <section id="culture">
     <div class="container">
+        <h2>Культура и традиции</h2>
+
+        <p>Население Кипра состоит из греков и турков. Греки-киприоты (их около 78%) живут на юге, а турки-киприоты (их 10.5%) на севере острова. Остальные жители Кипра - иностранцы.</p>
+        <p>Соотношение мужчин и женщин: 1/1. Продолжительность жизни у мужчин - 67 лет, а у женщин - 73 года.</p>
+        <p>Около 70% - трудоспособное население.</p>
+        <?= $this->render('_population') ?>
+
         <div class="row justify-content-between">
             <div class="col-12 col-md-8 col-lg-7">
-                <h2>Культура и традиции</h2>
-
                 <p>Находясь на Кипре, вы обязательно столкнетесь с историческими памятниками. Здесь сохранились греческие храмы, римские мозаики и фрески.</p>
                 <p>Кипр - это не только море и пляжи, это еще и место, где можно познакомится с винодельческим ремеслом и испробовать местного вина (винодельни Василикон и Ayia Mavri).</p>
 
@@ -132,7 +137,7 @@
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between align-items-center">
                                 <div>
-                                    <nobr>240 Вт</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeG">разъем типа G</a>
+                                    <nobr>240 В</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeG">разъем типа G</a>
                                 </div>
                                 <span class="text-right">
                                     <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">

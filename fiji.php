@@ -31,37 +31,37 @@
                 <?= $this->render('_map', $country) ?>
 
                 <p>Климат архипелага тропический морской, жаркий и влажный. Юго-восточные пассаты зимой, то есть в период с мая по октябрь-ноябрь, приносят на острова солнечную и сухую погоду. Температура воздуха на центральных и крупных островах колеблется в этот период от +18 до +26 °С. В период с декабря по апрель температура воздуха заметно повышается и достигает +32 °С, однако сопровождается сезоном дождей.</p>
-
-                <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
-                        <img alt="Фиджи: Острова мечты рожденные вулканами: Сердце Дикой Полинезии" src="https://i.ytimg.com/vi/01GtCwz8fks/maxresdefault.jpg" class="bg-image"/>
-                        <div class="video-play-icon">
-                            <i class="icon-controller-play"></i>
-                        </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/01GtCwz8fks?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption text-right">Фиджи: Острова мечты рожденные вулканами: Сердце Дикой Полинезии<br>© Странник КН 2016</figcaption>
-                </figure>
-
-
-                <hr>
-
-                <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
-                        <img alt="Фиджи/Райский уголок." src="https://i.ytimg.com/vi/6DST2DAqv8M/maxresdefault.jpg" class="bg-image"/>
-                        <div class="video-play-icon">
-                            <i class="icon-controller-play"></i>
-                        </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/6DST2DAqv8M?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption text-right">Фиджи/Райский уголок.<br>© Веселый ветер 2015</figcaption>
-                </figure>
-
             </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <figure class="figure d-block col-lg-6">
+                <div class="video-cover box-shadow">
+                    <img alt="Fiji" src="https://i.vimeocdn.com/video/472201045_1280x720.jpg" class="bg-image"/>
+                    <div class="video-play-icon">
+                        <i class="icon-controller-play"></i>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/92466077?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <figcaption class="figure-caption text-right">Fiji<br>© Tom Pinsard 2014</figcaption>
+            </figure>
+
+            <figure class="figure d-block col-lg-6">
+                <div class="video-cover box-shadow">
+                    <img alt="Namotu Island Resort Fiji" src="https://i.vimeocdn.com/video/539005679_1280x720.jpg" class="bg-image"/>
+                    <div class="video-play-icon">
+                        <i class="icon-controller-play"></i>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/141875122?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <figcaption class="figure-caption text-right">Namotu Island Resort Fiji<br>© Beau Pilgrim 2015</figcaption>
+            </figure>
         </div>
     </div>
 </section>
