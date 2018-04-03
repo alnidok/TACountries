@@ -429,8 +429,8 @@
                         </li>
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
-                                <div><a href="/journal/electric-sockets.html#typeG">разъем типа G</a></div>
-                                <span><img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;"></span>
+                                <div><a href="/journal/electric-sockets.html#typeC">разъем типа C</a></div>
+                                <span><img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;"></span>
                             </div>
                         </li>
                         <li class="list-group-item">
