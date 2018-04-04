@@ -282,40 +282,21 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
-                                <div>Метро</div>
-                                <span>от 1.90 евро</span>
+                                <div>1 поездка</div>
+                                <span>от 1.50 евро</span>
                             </div>
                         </li>
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
-                                <div>Автобус</div>
-                                <span>от 1.90 евро</span>
+                                <div>Проездной</div>
+                                <span>от 1.50 евро</span>
                             </div>
                         </li>
                     </ul>
 
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <span class="h6"><b>Виды билетов</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Un billet (одноразовый)</div>
-                                <span>1.90 евро</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>La carnet (10 билетов)</div>
-                                <span>14.5 евро</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
 
-                    <figure class="figure d-block">
+                <figure class="figure d-block">
                         <div class="card mb-0">
                             <img src="/img/country/italy/Roma_Metropolitana_e_Ferrovia_2015.png" alt="Карта метро Рима" data-action="zoom" class="img-fluid">
                         </div>
