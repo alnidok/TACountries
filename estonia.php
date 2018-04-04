@@ -83,7 +83,9 @@
 <nav id="scrollspy-navbar" class="bg-white navbar sticky-top">
     <div class="container">
         <ul class="nav nav-pills nav-fill">
+            <li class="nav-item"><a class="nav-link" href="#population">Население</a></li>
             <li class="nav-item"><a class="nav-link" href="#culture">Культура</a></li>
+            <li class="nav-item"><a class="nav-link" href="#climate">Климат</a></li>
             <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
             <li class="nav-item"><a class="nav-link" href="#security">Безопасность</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
@@ -96,7 +98,7 @@
     </div>
 </nav>
 
-<section id="culture">
+<section id="population">
     <div class="container">
         <h2>Население</h2>
         <p>70% населения — эстонцы, 25% — русские, 5% населения — латыши, литовцы, финны, украинцы, поляки, белорусы, немцы.</p>
