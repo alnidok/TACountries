@@ -1,7 +1,7 @@
 <section class="bg-gradient text-light p-0">
     <div class="container">
         <div class="row justify-content-between align-items-end">
-            <div class="col-12 col-lg-6">
+            <div class="col-lg-6">
                 <div class="space-lg pb-0">
                     <h1 class="display-4 no-wrap">Швейцария</h1>
                     <div class="lead">
@@ -14,9 +14,9 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-lg-6">
                 <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
+                    <div class="video-cover box-shadow mb-0">
                         <img alt="Швейцария / The best of Switzerland" src="https://i.ytimg.com/vi/LNlzXPYpZ6I/maxresdefault.jpg" class="bg-image"/>
                         <div class="video-play-icon">
                             <i class="icon-controller-play"></i>
@@ -25,9 +25,8 @@
                             <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/LNlzXPYpZ6I?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
-
+                    <figcaption class="figure-caption text-light text-right">© Terra 37, 2015</figcaption>
                 </figure>
-
             </div>
         </div>
     </div>

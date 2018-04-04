@@ -9,12 +9,12 @@
                     <b>Валюта</b>: EUR - евро<br>
                     <b>Территория</b>: 45 227 км²<br>
                     <b>Население</b>: 1.3 млн человек<br>
-                    <b>Часовой пояс</b>: GMT +2. Разница во времени с Астаной 4 часов
+                    <b>Часовой пояс</b>: GMT +2. Разница с Астаной 4 часа
                 </div>
             </div>
             <div class="col-lg-6">
                 <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
+                    <div class="video-cover box-shadow mb-0">
                         <img alt="Таллин, Эстония. Самый европейский из советских городов... Цены, жилье, экскурсия в старый город" src="https://i.ytimg.com/vi/KPt4HugN4GY/hqdefault.jpg" class="bg-image"/>
                         <div class="video-play-icon">
                             <i class="icon-controller-play"></i>
@@ -23,7 +23,7 @@
                             <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/KPt4HugN4GY?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
-                    <!--<figcaption class="figure-caption text-right">Таллин, Эстония. Самый европейский из советских городов... Цены, жилье, экскурсия в старый город<br>© Взял и Поехал! 2018</figcaption>-->
+                    <figcaption class="figure-caption text-light text-right">© Взял и Поехал, 2018</figcaption>
                 </figure>
             </div>
         </div>
@@ -104,14 +104,7 @@
         <p>70% населения — эстонцы, 25% — русские, 5% населения — латыши, литовцы, финны, украинцы, поляки, белорусы, немцы.</p>
         <p>Соотношение мужчин и женщин - примерно 1/1.</p>
         <p>В Эстонии достаточно высокая продолжительность жизни. У женщин она составляет 82 года, у мужчин – 78 лет.</p>
-        <div class="row mb-3">
-            <div class="col-md-8">
-                <div id="chart-population"></div>
-            </div>
-            <div class="col-md-4">
-                <div id="chart-population-ages"></div>
-            </div>
-        </div>
+        <?= $this->render('_population') ?>
     </div>
 </section>
 

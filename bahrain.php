@@ -1,18 +1,30 @@
 <section class="bg-gradient text-light p-0">
     <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-12">
-                <div class="space-lg pb-0">
-                    <h1 class="display-4 no-wrap">Бахрейн</h1>
-                    <div class="lead">
-                        <b>Столица</b>: Манама<br>
-                        <b>Официальный язык</b>: арабский<br>
-                        <b>Валюта</b>: BHD - бахрейнский динар (1000 филс).<br>
-                        <b>Территория</b>: 750 км²<br>
-                        <b>Население</b>: 1.4 млн человек<br>
-                        <b>Часовой пояс</b>: UTC +3. Разница с Астаной -3 часа
-                    </div>
+        <div class="row justify-content-between align-items-center space-lg pb-0">
+            <div class="col-lg-6">
+                <h1 class="display-4 no-wrap">Бахрейн</h1>
+                <div class="lead">
+                    <b>Столица</b>: Манама<br>
+                    <b>Официальный язык</b>: арабский<br>
+                    <b>Валюта</b>: BHD - бахрейнский динар (1000 филс).<br>
+                    <b>Территория</b>: 750 км²<br>
+                    <b>Население</b>: 1.4 млн человек<br>
+                    <b>Часовой пояс</b>: UTC +3. Разница с Астаной -3 часа
                 </div>
+            </div>
+            <div class="col-lg-6">
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow mb-0">
+                        <img alt="Bahrain Timelapse - National Day Version" src="https://i.vimeocdn.com/video/386238942_1280x720.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/55798862?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-light text-right">© Sonny Saguil, 2012</figcaption>
+                </figure>
             </div>
         </div>
     </div>
@@ -25,7 +37,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
-                <p>Бахрейн - это островное государство, расположенное на одноименном архипелаге в Персидском заливе. Климат островов близок к тропическому, с теплой зимой (в январе термометр показывает в среднем +17 С) и крайне влажным знойным летом (летом термометр может показывать +37 С). Но при этом за год на территорию королевства выпадает ~ 90 мм осадков.</p>
+                <p>Бахрейн - это островное государство, расположенное на одноименном архипелаге в Персидском заливе.</p>
 
                 <!--Карта-->
                 <?= $this->render('_map', $country) ?>
@@ -47,21 +59,6 @@
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
-                        <img alt="Bahrain Timelapse - National Day Version" src="https://i.vimeocdn.com/video/386238942_1280x720.jpg" class="bg-image"/>
-                        <div class="video-play-icon">
-                            <i class="icon-controller-play"></i>
-                        </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/55798862?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption text-right">Bahrain Timelapse - National Day Version<br>© Sonny Saguil 2012</figcaption>
-                </figure>
-
-                <hr>
-
-                <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
                         <img alt="География Сейчас! Бахрейн" src="https://i.ytimg.com/vi/lsHHhtt5fA8/hqdefault.jpg" class="bg-image"/>
                         <div class="video-play-icon">
                             <i class="icon-controller-play"></i>
@@ -80,7 +77,9 @@
 <nav id="scrollspy-navbar" class="bg-white navbar sticky-top">
     <div class="container">
         <ul class="nav nav-pills nav-fill">
-            <li class="nav-item"><a class="nav-link" href="#culture">Культура и традиции</a></li>
+            <li class="nav-item"><a class="nav-link" href="#population">Население</a></li>
+            <li class="nav-item"><a class="nav-link" href="#culture">Культура</a></li>
+            <li class="nav-item"><a class="nav-link" href="#climate">Климат</a></li>
             <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
             <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
@@ -93,46 +92,68 @@
     </div>
 </nav>
 
-<section id="culture">
+<section id="population">
     <div class="container">
-        <h2>Культура и традиции</h2>
-
+        <h2>Население</h2>
         <p>Большая часть населения Бахрейна живет на северо-востоке страны, в двух городах - Манама и Мухаррак. Всего на территории государства насчитывают более 11 национальностей: бахрейнцы, персы, арабы, пакистанцы, малаяли, курды, тамилы, тагалы, гуджаратцы, телугу, британцы и другие. Около 55% населения составляют бахнейнцы, 13% персы и 10% арабы.</p>
         <p>Мужчин больше, чем женщин. На 6 мужчин приходится примерно 10 женщин. Основная часть населения - в возрасте от 15 до 64 лет.</p>
-
         <?= $this->render('_population') ?>
+    </div>
+</section>
 
-        <p>Бахрейн - это достаточно либеральная страна в плане образа жизни. Но все же иностранцам, выбравшим жизнь в Королевстве Бахрейн или пребывающим здесь временно, стоит почитать ислам, его устои и традиции.</p>
+<section id="culture" class="bg-white">
+    <div class="container">
+        <h2>Культура и традиции</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Бахрейн - это достаточно либеральная страна в плане образа жизни. Но все же иностранцам, выбравшим жизнь в Королевстве Бахрейн или пребывающим здесь временно, стоит почитать ислам, его устои и традиции.</p>
 
-        <p>Например, во время Рамадана (х.), общего мусульманского поста, на протяжении месяца в общественных зонах действуют ограничения на дневной приемы пищи.</p>
-        <p>Кроме этого, из-за перевеса количества шиитского населения, есть некоторые ограничения во время основных шиитских празднеств, в особенности 9—10 Мухаррам (х.) — Ашура (Память о мученической смерти имама Хусейна).</p>
-        <p>Не стоит забывать о том, что распитие алкогольных напитков на улицах наказывается по закону.</p>
+                <p>Например, во время Рамадана (х.), общего мусульманского поста, на протяжении месяца в общественных зонах действуют ограничения на дневной приемы пищи.</p>
+                <p>Кроме этого, из-за перевеса количества шиитского населения, есть некоторые ограничения во время основных шиитских празднеств, в особенности 9—10 Мухаррам (х.) — Ашура (Память о мученической смерти имама Хусейна).</p>
 
-        <h5>Праздничные и нерабочие дни</h5>
-        <p>Выходными днями считаются пятница и суббота.</p>
+                <p>Как и в других исламских странах, в Бахрейне запрещено употреблять в пищу свинину и пить алкоголь. Курение, хотя и не одобряется, но и не запрещено. А вот распитие алкогольных напитков на улицах наказывается по закону.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <div class="card bg-secondary">
+                    <div class="card-body">
+                        <h6 class="title-decorative">Нерабочие дни</h6>
+                        <ul>
+                            <li>1 января — Новый год;</li>
+                            <li>1 мая — День труда;</li>
+                            <li>16 декабря — День независимости, день восхода на престол покойного Эмира Исы бен Сальмана Аль-Халифы;</li>
+                            <li>17 декабря — начало правления Короля Хамада бен Исы Аль-Халифы;</li>
+                        </ul>
+                    </div>
+                </div>
+                <p>Выходными днями считаются пятница и суббота.</p>
 
-        <div class="card bg-secondary">
-            <div class="card-body">
-                <h6 class="title-decorative">Нерабочие дни:</h6>
-                <ul>
-                    <li>1 января — Новый год;</li>
-                    <li>1 мая — День труда;</li>
-                    <li>16 декабря — День независимости, день восхода на престол покойного Эмира Исы бен Сальмана Аль-Халифы;</li>
-                    <li>17 декабря — начало правления Короля Хамада бен Исы Аль-Халифы;</li>
-                </ul>
+                <div class="card bg-secondary">
+                    <div class="card-body">
+                        <h6 class="title-decorative">Религиозные праздники</h6>
+                        <ul>
+                            <li>Мухаррам (х.) — Новый год по Хиджре; </li>
+                            <li>Мухаррам (х.) — Ашура (Память о мученической смерти имама Хусейна);</li>
+                            <li>Шавваль(х.) — Ид-аль-фитр (Ураза Байрам), окончание месяца Рамадан;</li>
+                            <li>Зуль-Хиджжа (х.) — День Арафа (паломники, совершающие Хадж, пребывают в местности Арафа);</li>
+                            <li>Зуль-Хиджжа (х.) — праздник жертвоприношения Ид-аль-Адха (Курбан-байрам).</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
         </div>
+    </div>
+</section>
 
-        <div class="card bg-secondary">
-            <div class="card-body">
-                <h6 class="title-decorative">Переходящие праздники по исламскому календарю Хиджре (х.). </h6>
-                <ul>
-                    <li>Мухаррам (х.) — Новый год по Хиджре; </li>
-                    <li>Мухаррам (х.) — Ашура (Память о мученической смерти имама Хусейна);</li>
-                    <li>Шавваль(х.) — Ид-аль-фитр (Ураза Байрам), окончание месяца Рамадан;</li>
-                    <li>Зуль-Хиджжа (х.) — День Арафа (паломники, совершающие Хадж, пребывают в местности Арафа);</li>
-                    <li>Зуль-Хиджжа (х.) — праздник жертвоприношения Ид-аль-Адха (Курбан-байрам).</li>
-                </ul>
+<section id="climate">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <h2>Климат</h2>
+                <p>Климат островов близок к тропическому, с теплой зимой (в январе термометр показывает в среднем +17 С) и крайне влажным знойным летом (летом термометр может показывать +37 С). Но при этом за год на территорию королевства выпадает ~ 90 мм осадков.</p>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+                <div id="chart-climate"></div>
             </div>
         </div>
     </div>
