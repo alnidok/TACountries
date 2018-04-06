@@ -1,18 +1,30 @@
 <section class="bg-gradient text-light p-0">
     <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-12">
-                <div class="space-lg pb-0">
-                    <h1 class="display-4 no-wrap">Венгрия</h1>
-                    <div class="lead">
-                        <b>Столица</b>: Будапешт<br>
-                        <b>Официальный язык</b>: венгерский<br>
-                        <b>Валюта</b>: HUF - венгерский форинт<br>
-                        <b>Территория</b>: 93 030 км²<br>
-                        <b>Население</b>: 9.8 млн человек<br>
-                        <b>Часовой пояс</b>: UTC +1. Разница с Астаной -4 часа. Осуществляется переход на летнее/зимнее время
-                    </div>
+        <div class="row justify-content-between align-items-center space-lg pb-0">
+            <div class="col-lg-6">
+                <h1 class="display-4 no-wrap">Венгрия</h1>
+                <div class="lead">
+                    <b>Столица</b>: Будапешт<br>
+                    <b>Официальный язык</b>: венгерский<br>
+                    <b>Валюта</b>: HUF - венгерский форинт<br>
+                    <b>Территория</b>: 93 030 км²<br>
+                    <b>Население</b>: 9.8 млн человек<br>
+                    <b>Часовой пояс</b>: UTC +1. Разница с Астаной -4 часа. Осуществляется переход на летнее/зимнее время
                 </div>
+            </div>
+            <div class="col-lg-6">
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow mb-0">
+                        <img alt="One day in Budapest" src="https://i.vimeocdn.com/video/521982042_1280x720.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/130209048?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-light text-right">© Georgy Tolstoy, 2015</figcaption>
+                </figure>
             </div>
         </div>
     </div>
@@ -30,40 +42,36 @@
                 <!--Карта-->
                 <?= $this->render('_map', $country) ?>
 
-                <p>Выходов к морю не имеет. Рельеф страны преимущественно равнинный — основная часть территории располагается на Среднедунайской низменности, окруженной горами, что обуславливает умеренно континентальный климат. Лето Венгрии жаркое, средняя температура июля +25 °С, зима мягкая и короткая, средняя температура января -10 °С.</p>
-                <p>Речная система Венгрии относится к бассейну Дуная. На западе государства есть крупное озеро Балатон с термальными и минеральными источниками, привлекающими туристов со всего мира.</p>
-                <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
-                        <img alt="Hatvan Timelapse (Hungary)" src="https://i.ytimg.com/vi/m60PyLP0G_Q/maxresdefault.jpg" class="bg-image" />
-                        <div class="video-play-icon">
-                            <i class="icon-controller-play"></i>
-                        </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/m60PyLP0G_Q?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen
-                                mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption text-right">Hatvan Timelapse (Hungary)
-                        <br>© CarKiller47 2014</figcaption>
-                </figure>
-
-                <hr>
-
-                <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
-                        <img alt="Путешествие в Венгрию-Будапешт 2014" src="https://i.ytimg.com/vi/TYq356zXOKc/hqdefault.jpg" class="bg-image" />
-                        <div class="video-play-icon">
-                            <i class="icon-controller-play"></i>
-                        </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/TYq356zXOKc?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen
-                                mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption text-right">Путешествие в Венгрию-Будапешт 2014
-                        <br>© SAMARA VIDEO 2014</figcaption>
-                </figure>
+                <p>Выходов к морю не имеет. Речная система Венгрии относится к бассейну Дуная. На западе государства есть крупное озеро Балатон с термальными и минеральными источниками, привлекающими туристов со всего мира.</p>
             </div>
+        </div>
+        <hr>
+        <div class="row">
+            <figure class="figure d-block col-lg-6">
+                <div class="video-cover box-shadow">
+                    <img alt="Hatvan Timelapse (Hungary)" src="https://i.ytimg.com/vi/m60PyLP0G_Q/maxresdefault.jpg" class="bg-image" />
+                    <div class="video-play-icon">
+                        <i class="icon-controller-play"></i>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/m60PyLP0G_Q?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <figcaption class="figure-caption text-right">Hatvan Timelapse (Hungary)<br>© CarKiller47 2014</figcaption>
+            </figure>
+
+            <figure class="figure d-block col-lg-6">
+                <div class="video-cover box-shadow">
+                    <img alt="Путешествие в Венгрию-Будапешт 2014" src="https://i.ytimg.com/vi/TYq356zXOKc/hqdefault.jpg" class="bg-image" />
+                    <div class="video-play-icon">
+                        <i class="icon-controller-play"></i>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/TYq356zXOKc?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <figcaption class="figure-caption text-right">Путешествие в Венгрию-Будапешт 2014<br>© SAMARA VIDEO 2014</figcaption>
+            </figure>
         </div>
     </div>
 </section>
@@ -71,7 +79,9 @@
 <nav id="scrollspy-navbar" class="bg-white navbar sticky-top">
     <div class="container">
         <ul class="nav nav-pills nav-fill">
-            <li class="nav-item"><a class="nav-link" href="#culture">Культура и традиции</a></li>
+            <li class="nav-item"><a class="nav-link" href="#population">Население</a></li>
+            <li class="nav-item"><a class="nav-link" href="#culture">Культура</a></li>
+            <li class="nav-item"><a class="nav-link" href="#climate">Климат</a></li>
             <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
             <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
@@ -83,36 +93,57 @@
     </div>
 </nav>
 
-<section id="culture">
+<section id="population">
+    <div class="container">
+        <h2>Население</h2>
+        <p>Венгрия - одно из самых древних государств в Европе, более 90% населения составляют венгры, остальные жители относятся к цыганской, немецкой, еврейской, румынской и сербской этническим группам. Большинство венгров - католики.</p>
+        <p>Мужчин меньше, чем женщин. Здесь как в песне: "на десять девчонок по статистике девять ребят". Средняя продолжительность жизни в Венгрии - 76 лет. У женщин она составляет 79 лет, у мужчин – 72 года.</p>
+        <?= $this->render('_population') ?>
+    </div>
+</section>
+
+<section id="culture" class="bg-white">
     <div class="container">
         <h2>Культура и традиции</h2>
 
-        <p>Венгрия - одно из самых древних государств в Европе, более 90% населения составляют венгры, остальные жители относятся к цыганской, немецкой, еврейской, румынской и сербской этническим группам.</p>
-        <p>Большинство венгров католики.</p>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>Венгрию смело можно отнести к миру танцев и, как народной, так и классической музыки. На любом фестивале (а их здесь проводится множество) можно насладиться национальными танцами — чардаш, вербункош. Они исполняются под зажигательную самородную музыку с нотками восточных и цыганских мотивов.</p>
+                <p>Говоря о фестивалях и народных гуляниях, можно отметить, что они проводятся в стране по многим поводам, самые известные из них: музыкальные фестивали в Будапеште зимой, Праздничные недели в Шопроне, Дни народного искусства, Международные рыцарские ристалища, винные фестивали в г. Ясберень, Неделя вина в Балатонфюреде.</p>
+                <p>Венгрия славится самобытной, очень сытной кухней. Самые популярные блюда —  суп-гуляш из говядины, цыпленок с галушками, голубцы из кислой капусты, паштет из гусиной печени, венгерский штрудель.</p>
+            </div>
+            <div class="col-lg-5 offset-lg-1">
+                <div class="card bg-secondary">
+                    <div class="card-body">
+                        <h5 class="title-decorative">Праздничные и нерабочие дни</h5>
+                        <ul>
+                            <li>1 января — Новый год</li>
+                            <li>15 марта — День начала революции 1848—1849 гг.</li>
+                            <li>Пасха</li>
+                            <li>Понедельник после Троицы</li>
+                            <li>1 мая — День Труда</li>
+                            <li>20 августа — День святого Иштвана</li>
+                            <li>23 октября — День начала революции 1956 г.</li>
+                            <li>1 ноября — День Всех Святых </li>
+                            <li>25-26 декабря — Рождество</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-        <p><i class="icon-link"></i> Министерство людских ресурсов в Венгрии -  <a href="http://www.kormany.hu/en/ministry-of-human-resources/" target="_blank">kormany.hu/en/ministry-of-human-resources</a></p>
-
-        <?= $this->render('_population') ?>
-
-        <p>Венгрию смело можно отнести к миру танцев и, как народной, так и классической музыки. На любом фестивале (а их здесь проводится множество) можно насладиться национальными танцами — чардаш, вербункош. Они исполняются под зажигательную самородную музыку с нотками восточных и цыганских мотивов.</p>
-        <p>Говоря о фестивалях и народных гуляниях, можно отметить, что они проводятся в стране по многим поводам, самые известные из них: музыкальные фестивали в Будапеште зимой, Праздничные недели в Шопроне, Дни народного искусства, Международные рыцарские ристалища, винные фестивали в г. Ясберень, Неделя вина в Балатонфюреде.</p>
-        <p>Венгрия славится самобытной, очень сытной кухней. Самые популярные блюда —  суп-гуляш из говядины, цыпленок с галушками, голубцы из кислой капусты, паштет из гусиной печени, венгерский штрудель.</p>
-
-
-        <div class="card bg-secondary">
-            <div class="card-body">
-                <h5 class="title-decorative">Праздничные и нерабочие дни:</h5>
-                <ul>
-                    <li>1 января — Новый год</li>
-                    <li>15 марта — День начала революции 1848—1849 гг.</li>
-                    <li>Пасха</li>
-                    <li>Понедельник после Троицы</li>
-                    <li>1 мая — День Труда</li>
-                    <li>20 августа — День святого Иштвана</li>
-                    <li>23 октября — День начала революции 1956 г.</li>
-                    <li>1 ноября — День Всех Святых </li>
-                    <li>25-26 декабря — Рождество</li>
-                </ul>
+<section id="climate">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Климат</h2>
+                <p>Рельеф страны преимущественно равнинный — основная часть территории располагается на Среднедунайской низменности, окруженной горами, что обуславливает умеренно континентальный климат.</p>
+                <p>Лето Венгрии жаркое, средняя температура июля +25 °С, зима мягкая и короткая, средняя температура января -10 °С.</p>
+            </div>
+            <div class="col-lg-6">
+                <div id="chart-climate"></div>
             </div>
         </div>
     </div>
@@ -124,7 +155,7 @@
 
         <div class="row justify-content-between">
             <div class="col-12 col-md-8 col-lg-7">
-                <p>Для визита в Венгрию гражданам Республики Казахстан требуется виза с соблюдением всех правил Шенген зоны. Настоятельно рекомендуется обращаться за ее оформлением в консульство в Казахстане или через надежное турагентство заблаговременно (за 1,5 - 2 месяца).</p>
+                <p>Для визита в Венгрию гражданам Республики Казахстан требуется виза с соблюдением всех правил Шенгенской зоны. Настоятельно рекомендуется обращаться за ее оформлением в консульство в Казахстане или через надежное турагентство заблаговременно (за 1,5 - 2 месяца).</p>
                 <p>Для оформления визы необходимо собрать следующий пакет документов*:</p>
                 <ul>
                     <li>действующий загранпаспорт</li>
@@ -138,17 +169,40 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
-                    <iframe src="https://www.google.com/maps/embed/v1/search?q=астана,+ул.+космонавтов+62+&key=AIzaSyBy4GyZglz_6mltKrjCVr0S1Vb33LHTJf4"
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <div><i class="icon-v-card mr-1"></i> Шенгенская виза</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.google.com/maps/embed/v1/search?q=астана,+ул.+космонавтов+62&key=AIzaSyBy4GyZglz_6mltKrjCVr0S1Vb33LHTJf4"
                         allowfullscreen class="card-img-top w-100"></iframe>
                     <div class="card-body">
                         <h5>Посольство Венгрии</h5>
-                        <p>Астана, ул. Космонавтов 62 </p>
-                        <p>
-                            <i class="icon-phone"></i> +7 (7172) 55-03-23</p>
-                        <p>
-                            <i class="icon-link"></i>
-                            <a href="https://asztana.mfa.gov.hu/rus" target="_blank">asztana.mfa.gov.hu</a>
-                        </p>
+                        <p>Астана, ул. Космонавтов 62</p>
+                        <p><i class="icon-phone"></i> +7 (7172) 55-03-23</p>
+                        <p><i class="icon-link"></i> <a href="https://asztana.mfa.gov.hu/rus" target="_blank">asztana.mfa.gov.hu</a></p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="float-right icon-aircraft"></i>
+                        <span class="h6"><b>Прямые авиарейсы</b></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <div>Астана - Будапешт</div>
+                                <span>2 раза/нед</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="card-footer p-3">
+                        <a href="https://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
                     </div>
                 </div>
             </div>
@@ -194,14 +248,13 @@
 
 <section id="transport" class="bg-white">
     <div class="container">
-        <h2>Транспорт</h2>
 
         <div class="row justify-content-between">
             <div class="col-12 col-md-8 col-lg-7">
+                <h2>Транспорт</h2>
                 <p>Система общественного транспорта в стране отлично развита. Во всех городах функционируют автобусные и троллейбусные маршруты. Существуют специальные ночные автобусные рейсы (обозначены буквой Е), экспрессы (останавливаются по требованию. Номера обозначаются красным цветом).</p>
                 <p>В Будапеште есть метро, представленное тремя линиями.</p>
                 <p>Практически во всех городах действует система единого билета — по нему можно пользоваться почти всеми видами общественного транспорта. Проездные и билеты продаются на станциях метро, в уличных автоматах, киосках.</p>
-
             </div>
             <div class="col-12 col-md-4">
                 <div class="card">
@@ -229,10 +282,10 @@
                             </div>
                         </li>
                         <li class="list-group-item">
-                                <div class="d-flex justify-content-between">
-                                    <div>Такси</div>
-                                    <span>от 140-280 HUF за 1 км</span>
-                                </div>
+                            <div class="d-flex justify-content-between">
+                                <div>Такси</div>
+                                <span>от 140-280 HUF за 1 км</span>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -243,25 +296,15 @@
 
 <section id="auto">
     <div class="container">
-        <h2>Автомобиль</h2>
-
-        <div class="card mb-4">
-            <div class="bg-secondary">
-                <div class="card-body">
-                    <h6 class="title-decorative">Казахстанское водительское удостоверение</h6>
-                    <p>Иностранные граждане могут управлять транспортным средством на территории Венгрии при наличии водительского удостоверения международного образца.</p>
-                </div>
-            </div>
-        </div>
-
-
         <div class="row justify-content-between">
             <div class="col-12 col-md-8 col-lg-7">
+                <h2>Автомобиль</h2>
+                <p>Движение правостороннее.</p>
                 <p>Перемещение на автомобиле в Венгрии не составляет проблем — правила дорожного движения стандартные, дорожная разметка четкая, используются общеустановленные знаки.</p>
 
                 <h5>Общие правила:</h5>
                 <ul>
-                    <li>максимальный уровень алкоголя в крови — 0,00 %</li>
+                    <li>максимальный уровень алкоголя в крови — 0,00 ‰</li>
                     <li>проезд по автостраде платный</li>
                     <li>обязательно использование ремня безопасности для водителя и всех пассажиров</li>
                     <li>вне населенных пунктах в любое время суток обязательно использование фар</li>
@@ -280,6 +323,13 @@
                 <p>За передвижение по автобану в Венгрии взимается плата — оплатить налог можно в специальных пунктах на въезде, на заправочной станции, в банкоматах, с мобильного телефона.</p>
             </div>
             <div class="col-12 col-md-4">
+                <div class="card">
+                    <div class="bg-secondary">
+                        <div class="card-body">
+                            <p>Иностранные граждане могут управлять транспортным средством на территории Венгрии при наличии водительского удостоверения международного образца.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -372,7 +422,7 @@
                 <p>Страхование автомобиля является обязательным для автовладельцев — иностранным гражданам ее можно оформить непосредственно на границе.</p>
                 <p>Для арендуемого туристом автомобиля такая страховка уже будет входить в обязательный пакет документов.</p>
 
-                <a href="http://osago.account.travel" class="btn btn-outline-success">Оформить электронный полис ОСАГО</a>
+                <a href="https://osago.account.travel" class="btn btn-outline-success">Оформить электронный полис ОСАГО</a>
             </div>
         </div>
 
@@ -397,52 +447,11 @@
 <section id="health" class="bg-white">
     <div class="container">
         <h2>Здравоохранение</h2>
+        <p>Конституция венгерского государства обеспечивает своих граждан полным медицинским обслуживанием. Расходы на него покрываются Фондом мед. страхования, в который работодатели и работники производят отчисления (11% и 3% соответственно). У всех работающих граждан есть медицинская страховка.</p>
+        <p>Консультация врача без страховки (в том числе для туристов, не оформивших страховку) платная (от 16 евро за консультацию). За отдельную плату производятся все виды анализов и обследований.</p>
+        <p>При наличии медицинского страхового полиса, затраты на необходимое лечение, медикаменты и транспортировку покрываются страховой компанией.</p>
 
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
-                <p>Конституция венгерского государства обеспечивает своих граждан полным медицинским обслуживанием. Расходы на него покрываются Фондом мед. страхования, в который работодатели и работники производят отчисления (11% и 3% соответственно). У всех работающих граждан есть медицинская страховка.</p>
-                <p>Консультация врача без страховки (в том числе для туристов, не оформивших страховку) платная (от 16 евро за консультацию). За отдельную плату производятся все виды анализов и обследований.</p>
-                <p>При наличии медицинского страхового полиса, затраты на необходимое лечение, медикаменты и транспортировку покрываются страховой компанией.</p>
-
-                <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6">
-                            <b>Электросеть</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Напряжение</div>
-                                <span>220 В</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Частота</div>
-                                <span>50 Гц</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div><a href="/journal/electric-sockets.html#typeC">разъем типа C</a></div>
-                                <span><img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;"></span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div><a href="/journal/electric-sockets.html#typeF">разъем типа F</a></div>
-                                <span><img src="/img/electric/type_f.svg" style="width:100px; max-width:100%;"></span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+        <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
     </div>
 </section>
 
@@ -452,22 +461,28 @@
 
         <div class="row justify-content-between">
             <div class="col-12 col-md-8 col-lg-7">
-                <p>Мобильная связь и мобильный интернет в стране представлена тремя крупными операторами: «Telenor», «Vodafone» и «Magyar Telekom».</p>
-                <p>Сим-карту при наличии паспорта можно приобрести в специализированных салонах связи.</p>
-                <p>Доступ к сети Интернет также можно получить в платных или бесплатных wi-fi зонах — чаще всего они расположены в холлах гостиниц и кафе.</p>
-
+                <p>Мобильная связь и мобильный интернет в стране представлена тремя крупными операторами:</p>
                 <ul>
-                    <li>Telenor -
-                        <a href="https://www.telenor.hu/en" target="_blank">перейти на сайт</a>
-                    </li>
-                    <li>Vodafone -
-                        <a href="https://www.vodafone.hu/" target="_blank">перейти на сайт</a>
-                    </li>
-                    <li>Magyar Telekom -
-                        <a href="https://www.telekom.hu" target="_blank">перейти на сайт</a>
-                    </li>
+                    <li>Telenor - <a href="https://www.telenor.hu/en" target="_blank">перейти на сайт</a></li>
+                    <li>Vodafone - <a href="https://www.vodafone.hu/" target="_blank">перейти на сайт</a></li>
+                    <li>Magyar Telekom - <a href="https://www.telekom.hu" target="_blank">перейти на сайт</a></li>
                 </ul>
 
+                <p>Сим-карту при наличии паспорта можно приобрести в специализированных салонах связи.</p>
+                <p>Доступ к сети Интернет также можно получить в платных или бесплатных Wi-Fi зонах — чаще всего они расположены в холлах гостиниц и кафе.</p>
+
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow">
+                        <img alt="Мобильные операторы Венгрии (Мой опыт)" src="https://i.ytimg.com/vi/5Cw5A64MbXQ/maxresdefault.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/5Cw5A64MbXQ?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-right">Мобильные операторы Венгрии (Мой опыт)<br>© Hungarized Life 2017</figcaption>
+                </figure>
             </div>
 
             <div class="col-12 col-md-4">
@@ -504,21 +519,25 @@
                     </ul>
                 </div>
 
-            <figure class="figure d-block">
-                <div class="video-cover box-shadow">
-                    <img alt="Мобильные операторы Венгрии (Мой опыт)" src="https://i.ytimg.com/vi/5Cw5A64MbXQ/maxresdefault.jpg" class="bg-image"
-                    />
-                    <div class="video-play-icon">
-                        <i class="icon-controller-play"></i>
+                <div class="card">
+                    <div class="card-header">
+                        <i class="float-right icon-light-bulb"></i>
+                        <span class="h6"><b>Электросеть</b></span>
                     </div>
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/5Cw5A64MbXQ?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen
-                            mozallowfullscreen allowfullscreen></iframe>
-                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <nobr>220 В</nobr>, <nobr>50 Гц</nobr>. Используются разъемы <a href="/journal/electric-sockets.html#typeC">типов C и F</a>
+                                </div>
+                                <span class="text-right">
+                                    <img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;">
+                                    <img src="/img/electric/type_f.svg" style="width:100px; max-width:100%;">
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-                <figcaption class="figure-caption text-right">Мобильные операторы Венгрии (Мой опыт)
-                    <br>© Hungarized Life 2017</figcaption>
-            </figure>
             </div>
         </div>
 
