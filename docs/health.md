@@ -1,4 +1,4 @@
-#Секции. Здравоохранение
+# Секции. Здравоохранение
 ![health](images/health.png)
 
 Пока просто текстовый блок, без информационных колонок и видео.
@@ -20,4 +20,4 @@
         <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
     </div>
 </section>
-```
+```

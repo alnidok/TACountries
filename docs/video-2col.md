@@ -1,10 +1,13 @@
-#Видео. Два в ряд
+# Видео. Два в ряд
 ![video2col](images/video-2col.png)
 
  
-1. Короткое видео о столице - vimeo, youtube2. Длинное (историческое) о стране - youtube
+1. Короткое видео о столице - vimeo, youtube
+2. Длинное (историческое) о стране - youtube
 
-[Генерируем код](https://account.travel/generate/video) и вставляем его в разметку, добавляя каждому figure класс `col-lg-6`
+[Генерируем код](https://account.travel/generate/video) и вставляем его в разметку, добавляя каждому figure класс `col-lg-6`
+
+
 ### Разметка
 
 ```
