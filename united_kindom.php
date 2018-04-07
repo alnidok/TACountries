@@ -106,17 +106,17 @@
 
 <section id="culture" class="bg-white">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
+        <div class="row justify-content-between">
+            <div class="col-md-6">
                 <h2>Культура и традиции</h2>
-                <p><i class="icon-link"></i> Министерство Культуры, Информации и Спорта Великобритании -  <a href="http://www.gov.uk/government/organisations/department-for-digital-culture-media-sport" target="_blank">gov.uk</a></p>
+                <p><i class="icon-link"></i> Министерство Культуры, Информации и Спорта Великобритании -  <a href="http://www.gov.uk/government/organisations/department-for-digital-culture-media-sport" target="_blank" rel="nofollow">gov.uk</a></p>
                 <p>На формирование богатой и разнообразной британской культуры повлияли следующие факторы: островное расположение, военно-политический строй, формирование страны из 4-х отдельных государств со своими сложившимися устоями и традициями.</p>
                 <p>Британская культура имеет огромное международное значение, будь то музыка, кинематограф, мода, литература, изобразительное искусство или спорт. Именно поэтому, а также благодаря уникальным традициям британцев, Великобритания привлекает огромное количество туристов со всего мира. Театралы стремятся сюда как на родину Шекспира, ценители истории восхищаются архитектурой и огромным количеством древних замков, любители природы едут в страну ради Озерного края и Йоркширской долины — красивейших национальных парков.</p>
                 <p>В Британию также едут со всего света чтобы своими глазами увидеть самое загадочное каменное сооружение планеты — Стоунхендж.</p>
                 <p>Другие знаменитые туристические объекты: Британский музей в Лондоне, часы Биг-Бен, Трафальгарская площадь, Тауэрский мост, Букингемский дворец, университеты Оксфорд и Кембридж и многое-многое другое.</p>
                 <p>Ко всему прочему, в Великобритании отлично развит языковой туризм.</p>
             </div>
-            <div class="col-lg-5 offset-lg-1">
+            <div class="col-md-6 col-lg-5">
                 <div class="card bg-secondary">
                     <div class="card-body">
                         <h6 class="title-decorative">Официально нерабочие дни Великобритании</h6>
@@ -210,7 +210,7 @@
                         <h5>Посольство Великобритании</h5>
                         <p>Астана, Ул. Космонавтов, 62</p>
                         <p><i class="icon-phone"></i> +7 (7172) 55-62-00</p>
-                        <p><i class="icon-link"></i> <a href="https://www.gov.uk/world/organisations/british-embassy-astana.ru" target="_blank">www.gov.uk</a>
+                        <p><i class="icon-link"></i> <a href="https://www.gov.uk/world/organisations/british-embassy-astana.ru" target="_blank" rel="nofollow">www.gov.uk</a>
                         </p>
                     </div>
                 </div>
@@ -240,7 +240,7 @@
     <div class="container">
         <h2>Таможенный контроль</h2>
 
-        <p><i class="icon icon-link"></i> Сайт таможенной службы Великобритании - <a href="http://www.gov.uk/government/organisations/hm-revenue-customs" target="_blank">gov.uk/government/organisations/hm-revenue-customs</a></p>
+        <p><i class="icon icon-link"></i> Сайт таможенной службы Великобритании - <a href="http://www.gov.uk/government/organisations/hm-revenue-customs" target="_blank" rel="nofollow">gov.uk/government/organisations/hm-revenue-customs</a></p>
 
         <h5>Спиртное и сигареты</h5>
         <p>В Великобританию из стран, не являющихся членами ЕС, можно провезти беспошлинно 200 сигарет или 250 г табака, 1 л крепкого алкоголя или 4 л вина, или 16 л пива.</p>
@@ -428,10 +428,10 @@
                 <h2>Мобильная связь</h2>
                 <p>Мобильная связь в Великобритании представляется четырьмя основными операторами:</p>
                 <ul>
-                    <li>EE (T-mobile & Orange) - <a href="https://ee.co.uk/" target="_blank">перейти на сайт</a></li>
-                    <li>Vodafone - <a href="https://www.vodafone.co.uk/" target="_blank">перейти на сайт</a></li>
-                    <li>O2 - <a href="https://www.o2.co.uk/" target="_blank">перейти на сайт</a></li>
-                    <li>Three - <a href="http://www.three.co.uk/" target="_blank">перейти на сайт</a></li>
+                    <li>EE (T-mobile & Orange) - <a href="https://ee.co.uk/" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Vodafone - <a href="https://www.vodafone.co.uk/" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>O2 - <a href="https://www.o2.co.uk/" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Three - <a href="http://www.three.co.uk/" target="_blank" rel="nofollow">перейти на сайт</a></li>
                 </ul>
                 <p>Оплата за услуги мобильной связи подразделяется на 2 вида: предоплата и контракт. Контрактный тариф с голосовым безлимитом на год обходится в среднем 25 фунтов в месяц.</p>
                 <p>Тарифы по предоплате (pay as you go)  более гибкие — счёт пополняется по мере необходимости. Для приобретения таких сим-карт в Великобритании документов не требуется.</p>
