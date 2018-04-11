@@ -342,6 +342,48 @@
                     </ul>
                 </div>
 
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow">
+                        <img alt="Общественный транспорт Вильнюса" src="https://i.ytimg.com/vi/XlUm_phtKQM/maxresdefault.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/XlUm_phtKQM?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-right">Общественный транспорт Вильнюса<br>© Юрий Коваленко 2017</figcaption>
+                </figure>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="auto" class="bg-white">
+    <div class="container">
+        <h2>Автомобиль</h2>
+        <div class="row justify-content-between">
+            <div class="col-md-8 col-lg-7">
+                <p>Трассы, связывающие крупные города, в основном соответствуют европейским стандартам. Въезд в зоны отдыха и некоторые курортные города в летний период является платным.</p>
+                <p>При вождении нужно соблюдать следующие правила:</p>
+                <ul>
+                    <li>Обязательно использование ремней безопасности для водителя и пассажиров как переднего, так и заднего сидений.</li>
+                    <li>Обязательно круглосуточное включение фар ближнего света.</li>
+                    <li>Допустимая максимальная скорость движения легкового автомобиля:
+                        <ul>
+                            <li>по городу — 60 км/ч, </li>
+                            <li>вне населенных пунктов — 90 км/ч, </li>
+                            <li>по автомагистралям — 110 км/ч, </li>
+                            <li>по скоростным шоссе — 130 км/ч.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h5>Аренда авто</h5>
+                <p>Вождение разрешено с 18 лет по правам установленного международного образца с фамилиями и данными дублированными на латиницу. Для аренды машины кроме прав потребуются от 30 евро и выше для оплаты машины и около 1000 евро для обеспечительного залога. Арендовать автомобиль можно в крупных международных компаниях, их офис есть в аэропорту и в центре города.</p>
+            </div>
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -374,46 +416,8 @@
                         </li>
                     </ul>
                 </div>
-
-                <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
-                        <img alt="Общественный транспорт Вильнюса" src="https://i.ytimg.com/vi/XlUm_phtKQM/maxresdefault.jpg" class="bg-image"/>
-                        <div class="video-play-icon">
-                            <i class="icon-controller-play"></i>
-                        </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/XlUm_phtKQM?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption text-right">Общественный транспорт Вильнюса<br>© Юрий Коваленко 2017</figcaption>
-                </figure>
-
             </div>
         </div>
-    </div>
-</section>
-
-<section id="auto" class="bg-white">
-    <div class="container">
-        <h2>Автомобиль</h2>
-        <p>Трассы, связывающие крупные города, в основном соответствуют европейским стандартам. Въезд в зоны отдыха и некоторые курортные города в летний период является платным.</p>
-
-        <p>При вождении нужно соблюдать следующие правила:</p>
-        <ul>
-            <li>Обязательно использование ремней безопасности для водителя и пассажиров как переднего, так и заднего сидений.</li>
-            <li>Обязательно круглосуточное включение фар ближнего света.</li>
-            <li>Допустимая максимальная скорость движения легкового автомобиля:
-                <ul>
-                    <li>по городу — 60 км/ч, </li>
-                    <li>вне населенных пунктов — 90 км/ч, </li>
-                    <li>по автомагистралям — 110 км/ч, </li>
-                    <li>по скоростным шоссе — 130 км/ч.</li>
-                </ul>
-            </li>
-        </ul>
-
-        <h5>Аренда авто</h5>
-        <p>Вождение разрешено с 18 лет по правам установленного международного образца с фамилиями и данными дублированными на латиницу. Для аренды машины кроме прав потребуются от 30 евро и выше для оплаты машины и около 1000 евро для обеспечительного залога. Арендовать автомобиль можно в крупных международных компаниях, их офис есть в аэропорту и в центре города.</p>
     </div>
 </section>
 

@@ -37,39 +37,40 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
-                <p>Бахрейн - это островное государство, расположенное на одноименном архипелаге в Персидском заливе.</p>
+                <p>Бахрейн - это островное государство, расположенное на одноименном архипелаге в Персидском заливе. Является самой маленькой арабской страной. Бахрейн соединен с Саудовской Аравией автомобильным мостом.</p>
 
                 <!--Карта-->
                 <?= $this->render('_map', $country) ?>
 
-                <!--<figure class="figure d-block">
-                    <div class="video-cover box-shadow">
-                        <img alt="Sundown in Bahrain" src="https://i.vimeocdn.com/video/475273328_1280x720.jpg" class="bg-image"/>
-                        <div class="video-play-icon">
-                            <i class="icon-controller-play"></i>
-                        </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/95373684?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption text-right">Sundown in Bahrain<br>© Brandon Li 2014</figcaption>
-                </figure>
-
-                <hr>-->
-
-                <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
-                        <img alt="География Сейчас! Бахрейн" src="https://i.ytimg.com/vi/lsHHhtt5fA8/hqdefault.jpg" class="bg-image"/>
-                        <div class="video-play-icon">
-                            <i class="icon-controller-play"></i>
-                        </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/lsHHhtt5fA8?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption text-right">География Сейчас! Бахрейн<br>© Трудности перевода 2017</figcaption>
-                </figure>
+                <p>Солнце здесь светит круглый год, поэтому в любой день можно заниматься плаванием, сноркелингом или дайвингом. Подводный мир поражает своим богатством и разнообразием. Всевозможные рыбы, коралловые рифы – от всего этого великолепия невозможно оторваться.</p>
             </div>
+        </div>
+        <hr>
+        <div class="row">
+            <figure class="figure d-block col-lg-6">
+                <div class="video-cover box-shadow">
+                    <img alt="Персидская сказка: Королевство Бахрейн" src="https://i.ytimg.com/vi/FRuBshSk30A/hqdefault.jpg" class="bg-image"/>
+                    <div class="video-play-icon">
+                        <i class="icon-controller-play"></i>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/FRuBshSk30A?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <figcaption class="figure-caption text-right">Персидская сказка: Королевство Бахрейн<br>© Странник КН 2017</figcaption>
+            </figure>
+            <figure class="figure d-block col-lg-6">
+                <div class="video-cover box-shadow">
+                    <img alt="География Сейчас! Бахрейн" src="https://i.ytimg.com/vi/lsHHhtt5fA8/hqdefault.jpg" class="bg-image"/>
+                    <div class="video-play-icon">
+                        <i class="icon-controller-play"></i>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/lsHHhtt5fA8?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <figcaption class="figure-caption text-right">География Сейчас! Бахрейн<br>© Трудности перевода 2017</figcaption>
+            </figure>
         </div>
     </div>
 </section>
@@ -96,6 +97,7 @@
     <div class="container">
         <h2>Население</h2>
         <p>Большая часть населения Бахрейна живет на северо-востоке страны, в двух городах - Манама и Мухаррак. Всего на территории государства насчитывают более 11 национальностей: бахрейнцы, персы, арабы, пакистанцы, малаяли, курды, тамилы, тагалы, гуджаратцы, телугу, британцы и другие. Около 55% населения составляют бахнейнцы, 13% персы и 10% арабы.</p>
+        <p>Основная часть жителей — мусульмане (70.3%), около 14.5% составляют христиане, 9.8% - индуисты, 2.5% - буддисты, и 0,6% - иудеи.</p>
         <p>Мужчин больше, чем женщин. На 6 мужчин приходится примерно 10 женщин. Основная часть населения - в возрасте от 15 до 64 лет.</p>
         <?= $this->render('_population') ?>
     </div>
@@ -106,8 +108,11 @@
         <h2>Культура и традиции</h2>
         <div class="row">
             <div class="col-lg-6">
-                <p>Бахрейн - это достаточно либеральная страна в плане образа жизни. Но все же иностранцам, выбравшим жизнь в Королевстве Бахрейн или пребывающим здесь временно, стоит почитать ислам, его устои и традиции.</p>
+                <p>В культурном плане особый интерес представляют богатые экспозициями местные музеи. Конечно же, это Бахрейнский Национальный музей. Здесь есть керамика и скульптуры всех эпох. Никого не оставит равнодушным и экспозиция музея жемчуга, где можно узнать все об этом материале и народном промысле по его добыче.</p>
+                <p>В столице королевства (г Манам) обязательно нужно посмотреть комплекс Байт Аль-Каран с мечетью, арабский форт Арад и церковь Сакред-Херт. Этот удивительный город полон контрастов. Он соединяет в себе современную архитектуру небоскребов и старинные постройки. Интересное впечатление останется и от посещения местных рынков, на которых приобрести можно абсолютно все.</p>
 
+                <h5>Религия</h5>
+                <p>Бахрейн - это достаточно либеральная страна в плане образа жизни. Но все же иностранцам, выбравшим жизнь в Королевстве Бахрейн или пребывающим здесь временно, стоит почитать ислам, его устои и традиции.</p>
                 <p>Например, во время Рамадана (х.), общего мусульманского поста, на протяжении месяца в общественных зонах действуют ограничения на дневной приемы пищи.</p>
                 <p>Кроме этого, из-за перевеса количества шиитского населения, есть некоторые ограничения во время основных шиитских празднеств, в особенности 9—10 Мухаррам (х.) — Ашура (Память о мученической смерти имама Хусейна).</p>
 
@@ -139,7 +144,6 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -163,8 +167,7 @@
     <div class="container">
         <h2>Посещение гражданами Казахстана</h2>
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
-                <h5>Безопасность</h5>
+            <div class="col-md-8 col-lg-7">
                 <p>Бахрейн - развитая и безопасная страна, ограничений для туристов по перемещению нет, явных угроз также нет. Количество преступлений в стране невелико.</p>
 
                 <h5>Визовый режим</h5>
@@ -177,9 +180,9 @@
                     <li>Приглашение, если имеется.</li>
                 </ul>
                 <p>У девушек до 30 лет без сопровождения отца, брата или мужа при оформлении электронной визы могут возникнуть трудности, поэтому рекомендуется обращаться в посольство.</p>
-                <p class="small"><i class="icon icon-warning"></i> Данная информация является ознакомительной и не является руководством к получению визы.</p>
+                <p><i class="icon icon-warning"></i> Данная информация является ознакомительной и не является руководством к получению визы.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -201,25 +204,18 @@
                         </li>
                     </ul>
                     <div class="card-footer p-3">
-                        <a href="http://avia.account.travel" class="btn btn-block btn-outline-success overflow-hidden">Подобрать рейс с пересадкой</a>
+                        <a href="https://avia.account.travel" class="btn btn-block btn-outline-success overflow-hidden">Подобрать рейс с пересадкой</a>
                     </div>
                 </div>
 
                 <div class="card">
                     <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6"><b>Электросеть</b></span>
+                        <i class="float-right icon-info"></i>
+                        <span class="h6"><b>Фотографии</b></span>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <nobr>230 В</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeG">разъем типа G</a>
-                                </div>
-                                <span class="text-right">
-                                    <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
+                            <p>Некоторые объекты фотографировать запрещено. В частности, это резиденция эмира и практически все мечети. При желании сделать памятный снимок с местными жителями лучше спросить их согласие на это.</p>
                         </li>
                     </ul>
                 </div>
@@ -233,7 +229,7 @@
     <div class="container">
         <h2>Таможенный контроль</h2>
 
-        <p><i class="icon icon-link"></i> Таможенная служба Бахрейна - <a href="http://www.bahraincustoms.gov.bh/" target="_blank">bahraincustoms.gov.bh</a></p>
+        <p><i class="icon icon-link"></i> Таможенная служба Бахрейна - <a href="http://www.bahraincustoms.gov.bh/" target="_blank" rel="nofollow">bahraincustoms.gov.bh</a></p>
 
         <h5>Спиртное и сигареты</h5>
         <p>Если вам 18 и более лет - можно без пошлины провозить:</p>
@@ -271,11 +267,11 @@
         <h2>Транспорт</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>К сожалению, общественный транспорт в королевстве развит слабо. Вы можете перемещаться между городами на автобусах и автомобилях, взятых в аренду машинах и на такси. Автобусы имеют низкие тарифы, однако туристам не рекомендуется ими пользоваться из-за сложности расписания и маршрутов.</p>
                 <p>Такси вы можете узнать по классическим шашечкам на крыше. Следует договориться о цене заранее, так как счетчиков обычно нет, они не работают или их просто не включают.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -306,12 +302,12 @@
         <h2>Автомобиль</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Правила дорожного движения в Бахрейне стандартные, похожи на казахстанские.</p>
                 <p>В городе автотранспорт может двигаться с максимальной скорость в 50 км/ч.</p>
                 <p>На трассах разрешено разгоняться до 80-100 км/ч, максимальная скорость зависит от трассы, а на подъезде к населенным пунктам ограничена 50 км/ч.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -347,7 +343,12 @@
 <section id="health" class="bg-white">
     <div class="container">
         <h2>Здравоохранение</h2>
-        <p>В Бахрейне нет каких-либо опасных для здоровья человека заболеваний</p>
+        <p>В стране нет каких-либо опасных для здоровья человека заболеваний.</p>
+        <p>Уровень здравоохранения в Бахрейне высок, а стоимость услуг по меркам европейцем невысока. Вследствие этого факта хорошее развитие получил медицинский туризм, который стал важной частью экономики Бахрейна.</p>
+        <p>Имеется большое количество государственных больниц и несколько частных клиник. В сельских районах развита сеть поликлиник. В аптеках предлагается широкий спектр препаратов, многие отпускаются лишь по рецепту врача. Услуги государственных учреждений и скорой помощи являются бесплатными, а частные клиники принимают наличные и карты.</p>
+        <p>Мы рекомендуем иметь полную медицинскую страховку международного образца.</p>
+
+        <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
     </div>
 </section>
 
@@ -356,13 +357,13 @@
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <h5>Мобильная связь</h5>
                 <p>В королевстве есть 3 своих поставщика мобильной связи, каждый из них охватывает весь остров.</p>
                 <ul>
-                    <li>Batelco - <a target="_blank" href="http://batelco.com/">перейти на сайт</a></li>
-                    <li>Zain - <a target="_blank" href="https://www.bh.zain.com/en">перейти на сайт</a></li>
-                    <li>Viva - <a target="_blank" href="https://www.viva.com.bh/">перейти на сайт</a></li>
+                    <li>Batelco - <a href="http://batelco.com/" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Zain - <a href="https://www.bh.zain.com/en" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Viva - <a href="https://www.viva.com.bh/" target="_blank" rel="nofollow">перейти на сайт</a></li>
                 </ul>
 
                 <h5>Интернет</h5>
@@ -371,9 +372,9 @@
 
                 <h5>Телефонная связь</h5>
                 <p>По всему королевству расположены телефоны-автоматы. С их помощью можно звонить даже в другие страны.</p>
-                <p>Синие аппраты работают по монетам. Красные - по телефонным карточкам номиналами в 25, 50, 100, 200 и 500 динаров. Автоматы серебристого цвета принимают и карточки, и монеты</p>
+                <p>Синие аппараты работают по монетам. Красные - по телефонным карточкам номиналами в 25, 50, 100, 200 и 500 динаров. Автоматы серебристого цвета принимают и карточки, и монеты</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>
@@ -404,6 +405,25 @@
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
                                 <div>С понедельника по четверг с 19.00 до 7.00 и весь день в пятницу</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="float-right icon-light-bulb"></i>
+                        <span class="h6"><b>Электросеть</b></span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div>
+                                    <nobr>230 В</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeG">разъем типа G</a>
+                                </div>
+                                <span class="text-right">
+                                    <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">
+                                </span>
                             </div>
                         </li>
                     </ul>
