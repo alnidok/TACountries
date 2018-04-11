@@ -116,7 +116,7 @@
 
         <div class="row justify-content-between">
             <div class="col-md-8 col-lg-7">
-                <p><i class="icon-link"></i> Министерство Культуры Бразилии -  <a href="http://www.cultura.gov.br/" target="_blank">cultura.gov.br</a></p>
+                <p><i class="icon-link"></i> Министерство Культуры Бразилии -  <a href="http://www.cultura.gov.br/" target="_blank" rel="nofollow">cultura.gov.br</a></p>
                 <p>На становление культуры Бразилии существенно повлияли португальцы (религия и язык), а также африканцы, индейцы, переселенцы из Европы и Азии.</p>
                 <p>Множество бразильских культурных объектов внесены в списки Всемирного культурного наследия ЮНЕСКО. Туристам непременно захочется посетить самые известные среди них:</p>
                 <ul>
@@ -225,7 +225,7 @@
                         <h5>Посольство Бразилии</h5>
                         <p>Астана, пр. Кабанбай Батыра 6/1</p>
                         <p><i class="icon-phone"></i> +7 (701) 539-03-00</p>
-                        <p><i class="icon-link"></i> <a href="http://astana.itamaraty.gov.br/ru/" target="_blank">astana.itamaraty.gov.br</a></p>
+                        <p><i class="icon-link"></i> <a href="http://astana.itamaraty.gov.br/ru/" target="_blank" rel="nofollow">astana.itamaraty.gov.br</a></p>
                     </div>
                 </div>
             </div>
@@ -254,7 +254,7 @@
     <div class="container">
         <h2>Таможенный контроль</h2>
 
-        <p><i class="icon icon-link"></i> Сайт таможенной службы Бразилии - <a href="http://idg.receita.fazenda.gov.br/" target="_blank">idg.receita.fazenda.gov.br</a></p>
+        <p><i class="icon icon-link"></i> Сайт таможенной службы Бразилии - <a href="http://idg.receita.fazenda.gov.br/" target="_blank" rel="nofollow">idg.receita.fazenda.gov.br</a></p>
 
         <h5>Спиртное и сигареты</h5>
         <p>Граждане Казахстана имеют право на беспошлинный ввоз до 400 сигарет или 25 сигар и до 2 л алкогольных напитков.</p>
@@ -434,10 +434,10 @@
             <div class="col-md-8 col-lg-7">
                 <p>Мобильная связь в Бразилии предоставляется четырьмя операторами:</p>
                 <ul>
-                    <li>Claro - <a href="https://www.claro.com.br/" target="_blank">перейти на сайт</a></li>
-                    <li>Vivo - <a href="http://www.vivo.com.br" target="_blank">перейти на сайт</a></li>
-                    <li>TIM - <a href="http://www.tim.com.br/" target="_blank">перейти на сайт</a></li>
-                    <li>Oi - <a href="http://www.oi.com.br/" target="_blank">перейти на сайт</a></li>
+                    <li>Claro - <a href="https://www.claro.com.br/" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Vivo - <a href="http://www.vivo.com.br" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>TIM - <a href="http://www.tim.com.br/" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Oi - <a href="http://www.oi.com.br/" target="_blank" rel="nofollow">перейти на сайт</a></li>
                 </ul>
 
                 <p>Сим-карту можно приобрести в большинстве газетных киосков или непосредственно в офисе оператора при наличии загранпаспорта.</p>

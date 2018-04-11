@@ -189,41 +189,6 @@
                         </li>
                     </ul>
                 </div>
-                <!--<div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-aircraft"></i>
-                        <span class="h6"><b>Авиарейсы</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Мадрид - Астана</div>
-                                <span>5 раза/нед</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Мадрид - Алматы</div>
-                                <span>8 раза/нед</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Мадрид - Атырау</div>
-                                <span>7 раза/нед</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Мадрид - Актау</div>
-                                <span>5 раз/нед</span>
-                            </div>
-                        </li>
-                    </ul>
-                    <div class="card-footer p-3">
-                        <a href="https://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс с пересадкой</a>
-                    </div>
-                </div>-->
 
                 <div class="card">
                     <iframe src="https://www.google.com/maps/embed/v1/search?q=астана,+ул.+кенесары+47&key=AIzaSyBy4GyZglz_6mltKrjCVr0S1Vb33LHTJf4" allowfullscreen class="card-img-top w-100"></iframe>

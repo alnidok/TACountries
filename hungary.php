@@ -154,7 +154,7 @@
         <h2>Посещение гражданами Казахстана</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Для визита в Венгрию гражданам Республики Казахстан требуется виза с соблюдением всех правил Шенгенской зоны. Настоятельно рекомендуется обращаться за ее оформлением в консульство в Казахстане или через надежное турагентство заблаговременно (за 1,5 - 2 месяца).</p>
                 <p>Для оформления визы необходимо собрать следующий пакет документов*:</p>
                 <ul>
@@ -167,7 +167,7 @@
                 </ul>
                 <p>*Информация носит ознакомительный характер.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -184,7 +184,7 @@
                         <h5>Посольство Венгрии</h5>
                         <p>Астана, ул. Космонавтов 62</p>
                         <p><i class="icon-phone"></i> +7 (7172) 55-03-23</p>
-                        <p><i class="icon-link"></i> <a href="https://asztana.mfa.gov.hu/rus" target="_blank">asztana.mfa.gov.hu</a></p>
+                        <p><i class="icon-link"></i> <a href="https://asztana.mfa.gov.hu/rus" target="_blank" rel="nofollow">asztana.mfa.gov.hu</a></p>
                     </div>
                 </div>
 
@@ -215,7 +215,7 @@
     <div class="container">
         <h2>Таможенный контроль</h2>
 
-        <p><i class="icon icon-link"></i> Сайт таможенной службы Венгрии - <a href="https://hungary.visahq.com/customs/" target="_blank">hungary.visahq.com/customs</a></p>
+        <p><i class="icon icon-link"></i> Сайт таможенной службы Венгрии - <a href="https://hungary.visahq.com/customs/" target="_blank" rel="nofollow">hungary.visahq.com/customs</a></p>
 
         <h5>Спиртное и сигареты</h5>
         <p>Граждане Казахстана, достигшие 17-летнего возраста, имеют право на ввоз сигарет и алкоголя в следующем количестве: 200 сигарет или 100 маленьких сигар, или 50 больших сигар, или 250 г табака, а также 1 л крепкого алкоголя или 4 л вина, или 16 л пива.</p>
@@ -250,13 +250,13 @@
     <div class="container">
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <h2>Транспорт</h2>
                 <p>Система общественного транспорта в стране отлично развита. Во всех городах функционируют автобусные и троллейбусные маршруты. Существуют специальные ночные автобусные рейсы (обозначены буквой Е), экспрессы (останавливаются по требованию. Номера обозначаются красным цветом).</p>
                 <p>В Будапеште есть метро, представленное тремя линиями.</p>
                 <p>Практически во всех городах действует система единого билета — по нему можно пользоваться почти всеми видами общественного транспорта. Проездные и билеты продаются на станциях метро, в уличных автоматах, киосках.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -297,7 +297,7 @@
 <section id="auto">
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <h2>Автомобиль</h2>
                 <p>Движение правостороннее.</p>
                 <p>Перемещение на автомобиле в Венгрии не составляет проблем — правила дорожного движения стандартные, дорожная разметка четкая, используются общеустановленные знаки.</p>
@@ -322,7 +322,7 @@
                 <h5>Дорожный налог</h5>
                 <p>За передвижение по автобану в Венгрии взимается плата — оплатить налог можно в специальных пунктах на въезде, на заправочной станции, в банкоматах, с мобильного телефона.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="bg-secondary">
                         <div class="card-body">
@@ -460,12 +460,12 @@
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Мобильная связь и мобильный интернет в стране представлена тремя крупными операторами:</p>
                 <ul>
-                    <li>Telenor - <a href="https://www.telenor.hu/en" target="_blank">перейти на сайт</a></li>
-                    <li>Vodafone - <a href="https://www.vodafone.hu/" target="_blank">перейти на сайт</a></li>
-                    <li>Magyar Telekom - <a href="https://www.telekom.hu" target="_blank">перейти на сайт</a></li>
+                    <li>Telenor - <a href="https://www.telenor.hu/en" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Vodafone - <a href="https://www.vodafone.hu/" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Magyar Telekom - <a href="https://www.telekom.hu" target="_blank" rel="nofollow">перейти на сайт</a></li>
                 </ul>
 
                 <p>Сим-карту при наличии паспорта можно приобрести в специализированных салонах связи.</p>
@@ -485,7 +485,7 @@
                 </figure>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>

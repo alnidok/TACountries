@@ -334,7 +334,7 @@
                         </li>
                     </ul>
                     <div class="card-footer p-3">
-                        <a href="http://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
+                        <a href="https://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
                     </div>
                 </div>
             </div>
@@ -489,7 +489,7 @@
                 <p>Необходимо заранее позаботиться о дорожной аптечке — приобрести средства для работы ЖКТ, препараты на случай отравления, медикаменты для лечения при ОРЗ и ОРВИ.</p>
                 <p>Медицинская помощь в Египте платная, довольно дорогостоящая, вследствие чего целесообразно оформление медицинской страховки перед посещением страны.</p>
 
-                <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
+                <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
             </div>
             <div class="col-lg-5 offset-lg-1">
                 <figure class="figure d-block">

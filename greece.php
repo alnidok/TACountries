@@ -190,7 +190,7 @@
         <h2>Посещение гражданами Казахстана</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Жителям Казахстана для въезда нужна виза. Чтобы ее получить, требуются:</p>
                 <ul>
                     <li>справка с работы;</li>
@@ -208,7 +208,7 @@
                 <p>Разрешения на посещение Святого Афона выдаются по согласованию с МИД Греции через консульский отдел Посольства Казахстана в Афинах или через Генконсульство в Салониках. При въезде и выезде с Афона осуществляется таможенный контроль.</p>
 
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -225,7 +225,7 @@
                         <h5>Консульство Греции</h5>
                         <p>Астана, мкр Караоткель 2, д 109</p>
                         <p><i class="icon-phone"></i> +7 (7172) 56-37-84</p>
-                        <p><i class="icon-link"></i> <a href="https://www.mfa.gr/missionsabroad/ru/kazakhstan-ru" target="_blank">www.mfa.gr</a></p>
+                        <p><i class="icon-link"></i> <a href="https://www.mfa.gr/missionsabroad/ru/kazakhstan-ru" target="_blank" rel="nofollow">www.mfa.gr</a></p>
                     </div>
                 </div>
 
@@ -249,7 +249,7 @@
                         </li>
                     </ul>
                     <div class="card-footer p-3">
-                        <a href="http://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
+                        <a href="https://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
                     </div>
                 </div>
             </div>
@@ -280,11 +280,11 @@
         <h2>Транспорт</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Транспортная инфраструктура развита очень хорошо. Весь транспорт удобен, оборудован кондиционерами, не перегружен.</p>
                 <p>Покупка билета на полтора часа (включает в себя проезд на любом виде транспорта) обойдется в 1,40 евро.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -315,7 +315,7 @@
         <h2>Автомобиль</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Дороги в Афинах и Салониках характерны большим количеством пробок, загруженностью.</p>
                 <p>С севера на юг простирается автострада с отличным покрытием, предполагающая уплату за проезд по ней.</p>
 
@@ -333,7 +333,7 @@
                 </figure>
 
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -385,7 +385,7 @@
 
         <p>Медицина в Греции на весьма высоком уровне. Во всех отелях и аэропортах дежурят бригады скорой помощи. Рекомендуется оформлять медицинскую страховку, а иначе помощь обойдется слишком дорого.</p>
 
-        <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
+        <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
     </div>
 </section>
 
@@ -394,13 +394,13 @@
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <h5>Телефонная связь</h5>
                 <p>В стране функционируют таксофоны, для использования которых необходима карта предоплаты. Приобрести можно по цене 5-20 евро.</p>
                 <p>Телефонный код Греции — 30.</p>
                 <p>Телефонный код Афин — 210.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>
