@@ -1,4 +1,8 @@
-<?php $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']); ?>
+<?php
+$this->title = 'Страны для посещения гражданам Казахстана';
+$this->registerMetaTag(['name' => 'description', 'content' => 'Собранный здесь материал позволит погрузиться в культурные особенности и традиции стран, узнать интересные факты о достопримечательностях, а также всю необходимую для туриста информацию.']);
+$this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
+?>
 
 <section>
     <div class="container">
@@ -52,7 +56,7 @@
             <li>Иордания</li>
             <li>Иран</li>
             <li>Казахстан</li>
-            <li>Камбоджа</li>
+            <li><a href="/guide/cambodia">Камбоджа</a></li>
             <li>Катар</li>
             <li>Киргизия</li>
             <li>Китай</li>
@@ -71,9 +75,9 @@
             <li>Таиланд</li>
             <li>Туркменистан</li>
             <li>Турция</li>
-            <li>Узбекистан</li>
+            <li><a href="/guide/uzbekistan">Узбекистан</a></li>
             <li>Филиппины</li>
-            <li>Шри-Ланка</li>
+            <li><a href="/guide/sri_lanka">Шри-Ланка</a></li>
             <li>Южная Корея</li>
             <li>Япония</li>
         </ul>
@@ -141,7 +145,7 @@
             <li><a href="/guide/slovenia">Словения</a></li>
             <li>Украина</li>
             <li>Финляндия</li>
-            <li>Франция</li>
+            <li><a href="/guide/france">Франция</a></li>
             <li>Хорватия</li>
             <li>Черногория</li>
             <li>Чехия</li>
@@ -155,7 +159,6 @@
 <section id="america">
     <div class="container">
         <h2>Америка</h2>
-
         <p>Америка — обширный регион между двумя океанами, включающий два материка, Северную и Южную Америку, и массу разновеликих островов, от гигантской Гренландии до крошечной Мартиники.</p>
 
         <div class="row">
