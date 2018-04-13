@@ -53,7 +53,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Израиль</li>
             <li><a href="/guide/india">Индия</a></li>
             <li><a href="/guide/indonesia">Индонезия</a></li>
-            <li>Иордания</li>
+            <li><a href="/guide/jordan">Иордания</a></li>
             <li>Иран</li>
             <li>Казахстан</li>
             <li><a href="/guide/cambodia">Камбоджа</a></li>
@@ -256,7 +256,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Зимбабве</li>
             <li>Кабо-Верде</li>
             <li>Кения</li>
-            <li>Маврикий</li>
+            <li><a href="/guide/mauritius">Маврикий</a></li>
             <li>Мадагаскар</li>
             <li>Марокко</li>
             <li>Мозамбик</li>
