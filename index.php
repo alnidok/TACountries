@@ -43,7 +43,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
 
         <h5>Страны</h5>
         <ul style="column-count: 3;">
-            <li>Абхазия</li>
+            <li><a href="/guide/abkhazia">Абхазия</a></li>
             <li>Азербайджан</li>
             <li>Армения</li>
             <li><a href="/guide/bahrain">Бахрейн</a></li>
@@ -123,7 +123,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Исландия</li>
             <li><a href="/guide/spain">Испания</a></li>
             <li><a href="/guide/italy">Италия</a></li>
-            <li>Кипр</li>
+            <li><a href="/guide/cyprus">Кипр</a></li>
             <li><a href="/guide/latvia">Латвия</a></li>
             <li><a href="/guide/lithuania">Литва</a></li>
             <li>Лихтенштейн</li>
@@ -133,13 +133,13 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Молдавия</li>
             <li>Монако</li>
             <li>Нидерланды</li>
-            <li>Норвегия</li>
+            <li><a href="/guide/norway">Норвегия</a></li>
             <li>Польша</li>
             <li>Португалия</li>
             <li><a href="/guide/russia">Россия</a></li>
             <li>Румыния</li>
             <li>Сан-Марино</li>
-            <li>Северный Кипр</li>
+            <!--<li>Северный Кипр</li>-->
             <li>Сербия</li>
             <li><a href="/guide/slovakia">Словакия</a></li>
             <li><a href="/guide/slovenia">Словения</a></li>
@@ -150,7 +150,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Черногория</li>
             <li>Чехия</li>
             <li><a href="/guide/switzerland">Швейцария</a></li>
-            <li>Швеция</li>
+            <li><a href="/guide/sweden">Швеция</a></li>
             <li><a href="/guide/estonia">Эстония</a></li>
         </ul>
     </div>
@@ -191,7 +191,6 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
                 </figure>
             </div>
         </div>
-
 
         <h5>Страны</h5>
         <ul style="column-count: 3;">
@@ -264,7 +263,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Реюньон</li>
             <li>Руанда</li>
             <li>Сан-Томе и Принсипи</li>
-            <li>Сейшельские острова</li>
+            <li><a href="/guide/seychelles">Сейшельские острова</a></li>
             <li>Сенегал</li>
             <li><a href="/guide/tanzania">Танзания</a></li>
             <li>Тунис</li>
