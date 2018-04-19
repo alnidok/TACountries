@@ -63,7 +63,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Лаос</li>
             <li>Ливан</li>
             <li><a href="/guide/malaysia">Малайзия</a></li>
-            <li>Мальдивские острова</li>
+            <li><a href="/guide/maldives">Мальдивские острова</a></li>
             <li>Монголия</li>
             <li>Мьянма</li>
             <li><a href="/guide/nepal">Непал</a></li>
@@ -72,7 +72,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Сингапур</li>
             <li>Сирия</li>
             <li>Таджикистан</li>
-            <li>Таиланд</li>
+            <li><a href="/guide/thailand">Таиланд</a></li>
             <li>Туркменистан</li>
             <li>Турция</li>
             <li><a href="/guide/uzbekistan">Узбекистан</a></li>
@@ -110,7 +110,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Албания</li>
             <li>Андорра</li>
             <li>Беларусь</li>
-            <li>Бельгия</li>
+            <li><a href="/guide/belgium">Бельгия</a></li>
             <li><a href="/guide/bulgaria">Болгария</a></li>
             <li>Босния и Герцеговина</li>
             <li>Ватикан</li>
@@ -119,7 +119,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li><a href="/guide/germany">Германия</a></li>
             <li><a href="/guide/greece">Греция</a></li>
             <li>Дания</li>
-            <li>Ирландия</li>
+            <li><a href="/guide/ireland">Ирландия</a></li>
             <li><a href="/guide/iceland">Исландия</a></li>
             <li><a href="/guide/spain">Испания</a></li>
             <li><a href="/guide/italy">Италия</a></li>
