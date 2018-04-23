@@ -499,26 +499,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6"><b>Электросеть</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <nobr>220 или 110 В</nobr>,
-                                    <nobr>50 Гц</nobr>. Используются разъемы <a href="/journal/electric-sockets.html#typeC">типа C</a> и <a href="/journal/electric-sockets.html#typeE">типа E</a>
-                                </div>
-                                <span class="text-right">
-                                     <img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;">
-                                     <img src="/img/electric/type_e.svg" style="width:100px; max-width:100%;">
-                                 </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+
+                <?= $this->render('_electricity', $country) ?>
             </div>
         </div>
     </div>

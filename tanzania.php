@@ -520,30 +520,7 @@
                     </ul>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6">
-                            <b>Электросеть</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <nobr>230 В</nobr>,
-                                    <nobr>50 Гц</nobr>. Используются разъемы
-                                    <a href="/journal/electric-sockets.html#typeD">типа D</a>,
-                                    <a href="/journal/electric-sockets.html#typeG">типа G</a>
-                                </div>
-                                <span class="text-right">
-                                    <img src="/img/electric/type_d.svg" style="width:100px; max-width:100%;">
-                                    <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <?= $this->render('_electricity', $country) ?>
             </div>
         </div>
     </div>

@@ -419,59 +419,7 @@
                     </ul>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6">
-                            <b>Электросеть</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Напряжение</div>
-                                <span>220 В</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Частота</div>
-                                <span>50 Гц</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    на юге страны<br>
-                                    <a href="/journal/electric-sockets.html#typeA" target="_blank">разъем типа A</a>
-                                </div>
-                                <span>
-                                    <img src="/img/electric/type_a.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>на севере страны<br>
-                                    <a href="/journal/electric-sockets.html#typeC" target="_blank">разъем типа C</a>
-                                </div>
-                                <span>
-                                    <img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>в отелях высшего класса<br>
-                                    <a href="/journal/electric-sockets.html#typeG" target="_blank">разъем типа G</a>
-                                </div>
-                                <span>
-                                    <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <?= $this->render('_electricity', $country) ?>
             </div>
         </div>
 

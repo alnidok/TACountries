@@ -1,7 +1,8 @@
 # Блок электросеть
 ![Блок электросеть](http://dl4.joxi.net/drive/2018/04/07/0014/0289/966945/45/c0960e0e06.png)
 
-Указываем напряжение и частоту электросети, а также ипользуемые типы розеток. Информацию проще всего искать на [powersockets.webulla.ru/ru/country](http://powersockets.webulla.ru/ru/country)
+Блок генерируется автоматически по данным [powersockets.webulla.ru/ru/country](http://powersockets.webulla.ru/ru/country).
+Смотреть php-код ниже.
 
 ### Разметка
 
@@ -24,6 +25,10 @@
         </li>
     </ul>
 </div>
+```
+
+```php
+<?= $this->render('_electricity', $country) ?>
 ```
 Пример можно посмотреть на странице [Кипра](http://account.travel/guide/cyprus). 
 
