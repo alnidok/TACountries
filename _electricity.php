@@ -16,13 +16,12 @@ $frequency = explode(',', $frequency);
                     <nobr><?=implode(' и ', $voltage)?> В</nobr>, <nobr><?=implode(' и ', $frequency)?> Гц</nobr>.
                     Используются разъемы
                     <?php foreach($types as $type): ?>
-                    <a href="/journal/electric-sockets.html#type<?=$type?>">типа <?=$type?></a>
-                    <? if ($type !== end($types)): ?> и <?php endif ?>
+                    <a href="/journal/electric-sockets.html#type<?=$type?>"><nobr>типа <?=$type?></nobr></a><? if ($type !== end($types)): ?>, <?php endif ?>
                     <?php endforeach ?>
                 </div>
                 <span class="text-right">
                     <?php foreach($types as $type): ?>
-                        <img src="/img/electric/type_<?=$type?>.svg" style="width:100px; max-width:100%;">
+                        <img src="/img/electric/type_<?=strtolower($type)?>.<?php if (in_array($type, ['M', 'N'])): ?>png<?php else: ?>svg<?php endif ?>" style="width:100px; max-width:100%;">
                     <?php endforeach ?>
                 </span>
             </div>
