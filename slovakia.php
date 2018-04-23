@@ -329,38 +329,7 @@
                 <p>Аренда автомобиля в Словакии поможет посмотреть всю страну всего за несколько дней. Оформить аренду можно в аэропорту и в центре любого города. Компании есть на выбор международные и местные, все они представляют относительно равные условия. Стоимость аренды эконом-класса от 25 евро в день, среднего класса от 30 и представительского класса от 60 евро. Для оформления договора надо при себе иметь национальные права старше года, банковскую карту с 1000 евро на счету для блокировки залога и возраст старше 21 года.
             </div>
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6"><b>Стоимость топлива</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-95</div>
-                                <span>1.341 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-98</div>
-                                <span>1.151 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Дизель</div>
-                                <span>1.202 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Газ (LPG)</div>
-                                <span>0.585 EUR/литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <div id="block-fuel"></div>
             </div>
         </div>
 

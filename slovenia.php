@@ -95,6 +95,7 @@
             <li class="nav-item"><a class="nav-link" href="#security">Безопасность</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
             <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
+            <li class="nav-item"><a class="nav-link" href="#auto">Авто</a></li>
             <li class="nav-item"><a class="nav-link" href="#health">Здравоохранение</a></li>
             <li class="nav-item"><a class="nav-link" href="#communication">Связь</a></li>
             <li class="nav-item"><a class="nav-link" href="#prices">Цены</a></li>
@@ -331,6 +332,8 @@
                 <p>Взять машину в аренду здесь можно у любой из огромного числа фирм. Здесь представлены как местные конторы, так и крупные мировые гиганты. Правила аренды у всех примерно одинаковы. Вам должно быть больше 21 года, а вашим правам больше года. Стоимость машины начинается с 25 евро за сутки, а блокируемый на карте депозит с 500 евро за машину.</p>
             </div>
             <div class="col-lg-5 offset-lg-1">
+                <div id="block-fuel"></div>
+
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Путешествие на машине по Европе. Дороги Словении. Любляна. Slovenia 2016" src="https://i.ytimg.com/vi/E2njxPIcY2U/maxresdefault.jpg" class="bg-image"/>

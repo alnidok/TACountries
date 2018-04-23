@@ -330,38 +330,8 @@
                 <p>Арендовать машину можно в любой компании в аэропорту и во всех крупных городах. Для этого потребуются только международные права, возраст водителя старше 18 лет. Ограничение по опыту есть только для некоторых типов автомобилей, там нужно быть старше 24 лет и водить машину не менее 3 лет. Залог блокируется на банковской карте. Машину можно забронировать через интернет до поездки, тогда она будет ждать вас в аэропорту.</p>
             </div>
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6"><b>Стоимость топлива</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-95</div>
-                                <span>1.478 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-98</div>
-                                <span>1.536 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Дизель</div>
-                                <span>1.469 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Газ (LPG)</div>
-                                <span>0.866 EUR/литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <div id="block-fuel"></div>
+
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Швеция. Идеальные дороги, бесконечные леса, чистейший воздух" src="https://i.ytimg.com/vi/J4XgmDEamfo/maxresdefault.jpg" class="bg-image"/>

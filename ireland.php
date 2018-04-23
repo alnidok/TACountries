@@ -332,20 +332,8 @@
                 <p>Арендовать машину не составит труда в любом городе страны или в аэропорту Дублина по прибытию. Все компании требуют международные права, возраст от 23 лет и залог в размере от 500 до 1000 евро. Машину перед подписанием надо тщательно осмотреть, зафиксировать имеющиеся повреждения и занести их в договор, чтобы вопросов при сдаче машины не возникало.</p>
             </div>
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6"><b>Стоимость топлива</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Бензин</div>
-                                <span>1.4 EUR за литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <div id="block-fuel"></div>
+
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Ирландия. По дороге в Дингл. Графство Керри. Ireland" src="https://i.ytimg.com/vi/F3XDpaqw5gU/maxresdefault.jpg" class="bg-image"/>

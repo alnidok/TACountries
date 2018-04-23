@@ -85,6 +85,7 @@
             <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
             <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
+            <li class="nav-item"><a class="nav-link" href="#auto">Авто</a></li>
             <li class="nav-item"><a class="nav-link" href="#health">Здравоохранение</a></li>
             <li class="nav-item"><a class="nav-link" href="#communication">Связь</a></li>
             <li class="nav-item"><a class="nav-link" href="#money">Деньги</a></li>
@@ -273,9 +274,6 @@
             <div class="col-md-8 col-lg-7">
                 <p>Самым распространенным видом транспорта является такси. Его можно вызвать либо по телефону, либо обратившись к управляющему отеля. Стоимость такси взимается по фиксированной оплате в размере 5 евро за вызов и плюс 0,38 за каждый километр пройденного пути.</p>
                 <p>Между городами курсируют микроавтобусы, билеты на которые можно приобрести на вокзалах. Стоимость зависит от расстояния, но не превышает 15 евро. Обычные автобусы ходят ежедневно между городами и их районами. Стоимость не превышает 10 евро.</p>
-
-                <h5>Дорожное движение</h5>
-                <p>На острове левосторонне движение. Руль у автомобилей расположен справа.</p>
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -321,7 +319,29 @@
     </div>
 </section>
 
-<section id="health" >
+<section id="auto">
+    <div class="container">
+        <h2>Автомобиль</h2>
+        <div class="row justify-content-between">
+            <div class="col-md-8 col-lg-7">
+                <p>На Кипре левостороннее дорожное движение. Платы за использование автомобильных дорог нет.</p>
+                <p>Максимально допустимый уровень алкоголя в крови - 0.5‰.</p>
+
+                <h5>Ограничение скорости</h5>
+                <ul>
+                    <li>в населенном пункте - 50 км/ч</li>
+                    <li>вне населенного пункта - 80 км/ч</li>
+                    <li>на автомагистрали - 100 км/ч</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div id="block-fuel"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="health" class="bg-white">
     <div class="container">
         <h2>Здравоохранение</h2>
 
@@ -332,7 +352,7 @@
     </div>
 </section>
 
-<section id="communication" class="bg-white">
+<section id="communication">
     <div class="container">
         <h2>Связь и коммуникации</h2>
 
@@ -426,7 +446,7 @@
     </div>
 </section>
 
-<section id="money">
+<section id="money" class="bg-white">
     <div class="container">
         <h2>Деньги</h2>
 
@@ -443,8 +463,7 @@
     </div>
 </section>
 
-
-<section id="sight" class="bg-white">
+<section id="sight">
     <div class="container">
         <!--Блок экскурсий-->
         <?= $this->render('_excursions', $country) ?>

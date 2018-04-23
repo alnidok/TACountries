@@ -339,6 +339,8 @@
                 <p>Для аренды автомобиля потребуется предъявить национальные права с дублированными надписями на латиницу. По правилам местные компании дают в аренду автомобили путешественникам старше 21 года и с опытом вождения не меньше 1 года.</p>
             </div>
             <div class="col-lg-5 offset-lg-1">
+                <div id="block-fuel"></div>
+
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="По Европе на своей машине. Часть 4. Швейцария." src="https://i.ytimg.com/vi/zweyFLP7Hmo/maxresdefault.jpg" class="bg-image"/>

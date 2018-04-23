@@ -90,6 +90,7 @@
             <li class="nav-item"><a class="nav-link" href="#security">Безопасность</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
             <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
+            <li class="nav-item"><a class="nav-link" href="#auto">Авто</a></li>
             <li class="nav-item"><a class="nav-link" href="#health">Здравоохранение</a></li>
             <li class="nav-item"><a class="nav-link" href="#communication">Связь</a></li>
             <li class="nav-item"><a class="nav-link" href="#prices">Цены</a></li>
@@ -269,7 +270,6 @@
 
                 <h5>Паром </h5>
                 <p>На Сааремаа и другие острова Эстонии ходят паромы. Цена за пассажира 3-4 евро, за машину 10 евро. До Саарема дорога на пароме занимает около 30 минут.</p>
-
             </div>
 
             <div class="col-md-4">
@@ -308,6 +308,8 @@
                 <p>Арендованный автомобиль пригодится для путешествия по стране, с его помощью можно посетить самые отдаленные уголки страны без особых проблем. Для заключения договора вам потребуются права и паспорт. Минимальный возраст должен быть 21 год, а стаж вождения не меньше года. Нарушать правила не стоит, штрафы могут доходить до 1500 евро.</p>
             </div>
             <div class="col-lg-5 offset-lg-1">
+                <div id="block-fuel"></div>
+
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Жизнь в Эстонии | Цены на бензин в Европе, Эстонии, Таллине | Мысли вслух 2018" src="https://i.ytimg.com/vi/oBgHWCan1u8/maxresdefault.jpg" class="bg-image"/>

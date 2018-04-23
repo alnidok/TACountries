@@ -67,12 +67,12 @@
 <nav id="scrollspy-navbar" class="bg-white navbar sticky-top">
     <div class="container">
         <ul class="nav nav-pills nav-fill">
-            <li
-                class="nav-item"><a class="nav-link" href="#culture">Культура и традиции</a></li>
+            <li class="nav-item"><a class="nav-link" href="#culture">Культура и традиции</a></li>
             <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
             <li class="nav-item"><a class="nav-link" href="#security">Безопасность</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
             <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
+            <li class="nav-item"><a class="nav-link" href="#auto">Авто</a></li>
             <li class="nav-item"><a class="nav-link" href="#health">Здравоохранение</a></li>
             <li class="nav-item"><a class="nav-link" href="#communication">Связь</a></li>
             <li class="nav-item"><a class="nav-link" href="#prices">Цены</a></li>
@@ -282,16 +282,18 @@
         </div>
     </div>
 </section>
+
 <section id="auto" class="bg-white">
     <div class="container">
         <h2>Автомобиль</h2>
-        <div class="card mb-4">
-            <div class="bg-secondary">
-                <div class="card-body">
-                    <h6 class="title-decorative">Вождение на территории Австрии для граждан Казахстана</h6>
-                    <p>Чтобы арендовать авто в Австрии или иметь право на вождение, достаточно иметь на руках водительские права международного образца. Вам должно исполниться на момент вождения 21 год. Стаж вождения должен быть 1 год минимум.
-                    </p>
-                </div>
+
+        <div class="row justify-content-between">
+            <div class="col-md-8 col-lg-7">
+                <h5>Аренда авто</h5>
+                <p>Чтобы арендовать авто в Австрии или иметь право на вождение, достаточно иметь на руках водительские права международного образца. Вам должно исполниться на момент вождения 21 год. Стаж вождения должен быть 1 год минимум.</p>
+            </div>
+            <div class="col-md-4">
+                <div id="block-fuel"></div>
             </div>
         </div>
     </div>

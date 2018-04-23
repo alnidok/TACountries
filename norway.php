@@ -332,20 +332,8 @@
                 <p>Аренда автомобиля популярна у туристов изо всех стран. Компаний много, поэтому можно подобрать подходящую по цене или услугам заранее. Если вы решили, что машина вам нужна уже в Норвегии, то можно обратиться в офисы прокатных компаний, расположенные во всех основных городах. Для заключения договора потребуется залог, паспорт, международные права и возраст выше 18 лет.</p>
             </div>
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6"><b>Стоимость топлива</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Бензин</div>
-                                <span>15.8 крон за литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <div id="block-fuel"></div>
+
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Типичная Норвегия: дождливая погода, бесконечные леса, сельская местность, идеальные дороги" src="https://i.ytimg.com/vi/pBFUjoTRZjU/maxresdefault.jpg" class="bg-image"/>

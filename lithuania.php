@@ -384,38 +384,7 @@
                 <p>Вождение разрешено с 18 лет по правам установленного международного образца с фамилиями и данными дублированными на латиницу. Для аренды машины кроме прав потребуются от 30 евро и выше для оплаты машины и около 1000 евро для обеспечительного залога. Арендовать автомобиль можно в крупных международных компаниях, их офис есть в аэропорту и в центре города.</p>
             </div>
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6"><b>Стоимость топлива</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-95</div>
-                                <span>1.199 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-98</div>
-                                <span>1.272 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Дизель</div>
-                                <span>1.113 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Газ (LPG)</div>
-                                <span>0.555 EUR/литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <div id="block-fuel"></div>
             </div>
         </div>
     </div>

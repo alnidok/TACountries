@@ -314,20 +314,8 @@
                 <p>Арендовать машину можно в Рейкьявике или в аэропорту. Для этого подойдут национальные права, которые старше 1 года. Цены на аренду высокие, так же как и стоимость залога, поэтому путешествие по стране на автомобиле обойдется в существенную сумму.</p>
             </div>
             <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6"><b>Стоимость топлива</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Бензин</div>
-                                <span>210 крон за литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <div id="block-fuel"></div>
+
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Исландские дороги" src="https://i.ytimg.com/vi/X5oDaclP8nw/maxresdefault.jpg" class="bg-image"/>
