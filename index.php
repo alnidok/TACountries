@@ -195,10 +195,10 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
         <h5>Страны</h5>
         <ul style="column-count: 3;">
             <li>Антигуа и Барбуда</li>
-            <li>Аргентина</li>
+            <li><a href="/guide/argentina">Аргентина</a></li>
             <li>Аруба</li>
             <li>Барбадос</li>
-            <li>Боливия</li>
+            <li><a href="/guide/bolivia">Боливия</a></li>
             <li>Бонайре</li>
             <li><a href="/guide/brazil">Бразилия</a></li>
             <li>Венесуэла</li>
@@ -208,7 +208,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Доминиканская Республика</li>
             <li>Канада</li>
             <li>Колумбия</li>
-            <li><a href="/guide/costa-rica">Коста-Рика</a></li>
+            <li><a href="/guide/costa_rica">Коста-Рика</a></li>
             <li>Куба</li>
             <li>Кюрасао</li>
             <li>Мексика</li>
@@ -218,8 +218,8 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Сен-Бартелеми</li>
             <li><a href="/guide/usa">Соединенные Штаты Америки</a></li>
             <li>Тринидад и Тобаго</li>
-            <li>Чили</li>
-            <li>Эквадор</li>
+            <li><a href="/guide/chile">Чили</a></li>
+            <li><a href="/guide/ecuador">Эквадор</a></li>
             <li>Ямайка</li>
         </ul>
     </div>
