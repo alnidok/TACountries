@@ -4,16 +4,11 @@
             <div class="col-lg-6">
                 <h1 class="display-4 no-wrap">Королевство Камбоджа</h1>
                 <div class="lead">
-                    <b>Столица</b>: Пномпень
-                    <br>
-                    <b>Официальный язык</b>: кхмерский
-                    <br>
-                    <b>Валюта</b>: KHR — камбоджийский риель
-                    <br>
-                    <b>Территория</b>: 181 тыс. км²
-                    <br>
-                    <b>Население</b>: 15,8 млн человек 
-                    <br>
+                    <b>Столица</b>: Пномпень<br>
+                    <b>Официальный язык</b>: кхмерский<br>
+                    <b>Валюта</b>: KHR — камбоджийский риель<br>
+                    <b>Территория</b>: 181 тыс км²<br>
+                    <b>Население</b>: 15.8 млн человек<br>
                     <b>Часовой пояс</b>: UTC +7. Разница с Астаной +1 час
                 </div>
             </div>
@@ -33,7 +28,7 @@
                     <figcaption class="figure-caption text-light text-right">© Sara Pretelli Supertramp, 2016</figcaption>
                 </figure>
             </div>
-        </div>            
+        </div>
     </div>
     <svg class="decorative-divider" preserveAspectRatio="none" viewBox="0 0 100 100">
         <polygon fill="#F8F9FB" points="0 100 100 100 100 0"></polygon>
@@ -46,7 +41,7 @@
             <div class="col-lg-8 offset-lg-2">
                 <p>Камбоджа — королевство в Юго-Восточной Азии, расположенное на юге полуострова Индокитай.</p>
                 <p>Имеет границы с Вьетнамом, Лаосом и Таиландом. Омывается водами Сиамского залива на юго-западе и юге.</p>
-    
+
                 <!--Карта-->
                 <?= $this->render('_map', $country) ?>
 
@@ -59,7 +54,7 @@
 
         <hr>
 
-        <div class="row">           
+        <div class="row">
             <figure class="figure d-block col-lg-6">
                 <div class="video-cover box-shadow">
                     <img alt="Столица Камбоджи Пномпень памятник Независимости 8 мая 2017" src="https://i.ytimg.com/vi/9B1ZRX-6F7U/maxresdefault.jpg"
@@ -98,36 +93,16 @@
 <nav id="scrollspy-navbar" class="bg-white navbar sticky-top">
     <div class="container">
         <ul class="nav nav-pills nav-fill">
-            <li class="nav-item">
-                <a class="nav-link" href="#population">Население</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#culture">Культура</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#climate">Климат</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#visa">Въезд в страну</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#custom">Таможня</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#transport">Транспорт</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#auto">Авто</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#health">Здравоохранение</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#communication">Связь</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#sight">Что посмотреть</a>
-            </li>
+            <li class="nav-item"><a class="nav-link" href="#population">Население</a></li>
+            <li class="nav-item"><a class="nav-link" href="#culture">Культура</a></li>
+            <li class="nav-item"><a class="nav-link" href="#climate">Климат</a></li>
+            <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
+            <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
+            <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
+            <li class="nav-item"><a class="nav-link" href="#auto">Авто</a></li>
+            <li class="nav-item"><a class="nav-link" href="#health">Здравоохранение</a></li>
+            <li class="nav-item"><a class="nav-link" href="#communication">Связь</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sight">Что посмотреть</a></li>
         </ul>
     </div>
 </nav>
@@ -138,10 +113,9 @@
         <p>Основную часть жителей Камбоджи (около 90%) составляют кхмеры, оставшиеся 10% приходятся на китайцев, вьетнамцев и тямов.</p>
         <p>Подавляющее большинство камбоджийцев исповедуют буддизм (более 93%), и малая часть жителей — мусульмане, христиане и индуисты.</p>
         <p>Камбоджи — аграрная страна, доля городского населения составляет всего 24%.</p>
-        <p>Средняя ожидаемая продолжительность жизни — 62 года: 60 лет у мужчин и 65 у женщин.</p>
+        <p>Средняя продолжительность жизни — 62 года: 60 лет у мужчин и 65 у женщин.</p>
 
         <?= $this->render('_population') ?>
-
     </div>
 </section>
 
@@ -152,8 +126,7 @@
                 <h2>Культура и традиции</h2>
                 <p>
                     <i class="icon-link"></i> Министерство Культуры Камбоджи -
-                    <a href="http://www.mcfa.gov.kh/"
-                        target="_blank" rel="nofollow">mcfa.gov.kh</a>
+                    <a href="http://www.mcfa.gov.kh/" target="_blank" rel="nofollow">mcfa.gov.kh</a>
                 </p>
                 <p>На искусство и культуру Камбоджи большое влияние оказывает религия, особенно ярко это проявляется в архитектуре и скульптуре, местных ремеслах (ткачество, производство украшений, резьба по дереву, золочение и пр.).</p>
                 <p>В деревнях с давних времен популярны театры, примечательно, что все актеры во время представления надевают маски. Также есть театры теней и кукольные театры.</p>
@@ -236,7 +209,14 @@
         <div class="row justify-content-between">
             <div class="col-md-8 col-lg-7">
                 <p>Гражданам Республики Казахстан для въезда на территорию Королевства Камбоджи требуется виза, срок действия которой 30 дней.</p>
-                <p>Визу можно оформить через веб-сайт МИД Королевства Камбоджи или в аэропорту по прилету в страну.</p>
+                <p>Визу можно получить двумя способами:</p>
+                <ol>
+                    <li>Оформить электронную <a href="https://www.evisa.gov.kh/" target="_blank" rel="nofollow">на сайте МИД Королевства Камбоджи</a>;</li>
+                    <li>Получить по прилету в аэропорту.</li>
+                </ol>
+                <p>В первом случае на паспортном контроле вы предъявляете необходимые документы (указаны ниже) и в течение 5-20 минут получаете визу на 30 дней.</p>
+                <p>В случае электронной визы нужно отсканировать те же документы и заполнить анкету на английском языке. Оплата также производится в режиме онлайн. Через какое-то время вы получаете на email подтверждение, которое нужно распечатать и предъявить по прилету на паспортном контроле.</p>
+
                 <p>Перечень необходимых документов*:</p>
                 <ul>
                     <li>загранпаспорт (срок действия должен быть не менее полугода)</li>
@@ -246,7 +226,7 @@
                     <li>анкетные данные</li>
                 </ul>
                 <p>*Информация носит осведомительный характер.</p>
-               
+
             </div>
             <div class="col-md-4">
 
@@ -254,20 +234,19 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
-                                <div>
-                                    <i class="icon-v-card mr-1"></i> Требуется виза
-                                </div>
+                                <div><i class="icon-v-card mr-1"></i> Требуется виза</div>
+                                <span>на 30 дней</span>
                             </div>
                         </li>
                     </ul>
                 </div>
-                
+
                 <div class="card bg-secondary">
                     <div class="card-body">
                         <p>В Республике Казахстан нет посольства Камбоджи.</p>
                         <p>Прямое транспортное сообщение между Казахстаном и Камбоджей отсутствует. Наилучшим вариантом перелета является направление
                             Алматы - Пномпень с пересадкой в аэропорту Бангкока.</p>
-                        
+
                     </div>
                 </div>
 
@@ -320,8 +299,8 @@
                 <p>Общественный транспорт в королевстве слабо развит.</p>
                 <p>Автобусные маршруты функционируют исключительно в столице и некоторых крупных городах.</p>
                 <p>Основной способ передвижения — это такси (в подавляющем большинстве только для туристов, потому как местные жители не могут себе его позволить), мототакси, моторикши (так называемые тук-туки) и велорикши.</p>
-                <p>С водителями необходимо заранее договариваться о цене, обязательно нужно торговаться — средняя стоимость поездки обходится порядка 8 - 12 тыс. KHR.</p>
-                <p>Можно также арендовать такси или рикшу вместе с водителем на весь день, это будет стоить около 80 тыс. KHR.</p>
+                <p>С водителями необходимо заранее договариваться о цене, обязательно нужно торговаться — средняя стоимость поездки обходится порядка 8000 - 12000 KHR.</p>
+                <p>Можно также арендовать такси или рикшу вместе с водителем на весь день, это будет стоить около 80 000 KHR.</p>
             </div>
             <div class="col-md-4">
                 <div class="card">
@@ -385,7 +364,7 @@
                     <li>движение правостороннее</li>
                     <li>максимальная разрешенная скорость в черте города составляет 30 км/час для мототранспорта и 40 км/час для автомобилей</li>
                     <li>дорожное движение очень беспорядочное — для водителей характерны массовые нарушения и игнорирование ПДД, в связи с чем туристам настоятельно не рекомендуется самостоятельное управление автомобилем в Камбодже</li>
-                    <li>в стране отсутствуют крупные компании по прокату авто. Туристами практикуется наем водителя вместе с автомобилем</li>
+                    <li>в стране отсутствуют крупные компании по прокату авто. Туристами практикуется найм водителя вместе с автомобилем</li>
                 </ul>
 
             </div>
@@ -510,32 +489,7 @@
                     </ul>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6">
-                            <b>Электросеть</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <nobr>230 В</nobr>,
-                                    <nobr>50 Гц</nobr>. Используются разъемы
-                                    <a href="/journal/electric-sockets.html#typeA">типа A</a>,
-                                    <a href="/journal/electric-sockets.html#typeC">типа C</a>,
-                                    <a href="/journal/electric-sockets.html#typeG">типа G</a>
-                                </div>
-                                <span class="text-right">
-                                    <img src="/img/electric/type_a.svg" style="width:100px; max-width:100%;">
-                                    <img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;">
-                                    <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <?= $this->render('_electricity', $country) ?>
             </div>
         </div>
 

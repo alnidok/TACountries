@@ -1,18 +1,30 @@
 <section class="bg-gradient text-light p-0">
     <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-12">
-                <div class="space-lg pb-0">
-                    <h1 class="display-4 no-wrap">Республика Кипр</h1>
-                    <div class="lead">
-                        <b>Столица</b>: Никосия<br>
-                        <b>Официальный язык</b>: греческий, турецкий<br>
-                        <b>Валюта</b>: EUR - евро<br>
-                        <b>Территория</b>: 9 251 км²<br>
-                        <b>Население</b>: 1.17 млн человек<br>
-                        <b>Часовой пояс</b>: UTC +2. Разница с Астаной -4 часа
-                    </div>
+        <div class="row justify-content-between align-items-center space-lg pb-0">
+            <div class="col-lg-6">
+                <h1 class="display-4 no-wrap">Кипр</h1>
+                <div class="lead">
+                    <b>Столица</b>: Никосия<br>
+                    <b>Официальный язык</b>: греческий, турецкий<br>
+                    <b>Валюта</b>: EUR - евро<br>
+                    <b>Территория</b>: 9 251 км²<br>
+                    <b>Население</b>: 1.17 млн человек<br>
+                    <b>Часовой пояс</b>: UTC +2. Разница с Астаной -4 часа
                 </div>
+            </div>
+            <div class="col-lg-6">
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow mb-0">
+                        <img alt="cyprus 塞浦路斯" src="https://i.vimeocdn.com/video/587959456_1280x720.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/179911125?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-light text-right">© zenoyu, 2016</figcaption>
+                </figure>
             </div>
         </div>
     </div>
@@ -30,33 +42,50 @@
                 <!--Карта-->
                 <?= $this->render('_map', $country) ?>
 
-                <figure class="figure d-block">
-                    <div class="video-cover box-shadow">
-                        <img alt="Тайны Аббатства Беллапаис. Истории Северного Кипра" src="https://i.ytimg.com/vi/MnPXwyImeTE/maxresdefault.jpg" class="bg-image"/>
-                        <div class="video-play-icon">
-                            <i class="icon-controller-play"></i>
-                        </div>
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/MnPXwyImeTE?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <figcaption class="figure-caption text-right">Тайны Аббатства Беллапаис. Истории Северного Кипра<br>© Наш Северный Кипр 2018</figcaption>
-                </figure>
-
+                <p>После событий 1974 года страна фактически разделилась на две части - южную (контролируется властями Республики Кипр) и северную (контролируется властями Турецкой Республики). При этом граница как раз проходит через столицу - город Никосия. Буферную зону, разделяющую юг и север, называют "зеленой линией" или "линией Аттила".</p>
             </div>
         </div>
+        <hr>
+        <div class="row">
+            <figure class="figure d-block col-lg-6">
+                <div class="video-cover box-shadow">
+                    <img alt="Ни победителей, ни побежденных: кипрское урегулирование тормозит Турция" src="https://cdn-st1.rtr-vesti.ru/p/xw_1223561.jpg" class="bg-image"/>
+                    <div class="video-play-icon">
+                        <i class="icon-controller-play"></i>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" data-src="https://player.vgtrk.com/iframe/video/id/1490291/start_zoom/true/showZoomBtn/false/sid/vesti/isPlay/true/?acc_video_id=672871&time_play=183" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <figcaption class="figure-caption text-right">Ни победителей, ни побежденных<br>© ВГТРК 2016</figcaption>
+            </figure>
+
+            <figure class="figure d-block col-lg-6">
+                <div class="video-cover box-shadow">
+                    <img alt="Тайны Аббатства Беллапаис. Истории Северного Кипра" src="https://i.ytimg.com/vi/MnPXwyImeTE/maxresdefault.jpg" class="bg-image"/>
+                    <div class="video-play-icon">
+                        <i class="icon-controller-play"></i>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/MnPXwyImeTE?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    </div>
+                </div>
+                <figcaption class="figure-caption text-right">Тайны Аббатства Беллапаис. Истории Северного Кипра<br>© Наш Северный Кипр 2018</figcaption>
+            </figure>
+        </div>
     </div>
-
-
 </section>
 
 <nav id="scrollspy-navbar" class="bg-white navbar sticky-top">
     <div class="container">
         <ul class="nav nav-pills nav-fill">
-            <li class="nav-item"><a class="nav-link" href="#culture">Культура и традиции</a></li>
+            <li class="nav-item"><a class="nav-link" href="#population">Население</a></li>
+            <li class="nav-item"><a class="nav-link" href="#culture">Культура</a></li>
+            <li class="nav-item"><a class="nav-link" href="#climate">Климат</a></li>
             <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
             <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
+            <li class="nav-item"><a class="nav-link" href="#auto">Авто</a></li>
             <li class="nav-item"><a class="nav-link" href="#health">Здравоохранение</a></li>
             <li class="nav-item"><a class="nav-link" href="#communication">Связь</a></li>
             <li class="nav-item"><a class="nav-link" href="#money">Деньги</a></li>
@@ -65,22 +94,32 @@
     </div>
 </nav>
 
-<section id="culture">
+<section id="population">
+    <div class="container">
+        <h3>Население</h3>
+        <p>Население Кипра состоит из греков и турков. Греки-киприоты (их около 78%) живут на юге, а турки-киприоты (их 10.5%) на севере острова. Остальные жители Кипра - иностранцы.</p>
+        <p>Соотношение мужчин и женщин: 1/1. Продолжительность жизни у мужчин - 67 лет, а у женщин - 73 года.</p>
+        <p>Около 70% - трудоспособное население.</p>
+        <?= $this->render('_population') ?>
+    </div>
+</section>
+
+<section id="culture" class="bg-white">
     <div class="container">
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-6">
                 <h2>Культура и традиции</h2>
-
                 <p>Находясь на Кипре, вы обязательно столкнетесь с историческими памятниками. Здесь сохранились греческие храмы, римские мозаики и фрески.</p>
                 <p>Кипр - это не только море и пляжи, это еще и место, где можно познакомится с винодельческим ремеслом и испробовать местного вина (винодельни Василикон и Ayia Mavri).</p>
 
                 <h5>Праздничные и нерабочие дни</h5>
-
                 <p>На Кипре очень любят праздники и часто их отмечают. Помимо общегосударственных и религиозных, в каждом городе (и даже деревне) проводятся собственные праздники, карнавалы и фестивали.</p>
                 <p>Выходными являются суббота и воскресенье. Первый день недели - воскресенье.</p>
+            </div>
+            <div class="col-md-6 col-lg-5">
                 <div class="card bg-secondary">
                     <div class="card-body">
-                        <h6 class="title-decorative">Нерабочие дни:</h6>
+                        <h6 class="title-decorative">Нерабочие дни</h6>
                         <ul>
                             <li>1 января — Новый год</li>
                             <li>6 января — Крещение</li>
@@ -99,62 +138,20 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-thermometer"></i>
-                        <span class="h6"><b>Климат</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            Климат субтропический средиземноморский. Характерно жаркое лето и относительно мягкая дождливая зима.
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>летом</div>
-                                <span>+25 ... +35°С</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>зимой</div>
-                                <span>+10 ... +15°С</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6"><b>Электросеть</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <nobr>240 Вт</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeG">разъем типа G</a>
-                                </div>
-                                <span class="text-right">
-                                    <img src="/img/electric/type_g.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <figure class="figure d-block">
-                                <div class="video-cover box-shadow">
-                                    <img alt="Лайфхак. Как подключиться в розетку на Кипре , Англии (Великобритании) или Гонконге без переходника." src="https://i.ytimg.com/vi/Sue7r6oRFgY/hqdefault.jpg" class="bg-image"/>
-                                    <div class="video-play-icon">
-                                        <i class="icon-controller-play"></i>
-                                    </div>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/Sue7r6oRFgY?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                                <figcaption class="figure-caption text-right">Английские розетки. Лайфхак<br>© Alexandr Idjon 2016</figcaption>
-                            </figure>
-                        </li>
-                    </ul>
-                </div>
+        </div>
+    </div>
+</section>
+
+<section id="climate">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Климат</h2>
+                <p>Климат субтропический средиземноморский. Характерно жаркое лето и относительно мягкая дождливая зима.</p>
+                <p>Летом температура в районе +25 ... +35 °С, а зимой +10 ... +15 °С.</p>
+            </div>
+            <div class="col-lg-6">
+                <div id="chart-climate"></div>
             </div>
         </div>
     </div>
@@ -165,7 +162,7 @@
         <h2>Посещение гражданами Казахстана</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Кипр является высокоразвитой страной и членом Европейского Союза. Ее законодательство соответствует ЕС. Особых норм поведения не отмечается.</p>
 
                 <h5>Безопасность</h5>
@@ -185,9 +182,13 @@
                     <li>Брони авиабилетов туда и обратно</li>
                 </ul>
                 <p>Срок оформления от 7 до 12 рабочих дней. Стоимость: 10500 тг + 120 € консульский сбор.</p>
-                <p class="small"><i class="icon icon-warning"></i> Данная информация является ознакомительной и не является руководством к получению визы.</p>
+                <!--<p class="small"><i class="icon icon-warning"></i> Данная информация является ознакомительной и не является руководством к получению визы.</p>-->
+
+                <h5>Авиасообщение</h5>
+                <p>Прямых рейсов из Казахстана не существует, нужна минимум одна пересадка. Возможны перелеты Алматы-Ларнака, Астана-Ларнака с 1 пересадкой через: Москву (Аэрофлот), Киев (МАУ), Астана-Ларнака с 1 пересадкой через Минск (Belavia).</p>
+                <a href="https://avia.account.travel" class="btn btn-outline-success overflow-hidden">Подобрать рейс с пересадкой</a>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -208,26 +209,24 @@
                         </p>
 
                         <p><i class="icon-phone"></i> +7 (7172) 25-39-52</p>
-                        <p><i class="icon-link"></i> <a href="http://cyprusconsulate.kz/ru/">cyprusconsulate.kz</a></p>
+                        <p><i class="icon-link"></i> <a href="http://cyprusconsulate.kz/ru/" target="_blank" rel="nofollow">cyprusconsulate.kz</a></p>
 
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-aircraft"></i>
-                        <span class="h6"><b>Авиарейсы</b></span>
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow">
+                        <img alt="Типы виз на Кипр. Про-виза, рабочая виза. А если жить и не работать? А если дом купить?" src="https://i.ytimg.com/vi/FeluPEJ9ENQ/maxresdefault.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/FeluPEJ9ENQ?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <p>Прямых рейсов из Казахстана не существует, нужна минимум одна пересадка.</p>
-                            <!--<p>Перелеты Алматы-Ларнака, Астана-Ларнака с 1 пересадкой через: Москву (Аэрофлот), Киев (МАУ), Астана-Ларнака с 1 пересадкой через Минск (Belavia).</p>-->
-                        </li>
-                    </ul>
-                    <div class="card-footer p-3">
-                        <a href="http://avia.account.travel" class="btn btn-block btn-outline-success overflow-hidden">Подобрать рейс с пересадкой</a>
-                    </div>
-                </div>
+                    <figcaption class="figure-caption text-right">Типы виз на Кипр. Про-виза, рабочая виза. А если жить и не работать? А если дом купить?<br>© Ekaterina Repina 2016</figcaption>
+                </figure>
+
             </div>
         </div>
     </div>
@@ -272,14 +271,11 @@
         <h2>Транспорт</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Самым распространенным видом транспорта является такси. Его можно вызвать либо по телефону, либо обратившись к управляющему отеля. Стоимость такси взимается по фиксированной оплате в размере 5 евро за вызов и плюс 0,38 за каждый километр пройденного пути.</p>
                 <p>Между городами курсируют микроавтобусы, билеты на которые можно приобрести на вокзалах. Стоимость зависит от расстояния, но не превышает 15 евро. Обычные автобусы ходят ежедневно между городами и их районами. Стоимость не превышает 10 евро.</p>
-
-                <h5>Дорожное движение</h5>
-                <p>На острове левосторонне движение. Руль у автомобилей расположен справа.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <!--<i class="float-right icon-credit"></i>-->
@@ -323,31 +319,52 @@
     </div>
 </section>
 
-<section id="health" >
+<section id="auto">
+    <div class="container">
+        <h2>Автомобиль</h2>
+        <div class="row justify-content-between">
+            <div class="col-md-8 col-lg-7">
+                <p>На Кипре левостороннее дорожное движение. Платы за использование автомобильных дорог нет.</p>
+                <p>Максимально допустимый уровень алкоголя в крови - 0.5‰.</p>
+
+                <h5>Ограничение скорости</h5>
+                <ul>
+                    <li>в населенном пункте - 50 км/ч</li>
+                    <li>вне населенного пункта - 80 км/ч</li>
+                    <li>на автомагистрали - 100 км/ч</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <div id="block-fuel"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="health" class="bg-white">
     <div class="container">
         <h2>Здравоохранение</h2>
 
         <p>Перед поездкой на Кипр каких-либо вакцинаций делать не нужно.</p>
         <p>В непредвиденных ситуациях, связанных с угрозой здоровью, вам бесплатно окажут медицинскую помощь в государственных лечебных заведениях Кипра.</p>
 
-        <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
+        <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
     </div>
 </section>
 
-<section id="communication" class="bg-white">
+<section id="communication">
     <div class="container">
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
-
+            <div class="col-md-8 col-lg-7">
                 <h5>Мобильная связь</h5>
-                <p>В отрасли сотовой связи присутствуют два крупных оператора — CYTA и MTN.</p>
-                <p>Для приобретения сим-карты не нужно никаких документов. Стоимость:</p>
+                <p>В отрасли сотовой связи присутствуют два крупных оператора:</p>
                 <ul>
-                    <li>CYTA – 25 евро</li>
-                    <li>MTN – 12,5 евро</li>
+                    <li>CYTA – <a href="https://cyta.com.cy/personal/en" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>MTN – <a href="http://www.mtn.com.cy/ru/" target="_blank" rel="nofollow">перейти на сайт</a></li>
                 </ul>
+                <p>Для приобретения сим-карты не нужно никаких документов. Стоимость составляет 25€ у CYTA и 12.5€ у MTN.</p>
 
                 <h5>Интернет</h5>
                 <p>За интернетом на Кипре далеко ходить не нужно. Очень много интернет кафе, можно найти Wi-Fi в ресторанах и в отелях, но в отелях он не всегда бесплатен.</p>
@@ -357,9 +374,8 @@
                     <li>MTN – <a href="http://www.mtn.com.cy/ru/prepaid/top-up-information/">перейти на сайт</a></li>
                     <li>PrimeTel – <a href="https://my.primetel.com.cy/Mobile/MobileItems.aspx?lang=en">перейти на сайт</a></li>
                 </ul>
-
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>
@@ -393,14 +409,26 @@
                     </ul>
                 </div>
 
+                <?= $this->render('_electricity', $country) ?>
 
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow">
+                        <img alt="Лайфхак. Как подключиться в розетку на Кипре, Англии (Великобритании) или Гонконге без переходника." src="https://i.ytimg.com/vi/Sue7r6oRFgY/hqdefault.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/Sue7r6oRFgY?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-right">Английские розетки. Лайфхак<br>© Alexandr Idjon 2016</figcaption>
+                </figure>
             </div>
         </div>
-
     </div>
 </section>
 
-<section id="money">
+<section id="money" class="bg-white">
     <div class="container">
         <h2>Деньги</h2>
 
@@ -417,8 +445,7 @@
     </div>
 </section>
 
-
-<section id="sight" class="bg-white">
+<section id="sight">
     <div class="container">
         <!--Блок экскурсий-->
         <?= $this->render('_excursions', $country) ?>

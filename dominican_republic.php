@@ -491,25 +491,7 @@
                     </ul>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6"><b>Электросеть</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <nobr>110 Вт</nobr>, <nobr>60 Гц</nobr>, используются разъемы <a href="/journal/electric-sockets.html#typeA">типа A и B</a>. Приборы заряжаются дольше чем обычно.
-                                </div>
-                                <span class="text-right">
-                                    <img src="/img/electric/type_a.svg" style="width:100px; max-width:100%;">
-                                    <img src="/img/electric/type_b.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <?= $this->render('_electricity', $country) ?>
             </div>
         </div>
 
