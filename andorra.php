@@ -391,6 +391,7 @@
                     </div>
                 </div>
 
+<<<<<<< HEAD
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -432,6 +433,10 @@
                     </div>
                     <figcaption class="figure-caption text-right">Андорра: Магазины, Парковки, Торговый центр<br>© Moto42com 2016</figcaption>
                 </figure>               
+=======
+            <div class="col-12 col-md-4">
+                <div id="block-fuel"></div>
+>>>>>>> 5fb0dc454629ecccd7180474d606efe8836457d2
             </div>
         </div>
 

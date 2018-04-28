@@ -1,19 +1,30 @@
-
 <section class="bg-gradient text-light p-0">
     <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-12">
-                <div class="space-lg pb-0">
-                    <h1 class="display-4 no-wrap">Бразилия</h1>
-                    <div class="lead">
-                        <b>Столица</b>: Бразилиа<br>
-                        <b>Официальный язык</b>: португальский<br>
-                        <b>Валюта</b>: BRL — бразильский реал (1 BRL = 100 сентаво)<br>
-                        <b>Территория</b>: 8 516 000 км²<br>
-                        <b>Население</b>: 207.7 млн человек (2016 г)<br>
-                        <b>Часовой пояс</b>: от UTC−5 до UTC−2. Разница во времени между Астаной и Бразилиа – 9 часов летом и 8 часов зимой<br>
-                    </div>
+        <div class="row justify-content-between align-items-center space-lg pb-0">
+            <div class="col-lg-6">
+                <h1 class="display-4 no-wrap">Бразилия</h1>
+                <div class="lead">
+                    <b>Столица</b>: Бразилиа<br>
+                    <b>Официальный язык</b>: португальский<br>
+                    <b>Валюта</b>: BRL — бразильский реал (1 BRL = 100 сентаво)<br>
+                    <b>Территория</b>: 8 516 000 км²<br>
+                    <b>Население</b>: 207.7 млн человек (2016 г)<br>
+                    <b>Часовой пояс</b>: от UTC−5 до UTC−2. Разница между Астаной и Бразилиа – 9 часов летом и 8 часов зимой
                 </div>
+            </div>
+            <div class="col-lg-6">
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow mb-0">
+                        <img alt="In Brazil" src="https://i.vimeocdn.com/video/532213827_1280x720.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/137343458?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-light text-right">© Peter Orlinski, 2015</figcaption>
+                </figure>
             </div>
         </div>
     </div>
@@ -27,17 +38,14 @@
         <div class="row">
             <div class="col-lg-8 offset-lg-2">
                 <p>Бразилия - крупное государство, расположенное в восточной и центральной частях Южной Америки. Страна занимает 5-е место в мире по площади и 6-е по численности населения.</p>
-                <p>Бразилия соседствует с Венесуэлой, Гайаной, Суринамом, Французской Гвианой, Боливией, Перу, Парагваем, Аргентиной и Уругваем.</p>
 
                 <!--Карта-->
                 <?= $this->render('_map', $country) ?>
 
-                <p>Государство располагается в экваториальной, тропической и субтропической климатических зонах.</p>
-                <p>Стоит учитывать, что Бразилия находится в Южном полушарии, поэтому времена года отличаются от северополушарных стран: сентябрь-декабрь соответствуют весеннему сезону, декабрь-март — летнему, март-июнь — осеннему, а конец июля, август и начало сентября являются зимними месяцами.</p>
-                <p>Среднемесячная температура зимой составляет до +16 °C, летом до +29 °C.</p>
-                <p>Среднегодовое количество осадков довольно значительное — более 1000 мм в год.</p>
-                <p>Более 60% населения исповедуют католицизм, около 20% — протестанты.</p>
-                <figure class="figure d-block">
+                <p>Бразилия соседствует с Венесуэлой, Гайаной, Суринамом, Французской Гвианой, Боливией, Перу, Парагваем, Аргентиной и Уругваем.</p>
+
+
+                <!--<figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Бразилия глазами туриста (что можно увидеть, и где побывать)" src="https://i.ytimg.com/vi/QOSytw9lmHI/maxresdefault.jpg"
                             class="bg-image" />
@@ -53,7 +61,7 @@
                         <br>© Бразилия Good 2016</figcaption>
                 </figure>
 
-                <hr>
+                <hr>-->
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
@@ -78,8 +86,11 @@
 <nav id="scrollspy-navbar" class="bg-white navbar sticky-top">
     <div class="container">
         <ul class="nav nav-pills nav-fill">
-            <li class="nav-item"><a class="nav-link" href="#culture">Культура и традиции</a></li>
+            <li class="nav-item"><a class="nav-link" href="#population">Население</a></li>
+            <li class="nav-item"><a class="nav-link" href="#culture">Культура</a></li>
+            <li class="nav-item"><a class="nav-link" href="#climate">Климат</a></li>
             <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
+            <li class="nav-item"><a class="nav-link" href="#safety">Безопасность</a></li>
             <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
             <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
             <li class="nav-item"><a class="nav-link" href="#auto">Авто</a></li>
@@ -90,12 +101,22 @@
     </div>
 </nav>
 
-<section id="culture">
+<section id="population">
+    <div class="container">
+        <h2>Население</h2>
+        <p>Более 60% населения исповедуют католицизм, около 20% — протестанты.</p>
+        <p>Мужчин и женщин примерно поровну. Около 64% жителей Бразилии в возрасте от 15 до 64 лет имеют оплачиваемую работу. Средняя продолжительность жизни - 75 лет, у женщин она составляет 79 лет, у мужчин – 71 год.</p>
+        <?= $this->render('_population') ?>
+    </div>
+</section>
+
+<section id="culture" class="bg-white">
     <div class="container">
         <h2>Культура и традиции</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
+                <p><i class="icon-link"></i> Министерство Культуры Бразилии -  <a href="http://www.cultura.gov.br/" target="_blank" rel="nofollow">cultura.gov.br</a></p>
                 <p>На становление культуры Бразилии существенно повлияли португальцы (религия и язык), а также африканцы, индейцы, переселенцы из Европы и Азии.</p>
                 <p>Множество бразильских культурных объектов внесены в списки Всемирного культурного наследия ЮНЕСКО. Туристам непременно захочется посетить самые известные среди них:</p>
                 <ul>
@@ -107,6 +128,29 @@
                 </ul>
                 <p>Рио-де-Жанейро славится множеством интересных мест — советуем посетить Статую Христа-Искупителя, стадион «Маракана»,  Сахарную голову, ботанический сад и лестницу «Селарона». На границе Бразилии с Аргентиной располагается красивейший национальный парк водопадов Игуасу.</p>
                 <p>У большинства иностранцев Бразилия ассоциируется с футболом (а для бразильцев футбол действительно является важной частью жизни), особой танцевальной культурой, карнавалами в ритме самбо, а также своеобразным кинематографом (родина всемирно известных «мыльных опер»).</p>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-secondary">
+                    <div class="card-body">
+                        <h6 class="title-decorative">Праздничные и нерабочие дни</h6>
+                        <ul>
+                            <li>1 января – Новый год</li>
+                            <li>февраль-март – Карнавал</li>
+                            <li>апрель - Пасха</li>
+                            <li>21 апреля – День национального героя Тирадентиса</li>
+                            <li>1 мая – Праздник труда</li>
+                            <li>7 сентября – День независимости (от Португалии)</li>
+                            <li>2 ноября – День всех святых</li>
+                            <li>15 ноября – День провозглашения Республики</li>
+                            <li>24-25 декабря – Рождество</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h5 class="mt-3">Кухня</h5>
+        <div class="row justify-content-between">
+            <div class="col-md-8 col-lg-7">
                 <p>Нельзя оставить без внимания и национальную кухню, имеющую различия в зависимости от региона Бразилии. Но всё же можно выделить самые типичные блюда:</p>
                 <ul>
                     <li>«Фейжоада» — смесь из сушеного мяса, колбасы, свинины и черной фасоли, перца и чеснока. Подается с капустой и апельсинами</li>
@@ -116,47 +160,37 @@
                     <li>«Итапоа» — пудинг из крабового мяса</li>
                 </ul>
                 <p>К основным блюдам подаются круглые булочки из муки тапиоки и сыра.</p>
-                <p><i class="icon-link"></i> Министерство Культуры Бразилии -  <a href="http://www.cultura.gov.br/" target="_blank">cultura.gov.br</a></p>
             </div>
-            <div class="col-12 col-md-4">
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <i class="float-right icon-shield"></i>
-                        <span class="h6"><b>Безопасность</b></span>
+            <div class="col-md-4">
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow">
+                        <img alt="Что вы знаете о Бразилии. Национальная кухня" src="https://i.ytimg.com/vi/820HwfRkeRw/maxresdefault.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/820HwfRkeRw?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <p>В Бразилии высокий уровень преступности, особенно на севере и северо-востоке государства, несмотря на то, что за безопасность туристов отвечает целая армия полицейских.</p>
-                            <p>Пляжи и территории гостиниц оборудованы скрытыми видеокамерами.</p>
-                            <p>Основные правила безопасности:</p>
-                            <ul>
-                                <li>избегать нахождения на улицах в темное время суток</li>
-                                <li>избегать места забастовок, митингов, демонстраций</li>
-                                <li>оставлять ценные вещи и крупные суммы денег в сейфах отеля</li>
-                                <li>при себе всегда иметь копию паспорта</li>
-                                <li>пользоваться только лицензированными такси</li>
-                                <li>обращаться в отделение полиции и консульства Казахстана в Бразилии при возникновении вопросов</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+                    <figcaption class="figure-caption text-right">Что вы знаете о Бразилии. Национальная кухня<br>© TV BRICS 2017</figcaption>
+                </figure>
             </div>
         </div>
+    </div>
+</section>
 
-        <div class="card bg-secondary mt-4">
-            <div class="card-body">
-                <h6 class="title-decorative">Праздничные и нерабочие дни:</h6>
-                <ul>
-                    <li>1 января – Новый год</li>
-                    <li>февраль-март – Карнавал</li>
-                    <li>апрель - Пасха</li>
-                    <li>21 апреля – День национального героя Тирадентиса</li>
-                    <li>1 мая – Праздник труда</li>
-                    <li>7 сентября – День независимости (от Португалии)</li>
-                    <li>2 ноября – День всех святых</li>
-                    <li>15 ноября – День провозглашения Республики</li>
-                    <li>24-25 декабря – Рождество</li>
-                </ul>
+<section id="climate">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5">
+                <h2>Климат</h2>
+                <p>Государство располагается в экваториальной, тропической и субтропической климатических зонах.</p>
+                <p>Стоит учитывать, что Бразилия находится в Южном полушарии, поэтому времена года отличаются от северополушарных стран: сентябрь-декабрь соответствуют весеннему сезону, декабрь-март — летнему, март-июнь — осеннему, а конец июля, август и начало сентября являются зимними месяцами.</p>
+                <p>Среднемесячная температура зимой составляет до +16 °C, летом до +29 °C.</p>
+                <p>Среднегодовое количество осадков довольно значительное — более 1000 мм в год.</p>
+            </div>
+            <div class="col-lg-6 offset-lg-1">
+                <div id="chart-climate"></div>
             </div>
         </div>
     </div>
@@ -167,39 +201,60 @@
         <h2>Посещение гражданами Казахстана</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>В соответствии с соглашением между Правительством Республики Казахстан и Правительством Республики Бразилия от 06.09.2016 г. для граждан Казахстана въезд и пребывание на территории иностранного государства в туристических и деловых целях является безвизовым на период до 30 дней. Существует также возможность продления срока нахождения в стране в качестве туриста еще на 30 дней — этот вопрос решается в Федеральной полиции по запросу до истечения основного срока пребывания.</p>
                 <p>Срок действия паспорта должен заканчиваться не менее чем через 6 месяцев после даты окончания действующей визы.</p>
                 <p>Перелеты из Казахстана в Бразилию (транзитом через европейские страны) совершают авиакомпании Lufthansa, Air Astana, KLM, Turkish Airlines, Etihad и др.  Ориентировочное время перелета составляет 16 часов (без учета пересадок), расстояние – 13,5 тыс. км.</p>
 
+                <a href="https://avia.account.travel" class="btn btn-outline-success">Подобрать рейс с пересадкой</a>
             </div>
-            <div class="col-12 col-md-4">
-                <div class="card mb-4">
-                    <div class="card-header">
-                        <i class="float-right icon-info"></i>
-                        <span class="h6">
-                            <b>Посольство Бразилии в Астане</b>
-                        </span>
-                    </div>
+            <div class="col-md-4">
+                <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            <p>Адрес: 010000, Республика Казахстан, г. Астана, пр. Кабанбай Батыра 6/1 Тел: +7 (7172) 24-46-84 (вн. 109, 110)</p>
-                            <p>Телефон дежурного консула: +7&nbsp;(701)&nbsp;539-03-00</p>
-                            <p>Эл. почта: <a href="mailto:consular.astana@itamaraty.gov.br">consular.astana@itamaraty.gov.br</a></p>
-                            <p>Сайт: <a href="http://astana.itamaraty.gov.br/ru/">http://astana.itamaraty.gov.br/ru/</a></p>
+                            <div class="d-flex justify-content-between">
+                                <div><i class="icon-v-card mr-1"></i> Безвизовый режим</div>
+                                <span>до 30 дней</span>
+                            </div>
                         </li>
                     </ul>
+                </div>
+                <div class="card">
+                    <iframe src="https://www.google.com/maps/embed/v1/search?q=астана,+пр.+кабанбай+батыра+6/1&key=AIzaSyBy4GyZglz_6mltKrjCVr0S1Vb33LHTJf4" allowfullscreen class="card-img-top w-100"></iframe>
+                    <div class="card-body">
+                        <h5>Посольство Бразилии</h5>
+                        <p>Астана, пр. Кабанбай Батыра 6/1</p>
+                        <p><i class="icon-phone"></i> +7 (701) 539-03-00</p>
+                        <p><i class="icon-link"></i> <a href="http://astana.itamaraty.gov.br/ru/" target="_blank" rel="nofollow">astana.itamaraty.gov.br</a></p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
-<section id="custom">
+<section id="safety">
+    <div class="container">
+        <h2>Безопасность</h2>
+        <p>В Бразилии высокий уровень преступности, особенно на севере и северо-востоке государства, несмотря на то, что за безопасность туристов отвечает целая армия полицейских.</p>
+        <p>Пляжи и территории гостиниц оборудованы скрытыми видеокамерами.</p>
+        <p>Основные правила безопасности:</p>
+        <ul>
+            <li>избегать нахождения на улицах в темное время суток</li>
+            <li>избегать места забастовок, митингов, демонстраций</li>
+            <li>оставлять ценные вещи и крупные суммы денег в сейфах отеля</li>
+            <li>при себе всегда иметь копию паспорта</li>
+            <li>пользоваться только лицензированными такси</li>
+            <li>обращаться в отделение полиции и консульства Казахстана в Бразилии при возникновении вопросов</li>
+        </ul>
+    </div>
+</section>
+
+<section id="custom" class="bg-white">
     <div class="container">
         <h2>Таможенный контроль</h2>
 
-        <p><i class="icon icon-link"></i> Сайт таможенной службы Бразилии - <a href="http://idg.receita.fazenda.gov.br/" target="_blank">idg.receita.fazenda.gov.br</a></p>
+        <p><i class="icon icon-link"></i> Сайт таможенной службы Бразилии - <a href="http://idg.receita.fazenda.gov.br/" target="_blank" rel="nofollow">idg.receita.fazenda.gov.br</a></p>
 
         <h5>Спиртное и сигареты</h5>
         <p>Граждане Казахстана имеют право на беспошлинный ввоз до 400 сигарет или 25 сигар и до 2 л алкогольных напитков.</p>
@@ -233,19 +288,19 @@
     </div>
 </section>
 
-<section id="transport" class="bg-white">
+<section id="transport">
     <div class="container">
         <h2>Транспорт</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Между основными городами страны туристы могут перемещаться посредством внутренних авиалиний, речным и морским транспортом и также на автобусах.</p>
                 <p>Городской общественный транспорт представлен автобусами (во всех городах) и метро (Бразилиа, Рио-де-Жанейро, Сан-Паулу, Сальвадоре, Белу-Оризонти, Порто-Аллегри, Ресифи и Форталезе).</p>
                 <p>Также к услугам туристов доступно такси, но водители редко владеют английским языком.</p>
 
 
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -277,22 +332,12 @@
     </div>
 </section>
 
-<section id="auto">
+<section id="auto" class="bg-white">
     <div class="container">
         <h2>Автомобиль</h2>
 
-        <div class="card mb-4">
-            <div class="bg-secondary">
-                <div class="card-body">
-                    <h6 class="title-decorative">Казахстанское водительское удостоверение</h6>
-                    <p>Граждане Казахстана имеют право управлять автомобилем на территории Бразилии при наличии казахстанского водительского удостоверения.</p>
-                </div>
-            </div>
-        </div>
-
-
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Дороги в стране довольно хорошего качества, оснащены камерами видеонаблюдения, движение правостороннее, а ПДД близки к Казахстанским.</p>
                 <p>Местные жители не отличаются образцовым стилем вождения, зачастую превышая скорость, выезжая на полосы встречного движения и проезжая на красный сигнал светофора.</p>
                 <p>Также довольно опасно для туристов ездить в ночное время суток, во избежание прецедентов рекомендуется закрывать окна и блокировать двери.</p>
@@ -302,7 +347,15 @@
                 <p>Количество платных парковок преобладает над бесплатными — ориентировочная стоимость от 2 до 10 USD в час в зависимости от приближенности к центру города. Автовладельцам запрещено занимать парковочные места, предназначенные для мотоциклистов и велосипедистов.</p>
 
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="bg-secondary">
+                        <div class="card-body">
+                            <p>Граждане Казахстана имеют право управлять автомобилем на территории Бразилии при наличии казахстанского водительского удостоверения.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -351,14 +404,14 @@
                 <p>Центры проката автомобилей в Бразилии находятся в крупных городах, около гостиниц и в аэропортах. Для аренды авто иностранным туристам необходимо иметь при себе водительское удостоверение и кредитную карту (или наличные для залога).</p>
                 <p>Обязательно оформление страховки, составляющей 10-15 USD в сутки.</p>
 
-                <a href="http://osago.account.travel" class="btn btn-outline-success">Оформить электронный полис ОСАГО</a>
+                <a href="https://osago.account.travel" class="btn btn-outline-success">Оформить электронный полис ОСАГО</a>
             </div>
         </div>
 
     </div>
 </section>
 
-<section id="health" class="bg-white">
+<section id="health">
     <div class="container">
         <h2>Здравоохранение</h2>
 
@@ -368,30 +421,29 @@
         <p>При возникновении проблем со здоровьем необходимо обращаться в медицинские клиники. Фармацевты в аптеках также имеют право ставить некоторые диагнозы и назначать лечение, делать прививки.</p>
         <p>Учитывая факт того, что медицинское обслуживание для иностранцев является платным, туристам настоятельно рекомендовано оформление  международной медицинской страховки.</p>
         <p>Телефон экстренной медицинской службы - 192.</p>
-
-
         
-        <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
+        <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
     </div>
 </section>
 
-<section id="communication">
+<section id="communication" class="bg-white">
     <div class="container">
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
-                <p>Мобильная связь в Бразилии предоставляется четырьмя операторами: Claro, Vivo, TIM и Oi. Сим-карту можно приобрести в большинстве газетных киосков или непосредственно в офисе оператора при наличии загранпаспорта.</p>
-                <p>С недавнего времени все эти компании предоставляют своим клиентам доступ к сети Интернет посредством технологии LTE или 4G.</p>
-
+            <div class="col-md-8 col-lg-7">
+                <p>Мобильная связь в Бразилии предоставляется четырьмя операторами:</p>
                 <ul>
-                    <li>Claro - <a href="https://www.claro.com.br/" target="_blank">перейти на сайт</a></li>
-                    <li>Vivo - <a href="http://www.vivo.com.br" target="_blank">перейти на сайт</a></li>
-                    <li>TIM - <a href="http://www.tim.com.br/" target="_blank">перейти на сайт</a></li>
-                    <li>Oi - <a href="http://www.oi.com.br/" target="_blank">перейти на сайт</a></li>
+                    <li>Claro - <a href="https://www.claro.com.br/" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Vivo - <a href="http://www.vivo.com.br" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>TIM - <a href="http://www.tim.com.br/" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Oi - <a href="http://www.oi.com.br/" target="_blank" rel="nofollow">перейти на сайт</a></li>
                 </ul>
+
+                <p>Сим-карту можно приобрести в большинстве газетных киосков или непосредственно в офисе оператора при наличии загранпаспорта.</p>
+                <p>С недавнего времени все эти компании предоставляют своим клиентам доступ к сети Интернет посредством технологии LTE или 4G.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>
@@ -419,13 +471,14 @@
                     </ul>
                 </div>
 
+                <?= $this->render('_electricity', $country) ?>
             </div>
         </div>
 
     </div>
 </section>
 
-<section id="sight" class="bg-white">
+<section id="sight">
     <div class="container">
     <!--Блок экскурсий-->
     <?= $this->render('_excursions', $country) ?>

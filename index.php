@@ -1,4 +1,8 @@
-<?php $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']); ?>
+<?php
+$this->title = 'Страны для посещения гражданам Казахстана';
+$this->registerMetaTag(['name' => 'description', 'content' => 'Собранный здесь материал позволит погрузиться в культурные особенности и традиции стран, узнать интересные факты о достопримечательностях, а также всю необходимую для туриста информацию.']);
+$this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
+?>
 
 <section>
     <div class="container">
@@ -39,43 +43,43 @@
 
         <h5>Страны</h5>
         <ul style="column-count: 3;">
-            <li>Абхазия</li>
-            <li><a href="/guide/azerbaijan">Азербайджан</a></li>
-            <li><a href="/guide/armenia">Армения</a></li>
+            <li><a href="/guide/abkhazia">Абхазия</a></li>
+            <li>Азербайджан</li>
+            <li>Армения</li>
             <li><a href="/guide/bahrain">Бахрейн</a></li>
             <li>Бутан</li>
-            <li>Вьетнам</li>
-            <li><a href="/guide/georgia">Грузия</a></li>
-            <li><a href="/guide/israel">Израиль</a></li>
-            <li>Индия</li>
-            <li>Индонезия</li>
-            <li>Иордания</li>
+            <li><a href="/guide/vietnam">Вьетнам</a></li>
+            <li>Грузия</li>
+            <li>Израиль</li>
+            <li><a href="/guide/india">Индия</a></li>
+            <li><a href="/guide/indonesia">Индонезия</a></li>
+            <li><a href="/guide/jordan">Иордания</a></li>
             <li>Иран</li>
             <li>Казахстан</li>
-            <li>Камбоджа</li>
+            <li><a href="/guide/cambodia">Камбоджа</a></li>
             <li>Катар</li>
             <li>Киргизия</li>
-            <li><a href="/guide/china">Китай</a></li>
+            <li>Китай</li>
             <li>Лаос</li>
             <li>Ливан</li>
-            <li>Малайзия</li>
-            <li>Мальдивские острова</li>
+            <li><a href="/guide/malaysia">Малайзия</a></li>
+            <li><a href="/guide/maldives">Мальдивские острова</a></li>
             <li>Монголия</li>
             <li>Мьянма</li>
-            <li>Непал</li>
+            <li><a href="/guide/nepal">Непал</a></li>
             <li><a href="/guide/uae">Объединенные Арабские Эмираты</a></li>
-            <li>Оман</li>
-            <li><a href="/guide/singapore">Сингапур</a></li>
+            <li><a href="/guide/oman">Оман</a></li>
+            <li>Сингапур</li>
             <li>Сирия</li>
             <li>Таджикистан</li>
-            <li>Таиланд</li>
+            <li><a href="/guide/thailand">Таиланд</a></li>
             <li>Туркменистан</li>
-            <li><a href="/guide/turkey">Турция</a></li>
-            <li>Узбекистан</li>
-            <li>Филиппины</li>
-            <li>Шри-Ланка</li>
+            <li>Турция</li>
+            <li><a href="/guide/uzbekistan">Узбекистан</a></li>
+            <li><a href="/guide/philippines">Филиппины</a></li>
+            <li><a href="/guide/sri_lanka">Шри-Ланка</a></li>
             <li>Южная Корея</li>
-            <li><a href="/guide/japan">Япония</a></li>
+            <li>Япония</li>
         </ul>
     </div>
 </section>
@@ -102,52 +106,52 @@
 
         <h5>Страны</h5>
         <ul style="column-count: 3;">
-            <li><a href="/guide/austria">Австрия</a></li>
+            <li>Австрия</li>
             <li>Албания</li>
-            <li><a href="/guide/andorra">Андорра</a></li>
-            <li><a href="/guide/belarus">Беларусь</a></li>
-            <li>Бельгия</li>
-            <li>Болгария</li>
+            <li>Андорра</li>
+            <li>Беларусь</li>
+            <li><a href="/guide/belgium">Бельгия</a></li>
+            <li><a href="/guide/bulgaria">Болгария</a></li>
             <li>Босния и Герцеговина</li>
             <li>Ватикан</li>
-            <li>Великобритания</li>
-            <li>Венгрия</li>
-            <li>Германия</li>
-            <li>Греция</li>
+            <li><a href="/guide/united_kindom">Великобритания</a></li>
+            <li><a href="/guide/hungary">Венгрия</a></li>
+            <li><a href="/guide/germany">Германия</a></li>
+            <li><a href="/guide/greece">Греция</a></li>
             <li>Дания</li>
-            <li>Ирландия</li>
-            <li>Исландия</li>
+            <li><a href="/guide/ireland">Ирландия</a></li>
+            <li><a href="/guide/iceland">Исландия</a></li>
             <li><a href="/guide/spain">Испания</a></li>
-            <li>Италия</li>
+            <li><a href="/guide/italy">Италия</a></li>
             <li><a href="/guide/cyprus">Кипр</a></li>
-            <li>Латвия</li>
-            <li>Литва</li>
+            <li><a href="/guide/latvia">Латвия</a></li>
+            <li><a href="/guide/lithuania">Литва</a></li>
             <li>Лихтенштейн</li>
             <li>Люксембург</li>
             <li>Македония</li>
             <li>Мальта</li>
             <li>Молдавия</li>
             <li>Монако</li>
-            <li><a href="/guide/netherlands">Нидерланды</a></li>
-            <li>Норвегия</li>
-            <li><a href="/guide/poland">Польша</a></li>
+            <li>Нидерланды</li>
+            <li><a href="/guide/norway">Норвегия</a></li>
+            <li>Польша</li>
             <li>Португалия</li>
             <li><a href="/guide/russia">Россия</a></li>
             <li>Румыния</li>
             <li>Сан-Марино</li>
-            <li>Северный Кипр</li>
+            <!--<li>Северный Кипр</li>-->
             <li>Сербия</li>
-            <li>Словакия</li>
-            <li>Словения</li>
+            <li><a href="/guide/slovakia">Словакия</a></li>
+            <li><a href="/guide/slovenia">Словения</a></li>
             <li>Украина</li>
-            <li><a href="/guide/finland">Финляндия</a></li>
+            <li>Финляндия</li>
             <li><a href="/guide/france">Франция</a></li>
             <li>Хорватия</li>
             <li><a href="/guide/montenegro">Черногория</a></li>
-            <li><a href="/guide/czech_republic">Чехия</a></li>
-            <li>Швейцария</li>
-            <li>Швеция</li>
-            <li>Эстония</li>
+            <li>Чехия</li>
+            <li><a href="/guide/switzerland">Швейцария</a></li>
+            <li><a href="/guide/sweden">Швеция</a></li>
+            <li><a href="/guide/estonia">Эстония</a></li>
         </ul>
     </div>
 </section>
@@ -155,7 +159,6 @@
 <section id="america">
     <div class="container">
         <h2>Америка</h2>
-
         <p>Америка — обширный регион между двумя океанами, включающий два материка, Северную и Южную Америку, и массу разновеликих островов, от гигантской Гренландии до крошечной Мартиники.</p>
 
         <div class="row">
@@ -189,16 +192,15 @@
             </div>
         </div>
 
-
         <h5>Страны</h5>
         <ul style="column-count: 3;">
             <li>Антигуа и Барбуда</li>
-            <li>Аргентина</li>
+            <li><a href="/guide/argentina">Аргентина</a></li>
             <li>Аруба</li>
             <li>Барбадос</li>
-            <li>Боливия</li>
+            <li><a href="/guide/bolivia">Боливия</a></li>
             <li>Бонайре</li>
-            <li>Бразилия</li>
+            <li><a href="/guide/brazil">Бразилия</a></li>
             <li>Венесуэла</li>
             <li>Гватемала</li>
             <li>Гренада</li>
@@ -206,19 +208,19 @@
             <li>Доминиканская Республика</li>
             <li>Канада</li>
             <li>Колумбия</li>
-            <li><a href="/guide/costa-rica">Коста-Рика</a></li>
-            <li><a href="/guide/cuba">Куба</a></li>
+            <li><a href="/guide/costa_rica">Коста-Рика</a></li>
+            <li>Куба</li>
             <li>Кюрасао</li>
             <li>Мексика</li>
             <li>Никарагуа</li>
             <li>Парагвай</li>
             <li>Перу</li>
             <li>Сен-Бартелеми</li>
-            <li>Соединенные Штаты Америки</li>
+            <li><a href="/guide/usa">Соединенные Штаты Америки</a></li>
             <li>Тринидад и Тобаго</li>
-            <li>Чили</li>
-            <li>Эквадор</li>
-            <li><a href="/guide/jamaica">Ямайка</a></li>
+            <li><a href="/guide/chile">Чили</a></li>
+            <li><a href="/guide/ecuador">Эквадор</a></li>
+            <li>Ямайка</li>
         </ul>
     </div>
 </section>
@@ -253,17 +255,17 @@
             <li>Зимбабве</li>
             <li>Кабо-Верде</li>
             <li>Кения</li>
-            <li>Маврикий</li>
+            <li><a href="/guide/mauritius">Маврикий</a></li>
             <li>Мадагаскар</li>
-            <li>Марокко</li>
+            <li><a href="/guide/morocco">Марокко</a></li>
             <li>Мозамбик</li>
             <li>Намибия</li>
             <li>Реюньон</li>
             <li>Руанда</li>
             <li>Сан-Томе и Принсипи</li>
-            <li>Сейшельские острова</li>
+            <li><a href="/guide/seychelles">Сейшельские острова</a></li>
             <li>Сенегал</li>
-            <li>Танзания</li>
+            <li><a href="/guide/tanzania">Танзания</a></li>
             <li>Тунис</li>
             <li>Уганда</li>
             <li>Эфиопия</li>

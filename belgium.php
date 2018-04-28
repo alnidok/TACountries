@@ -50,7 +50,7 @@
                 <?= $this->render('_map', $country) ?>
 
                 <p>Столицей государства, а также культурным и политическим центром Бельгии и Европейского Сообщества является город Брюссель.</p>
-                <p>Это не очень большой, но густонаселенный город. Занимает второе месте в мире по количеству парков на душу населения (после Вашингтона).</p>
+                <p>Это не очень большой, но густонаселенный город. Занимает второе место в мире по количеству парков на душу населения (после Вашингтона).</p>
                 <p>Также Брюссель отличает уникальная, преимущественно готическая архитектура.</p>
                 <p>Знакомство с этим прекрасным городом лучше начинать с исторического центра — площади Гранд-Плас, расположенной в окружении высокой готической Ратуши, Дома Короля, Дома Маляра, Дома Портного и других замечательных построек.</p>
                 <p>Также стоит обратить свое внимание на древний квартал торговцев и ремесленников Мароль, впечатляющий по архитектуре Дворец Правосудия, Королевский дворцовый ансамбль в окружении красивейших парков.</p>
@@ -411,34 +411,7 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6">
-                            <b>Стоимость топлива</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-95</div>
-                                <span>1,45 EUR за литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-98</div>
-                                <span>1,54 EUR за литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Дизель</div>
-                                <span>1.42 EUR за литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <div id="block-fuel"></div>
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
@@ -519,31 +492,9 @@
                     </ul>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6">
-                            <b>Электросеть</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <nobr>230 В</nobr>,
-                                    <nobr>50 Гц</nobr>. Используется разъем 
-                                    <a href="/journal/electric-sockets.html#typeE">типа E</a>
-                                </div>
-                                <span class="text-right">
-                                    <img src="/img/electric/type_e.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <?= $this->render('_electricity', $country) ?>
             </div>
         </div>
-
     </div>
 </section>
 

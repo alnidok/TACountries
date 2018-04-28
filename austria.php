@@ -463,7 +463,6 @@
                 </figure>               
             </div>
         </div>
-
     </div>
 </section>
 
@@ -534,7 +533,6 @@
                 </div>
 
                 <?= $this->render('_electricity', $country) ?>
-
             </div>
         </div>
 

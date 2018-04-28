@@ -208,52 +208,8 @@
                 <p>Добраться из Казахстана в Тунис можно прямым авиарейсом, чартерным или рейсом с пересадкой (в Риме, Париже, Алжире, Стамбуле и др.). Авиакомпании, совершающие регулярные рейсы из Казахстана в Тунис: Lufthansa, Alitalia, Emirates, KLM, Air France, Qatar Airways, Turkish Airlines, Аэрофлот и др.</p>
             </div>
 
-            <div class="col-12 col-md-4">
-            
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6">
-                            <b>Электросеть</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Напряжение</div>
-                                <span>230 В</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Частота</div>
-                                <span>50 Гц</span>
-                            </div>
-                        </li>
-            
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <a href="/journal/electric-sockets.html#typeC" target="_blank">разъем типа C</a>
-                                </div>
-                                <span>
-                                    <img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <a href="/journal/electric-sockets.html#typeЕ" target="_blank">разъем типа Е</a>
-                                </div>
-                                <span>
-                                    <img src="/img/electric/type_e.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            
+            <div class="col-md-4">
+                <?= $this->render('_electricity', $country) ?>
             </div>
 
         </div>
