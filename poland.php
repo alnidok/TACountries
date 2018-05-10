@@ -14,7 +14,7 @@
                     <br>
                     <b>Население</b>: 38,6 млн человек
                     <br>
-                    <b>Часовой пояс</b>: UTC +1. Разница с Астаной -5 часов зимой и -4 часа летом
+                    <b>Часовой пояс</b>: UTC+1. Разница с Астаной -5 часов зимой и -4 часа летом
                 </div>
             </div>
 
@@ -422,7 +422,7 @@
                     </div>
                 </div>
 
-                <?= $this->render('_fuel', $country) ?>
+                <div id="block-fuel"></div>
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">

@@ -10,7 +10,7 @@
                         <b>Валюта</b>: лари (1 лари = 100 тетри)<br>
                         <b>Территория</b>: 69700 км²<br>
                         <b>Население</b>: 3.7 млн человек<br>
-                        <b>Часовой пояс</b>: UTC+4. Разница во времени между Тбилиси и Астаной +2 час
+                        <b>Часовой пояс</b>: UTC+4. Разница между Тбилиси и Астаной +2 час
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@
         <h2>Культура и традиции</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Все регионы Грузии открыты для посещения туристов.</p>
                 <p>В целом, криминогенная ситуация в Грузии является стабильной. В последние годы фиксируется определенный рост уровня карманных краж и грабежей.</p>
                 <p>Внутриполитическая ситуация в Грузии является стабильной.</p>
@@ -94,7 +94,7 @@
                 <p>При задержании правоохранительными органами нужно обращаться в Консульский отдел Посольства.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-address"></i>
@@ -170,7 +170,7 @@
         <h2>Транспорт</h2>      
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p class="mb-12">Автомобильные и железнодорожные вокзалы находятся в городах, аэропорты расположены в пределах 5-10 км от центра городов.</p>
 
                 <figure class="figure d-block">
@@ -188,7 +188,7 @@
 
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-aircraft"></i>
@@ -200,7 +200,7 @@
                         </li>
                     </ul>
                     <div class="card-footer p-3">
-                        <a href="http://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
+                        <a href="https://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
                     </div>
                 </div>
             </div>
@@ -222,13 +222,13 @@
         </div>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Дорожная инфраструктура развита достаточно хорошо. Основные виды топлива бензин, солярка, газ. Дорожный налог отсутствует. В городах имеется проблема с паркингом автотранспорта.</p>
                 <p>Приобретение страхового полиса является добровольным.</p>
                 <p>Надзор за порядком на транспорте осуществляет патрульная полиция, которая выполняет также необходимые следственные действия при ДТП. В этом случае нужно позвонить в экстренную службы по номеру 112, дождаться их приезда и подчиниться законным требованиям представителей патрульной полиции. В случае нарушения прав следует обратиться в Консульский отдел Посольства.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card mb-4">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -250,13 +250,13 @@
         <h2>Здравоохранение</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Опасности для здоровья и типичные болезни отсутствуют. В стране действует система медицинского страхования.</p>
                 <p>Для иностранных граждан медицинское обслуживание в Грузии платное. Это касается и скорой медицинской помощи и скорой ветеринарной помощи.</p>
                 <p>Прививки проводятся по календарю Минздрава Грузии.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-info"></i>
@@ -266,7 +266,7 @@
                         <li class="list-group-item">Иностранцам в Грузии рекомендуется приобретать медицинскую страховку.</li>
                     </ul>
                     <div class="card-footer p-3">
-                        <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
+                        <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
                     </div>
                 </div>
             </div>

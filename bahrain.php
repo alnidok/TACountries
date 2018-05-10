@@ -9,7 +9,7 @@
                     <b>Валюта</b>: BHD - бахрейнский динар (1000 филс).<br>
                     <b>Территория</b>: 750 км²<br>
                     <b>Население</b>: 1.4 млн человек<br>
-                    <b>Часовой пояс</b>: UTC +3. Разница с Астаной -3 часа
+                    <b>Часовой пояс</b>: UTC+3. Разница с Астаной -3 часа
                 </div>
             </div>
             <div class="col-lg-6">
@@ -88,7 +88,7 @@
             <li class="nav-item"><a class="nav-link" href="#health">Здравоохранение</a></li>
             <li class="nav-item"><a class="nav-link" href="#communication">Связь</a></li>
             <li class="nav-item"><a class="nav-link" href="#money">Деньги</a></li>
-            <li class="nav-item"><a class="nav-link" href="#sight">Что посмотреть</a></li>
+            <!--<li class="nav-item"><a class="nav-link" href="#sight">Что посмотреть</a></li>-->
         </ul>
     </div>
 </nav>
@@ -415,6 +415,7 @@
         </div>
     </div>
 </section>
+
 <section id="money" class="bg-white">
     <div class="container">
         <h2>Деньги</h2>
@@ -428,9 +429,9 @@
         <p>Стоимость ночи в четырёх звездной гостинице обойдется в 70 бахр. динаров.</p>
     </div>
 </section>
-<section id="sight">
+
+<!--<section id="sight">
     <div class="container">
-        <!--Блок экскурсий-->
-        <?= $this->render('_excursions', $country) ?>
+        <?/*= $this->render('_excursions', $country) */?>
     </div>
-</section>
+</section>-->

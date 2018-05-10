@@ -9,7 +9,7 @@
                     <b>Валюта</b>: EUR - евро<br>
                     <b>Территория</b>: 674 685 км²<br>
                     <b>Население</b>: 66.9 млн человек<br>
-                    <b>Часовой пояс</b>: GMT +1. Разница с Астаной 5 часов
+                    <b>Часовой пояс</b>: GMT+1. Разница с Астаной 5 часов
                 </div>
             </div>
             <div class="col-lg-6">
@@ -386,7 +386,7 @@
                 </figure>
 
                 <div class="card mb-0">
-                    <img src="http://www.parisinfo.ru/images/stories/karty_parizha/karta-metro-parizha.jpg" alt="Карта метро Парижа" data-action="zoom" class="img-fluid">
+                    <img src="/proxy?url=http://www.parisinfo.ru/images/stories/karty_parizha/karta-metro-parizha.jpg" alt="Карта метро Парижа" data-action="zoom" class="img-fluid">
                 </div>
                 <figcaption class="figure-caption text-right">Карта метро Парижа, <a href="http://www.parisinfo.ru/images/stories/karty_parizha/karta-metro-parizha.jpg">скачать</a></figcaption>
             </div>
@@ -449,45 +449,7 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6"><b>Стоимость топлива</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-95-E10</div>
-                                <span>1.470 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-95</div>
-                                <span>1.485 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>АИ-98</div>
-                                <span>1.553 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Дизель</div>
-                                <span>1.401 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Газ (LPG)</div>
-                                <span>0.818 EUR/литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
+                <div id="block-fuel"></div>
             </div>
         </div>
 

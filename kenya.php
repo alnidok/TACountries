@@ -10,7 +10,7 @@
                         <b>Валюта</b>: кенийский шиллинг (KES)<br>
                         <b>Территория</b>: 582 650 км²<br>
                         <b>Население</b>: 48.5 млн человек<br>
-                        <b>Часовой пояс</b>: UTC +3. Разница с Астаной -3 часа.
+                        <b>Часовой пояс</b>: UTC+3. Разница с Астаной -3 часа.
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
         <h2>Культура и традиции</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <h5>Законы и обычаи</h5>
                 <p>Каких-либо запретов, выходящих за рамки общепринятых европейских стандартов, нет.</p>
 
@@ -99,7 +99,7 @@
                 <p>В Найроби нередки случаи вооруженных грабежей и угонов автомобилей, причем зачастую объектами нападений становятся машины с иностранцами, не знающими местности и опасных городских районов.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-wallet"></i>
@@ -124,7 +124,7 @@
                 <?= $this->render('_electricity', $country) ?>
             </div>
 
-            <div class="col-12 mt-4">
+            <div class="mt-4">
                 <h5>Праздничные и нерабочие дни</h5>
 
                 <div class="card bg-secondary">
@@ -153,7 +153,7 @@
         <h2>Посещение гражданами Казахстана</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p class="mb-4">Гражданам Казахстана для пребывания на территории Кении необходима виза.</p>
 
                 <figure class="figure d-block">
@@ -171,7 +171,7 @@
 
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-v-card"></i>
@@ -193,7 +193,7 @@
         <h2>Таможенный контроль</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <h5>Оружие и боеприпасы</h5>
                 <p>Ввоз и вывоз оружия (холодного, газового, травматического, огнестрельного охотничьего) и боеприпасов к нему возможен только после получения лицензии и соответствующего разрешения в Бюро лицензирования оружия Полиции Кении.</p>
 
@@ -203,7 +203,7 @@
                 <p><i class="icon icon-warning"></i> Запрещены к ввозу и вывозу наркотики, взрывчатые вещества, оружие и патроны, живые дикие животные, живая рыба, капканы для животных, шкуры животных, птицы и птичьи яйца, слоновая кость, рога носорогов, зубы гиппопотамов.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-suitcase"></i>
@@ -241,13 +241,13 @@
         <h2>Транспорт</h2>      
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Прямое авиасообщение с Казахстаном отсутствует.</p>
                 <p>Казахстанцам доступны варианты с удобными стыковками в Дубаи (FlyDubai), Франкфурте(Lufthansa) и Стамбуле(Turkish Airlines).</p>
-                <p><a href="https://booking.scat.kz/websky/#/search" class="btn btn-outline-success">Подобрать рейс</a></p>
+                <p><a href="https://avia.account.travel" class="btn btn-outline-success">Подобрать рейс с пересадкой</a></p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -279,13 +279,13 @@
         <h2>Автомобиль</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Движение левостороннее, по английскому образцу. Дорожные знаки, указатели и разметка соответствуют международным стандартам.</p>
                 <p>Скорость движения (если нет дополнительных ограничений) в городе для всех транспортных средств — 60 км/ч, на трассе для легковых автомобилей — до 115 км/ч, для пикапов, всех видов автобусов и грузовиков — до 80 км/ч.</p>
                 <p>Использование ремня безопасности обязательно.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Дикая Африка. Дороги на сафари в Масаи-Мара, Кения" src="https://i.ytimg.com/vi/GTXkjdQQGb4/maxresdefault.jpg" class="bg-image"/>
@@ -309,7 +309,7 @@
         <h2>Здравоохранение</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Санитарно-эпидемиологическая обстановка в Кении в целом сложная. По-прежнему регистрируется высокая заболеваемость ВИЧ-инфекцией, туберкулезом, малярией.</p>
                 <p>В отдельных районах страны фиксируются периодические вспышки холеры с летальными исходами.</p>
                 <p>Среди местного населения отмечается высокий процент инфицированных возбудителями брюшного тифа и паратифов. В связи с этим рекомендуется неукоснительно соблюдать правила личной гигиены и не пить водопроводную воду.</p>
@@ -318,7 +318,7 @@
                 <p>Побережье Индийского океана — малярийный район. Поэтому за неделю до отъезда в Кению необходимо начать химиопрофилактику малярии, так как  это очень опасное заболевание.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-shield"></i>
@@ -350,12 +350,12 @@
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Мобильная связь в стране представлена 4 компаниями, основные из них — Safaricom, Orange, Zain.</p>
                 <p>Связь в целом достаточно устойчивая — обеспечена возможность звонков из отдаленных регионов страны. </p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>

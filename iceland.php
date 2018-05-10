@@ -122,7 +122,7 @@
             <div class="col-lg-5">
                 <div class="card bg-secondary">
                     <div class="card-body">
-                        <h6 class="title-decorative">Праздники и официально нерабочие даты:</h6>
+                        <h6 class="title-decorative">Официально нерабочие даты</h6>
                         <ul>
                             <li>1 января - Новый год</li>
                             <li>26 января -  Торраблоут, начало месяца Торри</li>

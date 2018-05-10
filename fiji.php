@@ -10,7 +10,7 @@
                         <b>Валюта</b>: фиджийский доллар (FJD)<br>
                         <b>Территория</b>: 18.3 тыс км²<br>
                         <b>Население</b>: 898.8 тыс человек<br>
-                        <b>Часовой пояс</b>: UTC +12. Разница с Астаной +6 часов.
+                        <b>Часовой пояс</b>: UTC+12. Разница с Астаной +6 часов.
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
         <h2>Культура и традиции</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Фиджийцы радушны и без какой-либо неприязни относятся к туристам, посещающим их страну.</p>
                 <p>Согласно местным нормам поведения в фиджийских деревнях необходимо снимать головные уборы и обязательно разуваться, заходя в дом. В общественных местах не приветствуется появление женщин в шортах и в одежде, не закрывающей плечи. Повышать голос и показывать свои эмоции на людях здесь не следует. Также не рекомендуется отвечать на попытки местных жителей завязать знакомство. В остальном достаточно придерживаться общепринятых правил приличия.</p>
 
@@ -103,25 +103,8 @@
                 </ul>
             </div>
 
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6"><b>Электросеть</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <nobr>240 В</nobr>, <nobr>50 Гц</nobr>, используется <a href="/journal/electric-sockets.html#typeI">разъем типа I</a>
-                                </div>
-                                <span class="text-right">
-                                    <img src="/img/electric/type_i.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-md-4">
+                <?= $this->render('_electricity', $country) ?>
 
                 <div class="card">
                     <div class="card-header">
@@ -138,7 +121,7 @@
                 </div>
             </div>
 
-            <div class="col-12 mt-4">
+            <div class="mt-4">
                 <h5>Праздничные и нерабочие дни</h5>
 
                 <div class="card bg-secondary">
@@ -167,7 +150,7 @@
         <h2>Посещение гражданами Казахстана</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Необходимые документы:</p>
                 <ol>
                     <li>заявление, заполненное на английском языке;</li>
@@ -182,7 +165,7 @@
                 <p><i class="icon icon-warning"></i> Информация предоставлена в ознакомительных целях и не является руководством к получению визы.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-v-card"></i>
@@ -207,7 +190,7 @@
         <h2>Таможенный контроль</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <h5>Валюта</h5>
                 <p>Ввоз национальной и иностранной валюты не ограничен при условии обязательного декларирования.</p>
                 <p>Вывоз наличной иностранной валюты разрешен в пределах суммы, заявленной во въездной таможенной декларации. Вывоз национальной валюты ограничен: 500 фиджийских долларов.</p>
@@ -218,7 +201,7 @@
                 <p>Изделия из кожи, кости, перьев птиц, раковин, кораллов вывозить запрещено.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-suitcase"></i>
@@ -242,7 +225,7 @@
         <h2>Транспорт</h2>      
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>На небольших островах нет ни автодорог, ни самих автомобилей – все в шаговой доступности.</p>
                 <p>Дороги есть только на островах Вити – Леву и Вануа – Леву.</p>
 
@@ -263,7 +246,7 @@
 
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-aircraft"></i>
@@ -302,15 +285,15 @@
         <h2>Здравоохранение</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>На Фиджи медицинское обслуживание находится на довольно высоком уровне.</p>
                 <p>При посещение островов рекомендуется вакцинация от гепатита (А,В), столбняка, брюшного тифа и дифтерии.</p>
                 <p>Случаи малярии здесь не отмечены.</p>
 
-                <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
+                <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-warning"></i>
@@ -331,13 +314,13 @@
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Местным оператором является компания Vodafone Fiji Ltd.</p>
                 <p>Роуминг ограничен и предлагается ведущими операторами только через сети других операторов тихоокеанского региона.</p>
                 <p>Местные СИМ-карты туристы могут купить в офисах Vodafone, а также на почте и в аэропорту.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>
