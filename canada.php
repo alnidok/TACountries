@@ -14,23 +14,23 @@
                     <br>
                     <b>Население</b>: 36 млн человек 
                     <br>
-                    <b>Часовой пояс</b>: UTC -3:30…–8. Разница во времени между Оттавой и Астаной составляет –11 часов (в летнее время –10 часов). Осуществляется переход на летнее/зимнее время
+                    <b>Часовой пояс</b>: от UTC-3:30 до UTC–8. Разница между Оттавой и Астаной составляет –11 часов (в летнее время –10 часов). Осуществляется переход на летнее/зимнее время
                 </div>
             </div>
 
             <div class="col-lg-6">
-                    <figure class="figure d-block">
-                        <div class="video-cover box-shadow mb-0">
-                            <img alt="Canada" src="https://i.vimeocdn.com/video/587020710_1280x720.jpg" class="bg-image"/>
-                            <div class="video-play-icon">
-                                <i class="icon-controller-play"></i>
-                            </div>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/179185796?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            </div>
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow mb-0">
+                        <img alt="Canada" src="https://i.vimeocdn.com/video/587020710_1280x720.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
                         </div>
-                        <figcaption class="figure-caption text-light text-right">© Clément Morin, 2016</figcaption>
-                    </figure>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/179185796?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-light text-right">© Clément Morin, 2016</figcaption>
+                </figure>
             </div>
         </div>            
     </div>

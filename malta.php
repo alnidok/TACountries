@@ -10,7 +10,7 @@
                         <b>Валюта</b>: евро<br>
                         <b>Территория</b>: 316 км²<br>
                         <b>Население</b>: 436.9 тыс человек<br>
-                        <b>Часовой пояс</b>: UTC +1. Разница с Астаной -5 часов.
+                        <b>Часовой пояс</b>: UTC+1. Разница с Астаной -5 часов.
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
         <h2>Культура и традиции</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Многие правила поведения для туристов на Мальте схожи с общеевропейскими традициями этикета. Мальтийцы открыты и приветливы, обладают горячим средиземноморским нравом, обсуждать личную жизнь друг друга у мальтийцев не принято.</p>
 
                 <h5>Поведение в общественных местах</h5>
@@ -112,7 +112,7 @@
                 </ul>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-wallet"></i>
@@ -163,7 +163,7 @@
 
             </div>
 
-            <div class="col-12 mt-4">
+            <div class="mt-4">
                 <h5>Праздничные и нерабочие дни</h5>
 
                 <div class="card bg-secondary">
@@ -187,7 +187,7 @@
         <h2>Посещение гражданами Казахстана</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Гражданам Казахстана необходима виза для пребывания на Мальте.</p>
                 <p>Документы:</p>
 
@@ -209,7 +209,7 @@
                 <p><i class="icon icon-warning"></i> Информация предоставлена в ознакомительных целях и не является руководством к получению визы.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-v-card"></i>
@@ -257,13 +257,13 @@
         <h2>Таможенный контроль</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>В соответствии с Регламентом Европейского парламента и Совета Европейского любое физическое лицо (включая владельцев дипломатических и служебных паспортов), которое въезжает в ЕС или выезжает из ЕС и ввозит/вывозит наличные денежные средства в сумме 10.000 евро или более, обязано декларировать эту сумму.</p>
 
                 <p>Запрещен ввоз оружия.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-suitcase"></i>
@@ -289,7 +289,7 @@
         <h2>Транспорт</h2>      
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>По обитаемым островам Мальтийского архипелага можно передвигаться следующим образом:</p>
                 <ul>
                     <li><b>По Мальте:</b> на автобусе, арендованной машине, такси, пароме (между Валлеттой и Слимой), а также пешком;</li>
@@ -305,7 +305,7 @@
 
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-aircraft"></i>
@@ -331,13 +331,15 @@
         <h2>Автомобиль</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Движение — левостороннее.</p>
                 <p>Почти 80 % мальтийских дорог покрыты хорошим асфальтом, расстояния между городами небольшие, трассы бесплатные.</p>
                 <p>В Валлетте въезд в исторический центр платный, дороги узкие (или вовсе пешеходные), так что личному транспорту лучше предпочесть общественный.</p>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
+                <div id="block-fuel"></div>
+
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
                         <img alt="Дороги Мальты. Часть 1." src="https://i.ytimg.com/vi/T4I48x4HAiY/maxresdefault.jpg" class="bg-image"/>
@@ -361,15 +363,15 @@
         <h2>Здравоохранение</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Перед поездкой рекомендуется сделать прививки от дифтерии и столбняка.</p>
                 <p>На острове водятся ядовитые скорпионы: европейский, мальтийский и желтый средиземноморский. В туристических местах они встречаются крайне редко, но вот в сельской местности лучше остерегаться камней и скальных расщелин. Если скорпион все же укусит нерадивого туриста, следует сразу обратиться в ближайший медпункт: аллергическая реакция может оказаться тяжелой.</p>
                 <p>У берегов плавают ядовитые медузы, но держатся крупными стаями у самой поверхности, так что заметить их легко. При укусе достаточно промыть кожу морской водой, соскоблить яд и обработать пораженный участок кремом или пенкой от солнечных ожогов.</p>
 
-                <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
+                <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>
@@ -407,7 +409,7 @@
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Специально для приезжих предлагаются различные тарифы и местные сим-карты, срок действия которых не является слишком длительным, а условия предлагаются максимально оптимальные.</p>
                 <p>На островах Мальты и Гозо есть три компании, которые рады предоставить свои услуги, как местным абонентам, так и туристам. Это:</p>
                 <ul>
@@ -417,7 +419,7 @@
                 </ul>
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>

@@ -95,7 +95,7 @@
             <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
             <li class="nav-item"><a class="nav-link" href="#health">Здравоохранение</a></li>
             <li class="nav-item"><a class="nav-link" href="#communication">Связь</a></li>
-            <li class="nav-item"><a class="nav-link" href="#sight">Что посмотреть</a></li>
+            <!--<li class="nav-item"><a class="nav-link" href="#sight">Что посмотреть</a></li>-->
         </ul>
     </div>
 </nav>
@@ -371,9 +371,8 @@
     </div>
 </section>
 
-<section id="sight">
+<!--<section id="sight">
     <div class="container">
-        <!--Блок экскурсий-->
-        <?= $this->render('_excursions', $country) ?>
+        <?/*= $this->render('_excursions', $country) */?>
     </div>
-</section>
+</section>-->

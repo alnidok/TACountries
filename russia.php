@@ -4,14 +4,14 @@
             <div class="col-lg-6">
                 <h1 class="display-4 no-wrap">Россия</h1>
                 <div class="lead">
-                        <b>Столица</b>: Москва<br>
-                        <b>Официальный язык</b>: русский<br>
-                        <b>Валюта</b>: RUB - российский рубль (1 рубль = 100 копеек)<br>
-                        <b>Территория</b>: 17 125 191 км²<br>
-                        <b>Население</b>: 144.3 млн человек<br>
-                        <b>Часовой пояс</b>: от UTC+2 на западе (г. Калининград) до UTC+12 на востоке
-                        (Камчатский край). Часовой пояс Москвы &mdash; GMT+3, разница с Астаной составляет &minus;3 часа.
-                    </div>
+                    <b>Столица</b>: Москва<br>
+                    <b>Официальный язык</b>: русский<br>
+                    <b>Валюта</b>: RUB - российский рубль (1 рубль = 100 копеек)<br>
+                    <b>Территория</b>: 17 125 191 км²<br>
+                    <b>Население</b>: 144.3 млн человек<br>
+                    <b>Часовой пояс</b>: от UTC+2 на западе (г. Калининград) до UTC+12 на востоке
+                    (Камчатский край). Часовой пояс Москвы &mdash; GMT+3, разница с Астаной составляет &minus;3 часа.
+                </div>
             </div>
             <div class="col-lg-6">
                 <figure class="figure d-block">
@@ -509,7 +509,7 @@
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
-                        <img alt="Бесплатный wi-fi в метро-как подключиться?" src="https://i.ytimg.com/vi/-qu6w1Q5zEY/maxresdefault.jpg" class="bg-image"
+                        <img alt="Бесплатный Wi-Fi в метро-как подключиться?" src="https://i.ytimg.com/vi/-qu6w1Q5zEY/maxresdefault.jpg" class="bg-image"
                         />
                         <div class="video-play-icon">
                             <i class="icon-controller-play"></i>
@@ -519,7 +519,7 @@
                                 mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
-                    <figcaption class="figure-caption text-right">Бесплатный wi-fi в метро-как подключиться?
+                    <figcaption class="figure-caption text-right">Бесплатный Wi-Fi в метро-как подключиться?
                         <br>&copy; непутевый TRIP 2017</figcaption>
                 </figure>
 

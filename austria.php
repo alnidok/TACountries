@@ -14,7 +14,7 @@
                     <br>
                     <b>Население</b>: 8,6 млн человек 
                     <br>
-                    <b>Часовой пояс</b>:  GMT +1. Разница во времени с Астаной -5 часов (–4 в весенне-летний период). Осуществляется переход на летнее/зимнее время.
+                    <b>Часовой пояс</b>: GMT+1. Разница с Астаной -5 часов (–4 в весенне-летний период). Осуществляется переход на летнее/зимнее время.
                 </div>
             </div>
 
@@ -420,34 +420,7 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6">
-                            <b>Стоимость топлива</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Бензин 95</div>
-                                <span>1,22 EUR за литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Бензин 98</div>
-                                <span>1,37 EUR за литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Дизель</div>
-                                <span>1,17 EUR за литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <div id="block-fuel"></div>
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">

@@ -14,7 +14,7 @@
                     <br>
                     <b>Население</b>: 3,6 млн человек 
                     <br>
-                    <b>Часовой пояс</b>: UTC+2. Осуществляется переход на летнее/зимнее время. Разница во времени с Астаной -4 часа зимой и -3 часа летом
+                    <b>Часовой пояс</b>: UTC+2. Осуществляется переход на летнее/зимнее время. Разница с Астаной -4 часа зимой и -3 часа летом
                 </div>
             </div>
 
@@ -231,9 +231,8 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
-                                <div>
-                                    <i class="icon-v-card mr-1"></i> Безвизовый режим до 90 дней
-                                </div>
+                                <div><i class="icon-v-card mr-1"></i> Безвизовый режим</div>
+                                <span>до 90 дней</span>
                             </div>
                         </li>
                     </ul>
@@ -247,7 +246,7 @@
                 <div class="card bg-secondary">
                     <div class="card-body">
                         <p>Вариантом перелета из Астаны в Кишинев является рейс с пересадкой в Москве (авиакомпания Аэрофлот).</p>
-                        
+
                     </div>
                 </div>
             </div>
@@ -376,7 +375,13 @@
                     <li>площадок для долговременной стоянки в столице очень мало;</li>
                     <li>местных водителей отличает непредсказуемая манера вождения.</li>
                 </ul>
-                
+
+                <h5>Ограничение скорости</h5>
+                <ul>
+                    <li>в населенном пункте - 50 км/ч</li>
+                    <li>вне населенного пункта - 90 км/ч (с прицепом 70 км/ч)</li>
+                    <li>на автомобильной дороге - 110 км/ч (с прицепом 90 км/ч)</li>
+                </ul>
                 
                 <h5>Аренда авто</h5>
                 <p>Одними из крупных компаний, предоставляющими услуги проката автомобиля являются: Rental, 4Rent, Motomix и др.</p>
@@ -393,28 +398,7 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6">
-                            <b>Стоимость топлива</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Бензин</div>
-                                <span>18,46 MDL за литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Дизель</div>
-                                <span>16,20 MDL за литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <div id="block-fuel"></div>
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
@@ -461,7 +445,7 @@
                     <li>Orange - <a href="https://www.orange.md/" target="_blank" rel="nofollow">перейти на сайт</a></li>
                 </ul>
                 <p>Приобрести сим-карту можно в салонах связи, которые располагаются по всему городу (у Moldcell они фиолетового цвета, а у Orange оранжево-черного).</p>
-                <p>Что касается интернета, то скорость подключения в Молдове выше чем в некоторых западных странах, включая Францию, Великобританию и Германию. В большинстве отелей, ресторанов и кафе столицы существуют платные или бесплатные WI-FI точки.</p>
+                <p>Что касается интернета, то скорость подключения в Молдове выше чем в некоторых западных странах, включая Францию, Великобританию и Германию. В большинстве отелей, ресторанов и кафе столицы существуют платные или бесплатные Wi-Fi точки.</p>
             </div>
 
             <div class="col-md-4">
@@ -506,30 +490,7 @@
                     </ul>
                 </div>
 
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-light-bulb"></i>
-                        <span class="h6">
-                            <b>Электросеть</b>
-                        </span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div>
-                                    <nobr>230 В</nobr>,
-                                    <nobr>50Гц</nobr>. Используются разъемы
-                                    <a href="/journal/electric-sockets.html#typeC">типа C</a>,
-                                    <a href="/journal/electric-sockets.html#typeF">типа F</a>
-                                </div>
-                                <span class="text-right">
-                                    <img src="/img/electric/type_c.svg" style="width:100px; max-width:100%;">
-                                    <img src="/img/electric/type_f.svg" style="width:100px; max-width:100%;">
-                                </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                <?= $this->render('_electricity', $country) ?>
             </div>
         </div>
 

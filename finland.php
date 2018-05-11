@@ -131,7 +131,7 @@
         <h2>Посещение гражданами Казахстана</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Финляндия входит в состав стран, подписавших Шенгенский договор, таким образом для посещения гражданам Казахстана необходима шенгенская виза, которую можно оформить в консульстве.</p>
                 <p>Вот список документов необходимы для подачи на визу:</p>
                 <ul>
@@ -146,7 +146,7 @@
                 </ul>
                 <p>Данная информация является ознакомительной и не является руководством к получению визы.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -188,7 +188,7 @@
                         </li>
                     </ul>
                     <div class="card-footer p-3">
-                        <a href="http://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
+                        <a href="https://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
                     </div>
                 </div>
             </div>
@@ -200,7 +200,7 @@
     <div class="container">
         <h2>Таможенный контроль</h2>
 
-        <p><i class="icon-link"></i> Таможенная служба Финляндии - <a href="http://tulli.fi/ru/fiziceskim-licam">tulli.fi</a></p>
+        <p><i class="icon-link"></i> Таможенная служба Финляндии - <a href="http://tulli.fi/ru/fiziceskim-licam" target="_blank" rel="nofollow">tulli.fi</a></p>
 
         <h5>Ввоз алкогольной и табачной продукции</h5>
         <p>Без уплаты таможенных сборов и пошлин можно ввозить для личного пользования:</p>
@@ -235,7 +235,7 @@
         <h2>Транспорт</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Несмотря на суровый северный климат, Финляндия занимает одно из первых мест в мире по качеству дорог, общая протяженность которых - 80 тысяч километров.</p>
                 <p>Дороги делятся на три категории:</p>
                 <ul>
@@ -255,7 +255,7 @@
                 <p>Проезд на одном из самых маленьких метро протяженность всего 14 километров стоит 2,6 евро.</p>
                 <p>Такси будет стоить 17-27 евро.</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -307,7 +307,7 @@
         </div>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p><i>В стране правостороннее движение.</i></p>
 
                 <p>Для пересечения границы на личном автомобиле автовладелец должен предоставить следующие документы:</p>
@@ -321,33 +321,8 @@
                 <h5>ДТП</h5>
                 <p>В случае ДТП нужно вызвать дорожную полицию, представителя арендной фирмы (в случае аренды авто) и консула Казахстана.</p>
             </div>
-            <div class="col-12 col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit"></i>
-                        <span class="h6"><b>Стоимость топлива</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Бензин 95</div>
-                                <span>1.44 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Бензин 98</div>
-                                <span>1.51 EUR/литр</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Дизель 95</div>
-                                <span>1.31 EUR/литр</span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col-md-4">
+                <div id="block-fuel"></div>
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
@@ -381,7 +356,7 @@
         <P>Финские медики могут похвастаться самым низким уровнем инфекционных заболеваний в Европе.</P>
         <p>В случае непредвиденной ситуации вам окажут помощь по медицинской страховке, полученной при выдаче шенгенской визы. Эта страховка компенсирует часть стоимости, затраченной на лечение.</p>
 
-        <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
+        <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
     </div>
 </section>
 
@@ -390,7 +365,7 @@
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
 
                 <h5>Мобильная связь</h5>
                 <p>При использовании казахстанской сим-карты стоимость входящего звонка будет стоить 50 тенге, исходящего в Казахстан примерно 750 тенге.</p>
@@ -403,12 +378,12 @@
                 <p>Пакет на месяц будет стоить 30 евро в месяц.</p>
                 <p>Вот список местных операторов, можете подробнее ознакомится с тарифными планами на их сайтах.</p>
                 <ul>
-                    <li>Sonera - <a href="https://www.sonera.fi" target="_blank">перейти на сайт</a></li>
-                    <li>Elisa - <a href="https://elisa.fi" target="_blank">перейти на сайт</a></li>
-                    <li>DNA - <a href="https://www.dna.fi" target="_blank">перейти на сайт</a></li>
+                    <li>Sonera - <a href="https://www.sonera.fi" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Elisa - <a href="https://elisa.fi" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>DNA - <a href="https://www.dna.fi" target="_blank" rel="nofollow">перейти на сайт</a></li>
                 </ul>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>

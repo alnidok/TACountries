@@ -10,7 +10,7 @@
                         <b>Валюта</b>: EUR - евро<br>
                         <b>Территория</b>: 92 151 км²<br>
                         <b>Население</b>: 10.8 млн человек<br>
-                        <b>Часовой пояс</b>: GMT +0. Разница во времени с Астаной 6 часов
+                        <b>Часовой пояс</b>: GMT+0. Разница с Астаной 6 часов
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
     <div class="container">
         <h2>Посещение гражданами Казахстана</h2>
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Португалия входит в шенгенское соглашение, поэтому для посещения необходимо получить <strong>Шенгенскую визу </strong> категории С. Для посещения Азорских островов и Мадейры подходит основнам виза, дополнительных разрешений получать не требуется.</p>
                 <div class="card bg-secondary">
                     <div class="card-body">
@@ -139,7 +139,7 @@
 
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
@@ -180,7 +180,7 @@
                         </li>
                     </ul>
                     <div class="card-footer p-3">
-                        <a href="http://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
+                        <a href="https://avia.account.travel" class="btn btn-block btn-outline-success">Подобрать рейс</a>
                     </div>
                 </div>
             </div>
@@ -224,7 +224,7 @@
     <div class="container">
         <h2>Транспорт</h2>
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <p>Самым распространенным транспортом Португалии по праву можно назвать автобусы. Они ходят в любом городе, а также связывают их между собой. Всего выделяется 3 вида автобусов. Местного значения, обозначенные буквами CR, они останавливаются на всех остановках, и используются для коротких маршрутах по городу или по сельской местности. Есть междугородние экспрессы, которые ходят по расписанию между самыми крупными городами и экспрессы повышенной комфортности, воспользоваться которыми имеет смысл при дальних переездах. </p>
 
                 <h5>Стоимость проезда</h5>
@@ -245,7 +245,7 @@
 
             </div>
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-credit"></i>
@@ -298,11 +298,7 @@
         <p>Во всей стране из крана течет питьевая вода, но стоит быть внимательным в южном регионе Алгавре часто из крана идет слегка солоноватая вода. Она не опасна, но по вкусу не приятна, в этот период лучше покупать бутылированную воду. </p>
         <p>Местных инфекций в стране нет, ее посещение не требует каких-либо дополнительных прививок. В летний период необходимо соблюдать осторожность в южных регионах, находясь постоянно на солнце надо защищать голову и кожу от перегрева и ожогов. Лучше с 12 до 16 часов дня на улицу не выходить.</p>
 
-
-        <a href="http://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
-
-        <!--<script src="//f.sravni.ru/f/apps/build/widgets/sravni-widgets.js"></script>
-        <sravni-micro-widget type="mantravel" logo="false" partner="tonkosti.ru" theme="tonkosti.ru" data-countries="Азербайджан"><link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet"><style>sravni-micro-widget{text-align: center;display: block;position:relative}a.sravni-dl{font: 300 14px 'Open Sans', sans-serif; max-width:100%px; display:inline-block; color: #a7a7a7; text-decoration: none;border-bottom:1px solid #a7a7a7;}</style></sravni-micro-widget>-->
+        <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
     </div>
 </section>
 
@@ -311,7 +307,7 @@
         <h2>Связь и коммуникации</h2>
 
         <div class="row justify-content-between">
-            <div class="col-12 col-md-8 col-lg-7">
+            <div class="col-md-8 col-lg-7">
                 <h5>Мобильная связь</h5>
                 <p>Приезжая в страну на срок более чем 3 дня, выгодно купить местную сим-карту от одного из операторов: Vodafone, Optimus и TMN. Все они предоставляют равное качество связи и практически одинаковые тарифы. Покупка карты обойдется в 10 евро, звонок по Португалии 0.09 евро. Звонки в другие страны от 0.2 евро.
                 </p>
@@ -331,7 +327,7 @@
 
 
 
-            <div class="col-12 col-md-4">
+            <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>
