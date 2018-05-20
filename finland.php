@@ -19,18 +19,18 @@
             </div>
 
             <div class="col-lg-6">
-                    <figure class="figure d-block">
-                        <div class="video-cover box-shadow mb-0">
-                            <img alt="Travel Feels: Finland" src="https://i.vimeocdn.com/video/596761843_1280x545.jpg" class="bg-image"/>
-                            <div class="video-play-icon">
-                                <i class="icon-controller-play"></i>
-                            </div>
-                            <div class="embed-responsive embed-responsive-21by9">
-                                <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/187109325?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                            </div>
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow mb-0">
+                        <img alt="Travel Feels: Finland" src="https://i.vimeocdn.com/video/596761843_1280x545.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
                         </div>
-                        <figcaption class="figure-caption text-light text-right">© Matti Haapoja, 2016</figcaption>
-                    </figure>
+                        <div class="embed-responsive embed-responsive-21by9">
+                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/187109325?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-light text-right">© Matti Haapoja, 2016</figcaption>
+                </figure>
             </div>            
         </div>
     </div>
@@ -410,7 +410,7 @@
                     </div>
                 </div>
 
-                <?= $this->render('_fuel', $country) ?>
+                <div id="block-fuel"></div>
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
