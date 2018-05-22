@@ -389,7 +389,7 @@
                     </div>
                 </div>
 
-                <?= $this->render('_fuel', $country) ?>
+                <div id="block-fuel"></div>
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">

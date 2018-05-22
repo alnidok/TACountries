@@ -132,10 +132,10 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Мальта</li>
             <li><a href="/guide/moldova">Молдавия</a></li>
             <li>Монако</li>
-            <li>Нидерланды</li>
+            <li><a href="/guide/netherlands">Нидерланды</a></li>
             <li><a href="/guide/norway">Норвегия</a></li>
             <li><a href="/guide/poland">Польша</a></li>
-            <li>Португалия</li>
+            <li><a href="/guide/portugal">Португалия</a></li>
             <li><a href="/guide/russia">Россия</a></li>
             <li>Румыния</li>
             <li>Сан-Марино</li>
@@ -144,11 +144,11 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li><a href="/guide/slovakia">Словакия</a></li>
             <li><a href="/guide/slovenia">Словения</a></li>
             <li><a href="/guide/ukraine">Украина</a></li>
-            <li>Финляндия</li>
+            <li><a href="/guide/finland">Финляндия</a></li>
             <li><a href="/guide/france">Франция</a></li>
             <li>Хорватия</li>
             <li><a href="/guide/montenegro">Черногория</a></li>
-            <li>Чехия</li>
+            <li><a href="/guide/czech_republic">Чехия</a></li>
             <li><a href="/guide/switzerland">Швейцария</a></li>
             <li><a href="/guide/sweden">Швеция</a></li>
             <li><a href="/guide/estonia">Эстония</a></li>
@@ -209,7 +209,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li><a href="/guide/canada">Канада</a></li>
             <li>Колумбия</li>
             <li><a href="/guide/costa_rica">Коста-Рика</a></li>
-            <li>Куба</li>
+            <li><a href="/guide/cuba">Куба</a></li>
             <li>Кюрасао</li>
             <li>Мексика</li>
             <li>Никарагуа</li>
@@ -254,7 +254,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Замбия</li>
             <li>Зимбабве</li>
             <li>Кабо-Верде</li>
-            <li>Кения</li>
+            <li><a href="/guide/kenya">Кения</a></li>
             <li><a href="/guide/mauritius">Маврикий</a></li>
             <li>Мадагаскар</li>
             <li><a href="/guide/morocco">Марокко</a></li>
