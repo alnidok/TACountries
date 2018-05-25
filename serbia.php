@@ -82,7 +82,7 @@
                         <i class="icon-controller-play"></i>
                     </div>
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/-MF_dFtffVQ?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/-MF_dFtffVQ?autoplay=1&rel=0&showinfo=0&start=12&end=227" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
                 <figcaption class="figure-caption text-right">20 интересных фактов о Сербии! Factor Use<br>© Factor Use</figcaption>
@@ -358,8 +358,9 @@
                             <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/LQq1h3K4y64?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
-                    <figcaption class="figure-caption text-right">шикарная подземная станция метро в Белграде.<br>© Григорий Шиманский из Сербии 2017</figcaption>
+                    <figcaption class="figure-caption text-right">Шикарная подземная станция метро в Белграде.<br>© Григорий Шиманский из Сербии 2017</figcaption>
                 </figure>
+            </div>
         </div>
     </div>
 </section>
