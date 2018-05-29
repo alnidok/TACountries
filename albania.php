@@ -202,7 +202,7 @@
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
-                                <div><i class="icon-v-card mr-1"></i>Безвизовый режим</div>
+                                <div><i class="icon-v-card mr-1"></i> Безвизовый режим</div>
                                 <span>до 90 дней</span>
                             </div>
                         </li>
