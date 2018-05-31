@@ -1,19 +1,112 @@
-<section class="bg-gradient text-light p-0">
-    <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-12">
-                <div class="space-lg pb-0">
-                    <h1 class="display-4 no-wrap">Фиджи</h1>
-                    <div class="lead">
-                        <b>Столица</b>: г. Сува (о. Вити-Леву)<br>
-                        <b>Официальный язык</b>: английский и фиджийский, используется также хиндустани (диалект хинди)<br>
-                        <b>Валюта</b>: фиджийский доллар (FJD)<br>
-                        <b>Территория</b>: 18.3 тыс км²<br>
-                        <b>Население</b>: 898.8 тыс человек<br>
-                        <b>Часовой пояс</b>: UTC+12. Разница с Астаной +6 часов.
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Фиджи</title>
+    <base href="https://account.travel/">
+
+    <link href="https://account.travel/guide/azerbaijan" rel="canonical">
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500" rel="stylesheet" media="all">
+    <link href="/design/dist/assets/css/socicon.css" rel="stylesheet" media="all">
+    <link href="/design/dist/assets/css/entypo.css" rel="stylesheet" media="all">
+    <link href="/design/dist/assets/css/theme.css" rel="stylesheet" media="all">
+    <script>if (location.hash) { setTimeout(function () { window.scrollTo(0, 0); }, 1); }</script>
+</head>
+
+<body data-spy="scroll" data-target="#scrollspy-navbar" data-offset="64">
+    <div class="nav-container">
+        <div class="bg-dark navbar-dark" data-sticky="top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="/">
+                        <img alt="Аккаунт Трэвел" src="/img/logo-white.svg" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="icon-menu h4"></i>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/guide" class="nav-link">Страны</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/people" class="nav-link">Люди</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/learn" class="nav-link">Обучение</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/work" class="nav-link">Работа</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/register">Регистрация</a> /
+                                <a href="/login">Вход</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div class="main-container">
+        <nav class="text-white position-absolute" aria-label="breadcrumb">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col">
+                        <ol id="w0" class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="/">Главная</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="/guide">Страны</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">Фиджи</li>
+                        </ol>
                     </div>
                 </div>
             </div>
+        </nav>
+
+
+<section class="bg-gradient text-light p-0">
+    <div class="container">
+        <div class="row justify-content-between align-items-center space-lg pb-0">
+            <div class="col-lg-6">
+                <h1 class="display-4 no-wrap">Фиджи</h1>
+                <div class="lead">
+                    <b>Столица</b>: Сува
+                    <br>
+                    <b>Официальный язык</b>: английский и фиджийский
+                    <br>
+                    <b>Валюта</b>: FJD — фиджийский доллар
+                    <br>
+                    <b>Территория</b>: 18 274 км²
+                    <br>
+                    <b>Население</b>: 0,9 млн человек
+                    <br>
+                    <b>Часовой пояс</b>: UTC+12. Разница с Астаной +6 часов
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow mb-0">
+                        <img alt="Fiji" src="https://i.vimeocdn.com/video/472201045_1280x720.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/92466077?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-light text-right">© Tom Pinsard, 2014</figcaption>
+                </figure>
+            </div>            
         </div>
     </div>
     <svg class="decorative-divider" preserveAspectRatio="none" viewBox="0 0 100 100">
@@ -24,13 +117,16 @@
 <section>
     <div class="container">
         <div class="row">
-            <div class="col-8 offset-2">
-                <p>Республика Фиджи расположена на островах архипелага Фиджи (всего 332 острова, крупнейшими из которых являются Вити-Леву и Вануа-Леву) в юго-западной части Тихого океана к северу от Новой Зеландии, к югу от Тувалу, к западу от Тонга и к востоку от Вануату.</p>
-
+            <div class="col-lg-8 offset-lg-2">
+                <p>Фиджи — государство, расположенное на одноименном архипелаге, включающем в себя 332 острова, в юго-западной части Тихого океана.</p>
+    
                 <!--Карта-->
                 <?= $this->render('_map', $country) ?>
-
-                <p>Климат архипелага тропический морской, жаркий и влажный. Юго-восточные пассаты зимой, то есть в период с мая по октябрь-ноябрь, приносят на острова солнечную и сухую погоду. Температура воздуха на центральных и крупных островах колеблется в этот период от +18 до +26 °С. В период с декабря по апрель температура воздуха заметно повышается и достигает +32 °С, однако сопровождается сезоном дождей.</p>
+            
+                <p>Острова Фиджи — тихоокеанская жемчужина с великолепной природой, роскошными песчаными пляжами, отличными возможностями для дайвинга и серфинга и качественным сервисом. А еще это райское место привлекает влюбленных со всего света для проведения незабываемой свадебной церемонии.</p>
+                <p>Столицей и главным портом страны является самобытный и колоритный город Сува, расположенный на острове Вити-Леву. Любителей истории и архитектуры обязательно заинтересуют местные достопримечательности: музей Фиджи, католический собор, церковь Сент-Фрэнсис-Хсавьер-Хай, церковь Сентенари-Методист-Черч и здание Университета. Столичная светская жизнь сосредоточена на улице Виктория-Парейд с множеством ночных клубов, ресторанов и отелей. Неподалеку находится главная торговая точка Сувы — Муниципальный рынок. В столице есть собственный пляж, а в 20 минутах езды от города расположен прекрасный залив пасифик-Харбор с отлично оборудованными пляжами, дайвинг-клубом и большим полем для гольфа.</p>
+                <p>Вторым по величине островом архипелага является о. Вануа-Леву («Большая земля»), привлекающий туристов девственной дикой природой. Дайверы особенно облюбовали это место благодаря большому количеству прекрасных коралловых рифов.</p>
+                <p>Самые крошечные острова архипелага Маманука расположены на западе Фиджи. На каждом острове здесь находится, как правило, только один фешенебельный отель — идеальный вариант для любителей безмятежного отдыха. На некоторых островках сохранился тропический лес в первозданном виде, и практически на всех встречаются охраняемые черепашьи пляжи и гнездовья птиц.</p>
             </div>
         </div>
 
@@ -39,28 +135,28 @@
         <div class="row">
             <figure class="figure d-block col-lg-6">
                 <div class="video-cover box-shadow">
-                    <img alt="Fiji" src="https://i.vimeocdn.com/video/472201045_1280x720.jpg" class="bg-image"/>
+                    <img alt="A Portrait of Fiji | 4K" src="https://i.vimeocdn.com/video/550085223_1280x533.jpg" class="bg-image"/>
                     <div class="video-play-icon">
                         <i class="icon-controller-play"></i>
                     </div>
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/92466077?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/150546889?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
-                <figcaption class="figure-caption text-right">Fiji<br>© Tom Pinsard 2014</figcaption>
+                <figcaption class="figure-caption text-right">A Portrait of Fiji | 4K<br>© Matthew Putt 2016</figcaption>
             </figure>
-
+    
             <figure class="figure d-block col-lg-6">
                 <div class="video-cover box-shadow">
-                    <img alt="Namotu Island Resort Fiji" src="https://i.vimeocdn.com/video/539005679_1280x720.jpg" class="bg-image"/>
+                    <img alt="Республика Фиджи (Тихий Океан) (Часть 1 из 2) (1080p)" src="https://i.ytimg.com/vi/MLtrCIiLy18/maxresdefault.jpg" class="bg-image"/>
                     <div class="video-play-icon">
                         <i class="icon-controller-play"></i>
                     </div>
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" data-src="https://player.vimeo.com/video/141875122?autoplay=1" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/MLtrCIiLy18?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                     </div>
                 </div>
-                <figcaption class="figure-caption text-right">Namotu Island Resort Fiji<br>© Beau Pilgrim 2015</figcaption>
+                <figcaption class="figure-caption text-right">Республика Фиджи (Тихий Океан) (Часть 1 из 2) (1080p)<br>© Алексей Ракаускас</figcaption>
             </figure>
         </div>
     </div>
@@ -69,79 +165,117 @@
 <nav id="scrollspy-navbar" class="bg-white navbar sticky-top">
     <div class="container">
         <ul class="nav nav-pills nav-fill">
-            <li class="nav-item"><a class="nav-link" href="#culture">Культура и традиции</a></li>
-            <li class="nav-item"><a class="nav-link" href="#visa">Въезд в страну</a></li>
-            <li class="nav-item"><a class="nav-link" href="#custom">Таможня</a></li>
-            <li class="nav-item"><a class="nav-link" href="#transport">Транспорт</a></li>
-            <li class="nav-item"><a class="nav-link" href="#auto">Авто</a></li>
-            <li class="nav-item"><a class="nav-link" href="#health">Здравоохранение</a></li>
-            <li class="nav-item"><a class="nav-link" href="#communication">Связь</a></li>
-            <li class="nav-item"><a class="nav-link" href="#sight">Что посмотреть</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="#population">Население</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#culture">Культура</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#climate">Климат</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#visa">Въезд в страну</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#custom">Таможня</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#transport">Транспорт</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#auto">Авто</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#health">Здравоохранение</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#communication">Связь</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#sight">Что посмотреть</a>
+            </li>
         </ul>
     </div>
 </nav>
 
-<section id="culture">
+<section id="population">
     <div class="container">
-        <h2>Культура и традиции</h2>
+        <h2>Население</h2>
 
+        <p>Основные этнические группы в стране — фиджийцы (57%) и фиджи-индийцы (37%). К остальным народностям относятся ротума и выходцы из Китая, Европы и тихоокеанских островов.</p>
+        <p>Официальными языками признаны английский и фиджийский, также часть населения, преимущественно индийцы, разговаривают на фиджийском хинди.</p>
+        <p>Большинство верующих жителей исповедуют христианство (64%) и индуизм (27%), небольшая часть населения относится к мусульманской и другим религиозным конфессиям.</p>
+        <p>Уровень урбанизации в стране средний — около 50% населения проживают в городах. Самые населенные города: Насину (76 тыс. человек), Сува (74 тыс. человек), Лаутока (43 тыс. человек).</p>
+        <p>Средняя продолжительность жизни составляет 70,5 лет: 68 лет у мужчин и 73 года у женщин.</p>
+                
+        <?= $this->render('_population') ?>
+
+    </div>
+</section>
+
+<section id="culture" class="bg-white">
+    <div class="container">
         <div class="row justify-content-between">
-            <div class="col-md-8 col-lg-7">
-                <p>Фиджийцы радушны и без какой-либо неприязни относятся к туристам, посещающим их страну.</p>
-                <p>Согласно местным нормам поведения в фиджийских деревнях необходимо снимать головные уборы и обязательно разуваться, заходя в дом. В общественных местах не приветствуется появление женщин в шортах и в одежде, не закрывающей плечи. Повышать голос и показывать свои эмоции на людях здесь не следует. Также не рекомендуется отвечать на попытки местных жителей завязать знакомство. В остальном достаточно придерживаться общепринятых правил приличия.</p>
+            <div class="col-md-6">
+                <h2>Культура и традиции</h2>
+                <p>Население Фиджи — это самобытные потомки смешения древних тихоокеанских культур. Они обладают радушным, приветливым, оптимистичным и часто беззаботным нравом. Островное расположение и климатические условия способствуют размеренному, неторопливому образу жизни.</p>
+                <p>Традиционно местное общество складывалось на основе племени («явуса»), состоящего из нескольких кланов («матакали»), обычно связанных близкими родственными отношениями. Жизнь общины регулировал наследственный вождь «тураг-ни-коро». С древних времен и по сей день мужчине отводится роль защитника и добытчика, а женщине — роль матери, хозяйки, хранительницы очага.</p>
+                <p>В стране с большим уважением относятся к старшим, а в детях стараются воспитывать такие качества, как умение вести себя в обществе, смирение и скромность.</p>
+                <p>Одной из главных местных праздничных традиций является распитие напитка из корня янгоны — чащу из кокосового ореха передают по кругу всем участникам ритуала. После этой «официальной» части церемонии начинается неофициальная: пир, национальные танцы и тому подобное. Кстати, при посещении фиджийской деревни принято преподносить небольшой подарок вождю: вино, сигареты или пакет с тем же высушенным корнем янгона. Отказываться от ответного подарка не стоит, чтобы не оскорбить дарующего.</p>
+                <p>Традиционно на обед и ужин члены большой семьи собираются за одним столом, точнее, за одной циновкой, на которую выставляются яства.</p>
+                <p>Национальные блюда на Фиджи готовят из мяса, морепродуктов, риса, овощей и корнеплодов (маниока, колоказия, плоды хлебного дерева или ямса). Непременно стоит попробовать: «коконду» — маринованую в лаймовом соке рыбу, «роуроу» — салат из колоказии, «кассаву» — тапиоку с бананами и кокосовым молоком, «роти» — пшеничные блины на гриле, «вакалоло» — нежный пудинг из маниоки. Традиционными напитками, помимо вышеописанной кавы из корня янгоны, являются местные вина — Meridan Moselle и Suvanna Moselle, а также пиво — Carlton и Fiji Bitter.</p>
 
-                <p>Фиджи - одна из наименее дорогих стран южной части Тихого океана. Благодаря тому, что природно-климатические условия позволяют выращивать широкий ассортимент сельхозкультур непосредственно на островах, цены на продукты питания в Фиджи относительно невысоки.</p>
-
-                <h5>Безопасность</h5>
-                <p>Острова Фиджи безопасны для посещения, но чтобы не омрачить свой отпуск, выполняйте элементарные правила:</p>
-                <ul>
-                    <li>Драгоценности, крупные суммы денег и документы желательно хранить в сейфе отеля</li>
-                    <li>Остерегаться карманных воришек в местах большого скопления народа</li>
-                    <li>Рекомендуется привиться от холеры, гепатита В, тифа и полиомиелита</li>
-                    <li>Рекомендуется носить одежду с длинными рукавами, широкополые шляпы, ботинки</li>
-                    <li>Употреблять в пищу только бутилированную или кипяченую воду</li>
-                </ul>
             </div>
-
-            <div class="col-md-4">
-                <?= $this->render('_electricity', $country) ?>
-
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-credit-card"></i>
-                        <span class="h6"><b>Банкоматы</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <p>Практически во всех ресторанах, гостиницах, магазинах, агентствах по аренде автомобилей, дайв-клубах и туристических офисах принимают все основные виды кредитных карт. На островах банкоматы просто отсутствуют. </p>
-                            <p>На некоторых курортах операции с кредитными картами облагаются комиссионными в размере 5%.</p>
-                            <p>В стоимость большинства товаров включён НДС (VAT) в размере 12,5%.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="mt-4">
-                <h5>Праздничные и нерабочие дни</h5>
-
+            <div class="col-md-6 col-lg-5">
                 <div class="card bg-secondary">
                     <div class="card-body">
+                        <h6 class="title-decorative">Праздничные и нерабочие дни</h6>
                         <ul>
-                            <li>1 января - Новый год</li>
-                            <li>конец марта - начало апреля - Миляд ан-Наби (день рождения пророка Мохаммеда)</li>
-                            <li>апрель - май - Страстная Пятница и Пасха</li>
-                            <li>конец мая - День Рату Сукуна (празднуется ежегодно в последний понедельник мая)</li>
-                            <li>май - Национальный день молодежи</li>
-                            <li>5 июня - День рождения Королевы</li>
-                            <li>10-13 октября - День Фиджи (День независимости)</li>
-                            <li>октябрь-ноябрь - "фестиваль огней" Девали (Дивали)</li>
-                            <li>1 ноября - День Всех Святых.</li>
-                            <li>11 ноября - День памяти</li>
-                            <li>25-26 декабря - Рождество</li>
+                            <li>1 января — Новый год</li>
+                            <li>март-апрель — Миляд ан-Наби</li>
+                            <li>апрель-май — Страстная Пятница и Пасха</li>
+                            <li>конец мая — День Рату Сукуна</li>
+                            <li>5 июня — День рождения Королевы</li>
+                            <li>10-13 октября — День Фиджи</li>
+                            <li>октябрь-ноябрь — Фестиваль огней Дивали</li>
+                            <li>1 ноября — День Всех Святых</li>
+                            <li>11 ноября — День памяти</li>
+                            <li>25-26 декабря — Рождество</li>
                         </ul>
                     </div>
+                    
                 </div>
+
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow">
+                        <img alt="Danse fidjienne" src="https://i.ytimg.com/vi/BvIdzWCKWp4/maxresdefault.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/BvIdzWCKWp4?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-right">Danse fidjienne<br>© Jean Claude GARIN</figcaption>
+                </figure>
             </div>
+        </div>
+    </div>
+</section>
+
+<section id="climate">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Климат</h2>
+
+                <p>На территории островов господствует морской тропический климат. На протяжении всего года влажно и жарко. Выделяется 2 сезона: лето (с ноября по май) и зима (с июня по октябрь). Летом средние температуры воздуха достигают +28°C, и в это время выпадает наибольшее количество осадков. Зимой на несколько градусов прохладнее, а пассаты приносят сухую и солнечную погоду.</p>
+            </div>
+            <div class="col-lg-6">
+                <div id="chart-climate"></div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -151,33 +285,45 @@
 
         <div class="row justify-content-between">
             <div class="col-md-8 col-lg-7">
-                <p>Необходимые документы:</p>
-                <ol>
-                    <li>заявление, заполненное на английском языке;</li>
-                    <li>цветная копия первой страницы загранпаспорта, срок действия которого составляет не менее 6 месяцев с момента окончания поездки;</li>
-                    <li>2 фотографии;</li>
-                    <li>копии ранее выданных виз США, Канады, Шенгена, если такие имеются;</li>
-                    <li>подтверждение наличия достаточных денежных средств;</li>
-                    <li>подтверждение принимающей стороны;</li>
-                    <li>билеты в оба конца, либо билет в третью страну;</li>
-                    <li>копия транзитной визы, если такая требуется.</li>
-                </ol>
-                <p><i class="icon icon-warning"></i> Информация предоставлена в ознакомительных целях и не является руководством к получению визы.</p>
+                <p>Гражданам Республики Казахстан для въезда на территорию Фиджи требуется виза, срок действия которой 90 дней. На территории Казахстана посольство Фиджи отсутствует, ближайшее посольство находится в г. Брюссель (Бельгия).</p>
+                <p>Официальный почтовый адрес посольства Фиджи: Square Plasky, 92 - 94, Bruxelles, Belgium, 1030. Контактные телефоны: (32-2) 736-90-50, (32-2) 736-14-58.</p>
+                <p>Перечень необходимых документов*:</p>
+                <ul>
+                    <li>анкета - заявление на визу;</li>
+                    <li>загранпаспорт (срок его действия должен быть не менее полугода с даты предполагаемого выбытия из страны);</li>
+                    <li>цветное фото 3,5*4,5 см (2 шт.);</li>
+                    <li>копия первой страницы загранпаспорта и копия предыдущих виз;</li>
+                    <li>доказательства платежеспособности (выписка по банковскому счету);</li>
+                    <li>бронь авиабилетов в оба конца;</li>
+                    <li>свидетельства о браке, рождении детей.</li>
+                </ul>
+                <p>*Информация носит осведомительный характер.</p>
+                
+                <a href="https://avia.account.travel" class="btn btn-outline-success">Подобрать рейс с пересадкой</a>
             </div>
-
             <div class="col-md-4">
+
                 <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-v-card"></i>
-                        <span class="h6"><b>Виза:</b></span>
-                    </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
-                            Гражданам Казахстана необходима заранее оформленная виза на Фиджи. Визу можно оформить заранее в Консуль&shy;ствах Фиджи, находящихся на территории Бельгии (Брюссель), ОАЭ (Абу-Даби) или Австралии (Сидней).
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <i class="icon-v-card mr-1"></i>Требуется виза
+                                </div>
+                            </div>
                         </li>
                     </ul>
-                    <div class="card-footer p-3">
-                        Срок оформления виз — от 15 до 20 рабочих дней.
+                </div>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <p>В Республике Казахстан нет посольства/консульства Фиджи</p>
+                    </div>
+                </div>
+
+                <div class="card bg-secondary">
+                    <div class="card-body">
+                        <p>Перелеты из Казахстана на Фиджи длительные, от 18 часов. Вариантом перелета из Алматы в Суве является рейс с пересадками в Нью-Дели и Сиднее.</p>
                     </div>
                 </div>
             </div>
@@ -188,48 +334,72 @@
 <section id="custom">
     <div class="container">
         <h2>Таможенный контроль</h2>
+       
+        <h5>Спиртное и сигареты</h5>
+        <p>Гражданам Казахстана, достигшим 18-летнего возраста, разрешается беспошлинно ввозить до 500 сигарет и до двух литров спиртных напитков.</p>
+            
+        <h5>Валюта</h5>
+        <p>Ввоз и вывоз иностранной валюты не ограничен (сумма свыше 10 тыс. USD подлежит обязательной декларации). Вывоз национальной валюты ограничен — до 500 FJD.</p>
 
-        <div class="row justify-content-between">
-            <div class="col-md-8 col-lg-7">
-                <h5>Валюта</h5>
-                <p>Ввоз национальной и иностранной валюты не ограничен при условии обязательного декларирования.</p>
-                <p>Вывоз наличной иностранной валюты разрешен в пределах суммы, заявленной во въездной таможенной декларации. Вывоз национальной валюты ограничен: 500 фиджийских долларов.</p>
-                <p>Не израсходованная национальная валюта может быть обменена при выезде в размере указанной во въездной декларации иностранной валюты. </p>
+        <h5>Животные</h5>
+        <p>Все домашние животные должны быть привиты и иметь международный медицинский сертификат.</p>
 
-                <h5>Прочее</h5>
-                <p>Запрещен ввоз огнестрельного оружия, боеприпасов, наркотиков, земли, камней и минералов, продуктов питания, мяса и молочных продуктов из Тасмании, а также биологических образцов и тканей человеческого или животного происхождения.</p>
-                <p>Изделия из кожи, кости, перьев птиц, раковин, кораллов вывозить запрещено.</p>
-            </div>
+        <h5>Запрещены к ввозу:</h5>
+        <ul>
+            <li>наркотические средства;</li>
+            <li>огнестрельное оружие, боеприпасы, взрывчатые вещества;</li>
+            <li>радиоактивные и ядовитые вещества;</li>
+            <li>поддельные денежные банкноты;</li>
+            <li>материалы, противоречащие морально-этическим нормам и разжигающие политические, религиозные и/или иные конфликты.</li>
+        </ul>
 
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-suitcase"></i>
-                        <span class="h6"><b>Беспошлинно допустим ввоз:</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">не более 500 сигарет или 500 г табака или сигар;</li>
-                        <li class="list-group-item">2 литра крепких алкогольных напитков или 4 литра вина или пива;</li>
-                        <li class="list-group-item">до 2 унций (56 мл) духов;</li>
-                        <li class="list-group-item">подарков и сувениров общей стоимостью до 400 долл. США.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
+        <h5>Запрещены к вывозу (без соответствующих разрешающих документов):</h5>
+        <ul>
+            <li>предметы, имеющие историческую и/или культурную ценность;</li>
+            <li>экзотические животные и птицы;</li>
+            <li>объекты морской флоры и фауны;</li>
+            <li>изделия из кожи и меха.</li>
+        </ul>
     </div>
 </section>
 
 <section id="transport" class="bg-white">
     <div class="container">
-        <h2>Транспорт</h2>      
+        <h2>Транспортная система</h2>
 
         <div class="row justify-content-between">
             <div class="col-md-8 col-lg-7">
-                <p>На небольших островах нет ни автодорог, ни самих автомобилей – все в шаговой доступности.</p>
-                <p>Дороги есть только на островах Вити – Леву и Вануа – Леву.</p>
 
-                <p class="mb-12">Прямого транспортного сообщения между Казахстаном и Фиджи нет. Для того, чтобы добраться до крупнейшего аэропорта страны – Нанди, придется совершить минимум 2 пересадки, а общее время в пути составит почти сутки.</p>
+                <p>На большинстве островов архипелага Фиджи отсутствуют как автомобили, так и собственно автодороги — все находится в шаговой доступности. Дороги есть только на двух крупных островах — Вануа-Леву и Вити-Леву, где курсируют миниавтобусы. Однако, зачастую они довольно старые и изношенные, а какой-либо график передвижения отсутствует. В связи с этим иностранцам рекомендуется пользоваться специальными рейсами от туристических фирм или отелей.</p>
+                <p>Для переезда на другие острова можно нанять катер или паром, которыми владеет практически каждый отель.</p>
+                                             
+                <h5>Городской транспорт</h5>
+                <p>Общественный транспорт в Суве и других крупных населенных пунктах страны представлен автобусами. Стоимость одной поездки около 0,9 FJD.</p>
+                <p>Популярным средством передвижения среди туристов является такси. Автомобиль можно вызвать по телефону на ресепшене отеля или остановить на улице. Посадка стоит 3 FJD, и дополнительно оплачивается каждый километр согласно счетчику.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <i class="float-right icon-credit"></i>
+                        <span class="h6">
+                            <b>Стоимость проезда</b>
+                        </span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <div>Автобус</div>
+                                <span>от 0,9 FJD</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <div>Такси</div>
+                                <span>1 FJD за км</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
@@ -241,26 +411,8 @@
                             <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/LV_8JbNx0v0?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
-                    <figcaption class="figure-caption text-right">Аэропорт Нанди. Nadi International Airport International Departure Hall<br>© FlightTravels 2017</figcaption>
-                </figure>
-
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-aircraft"></i>
-                        <span class="h6"><b>Авиарейсы</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            Наиболее оптимальными перелетами считаются перелеты через Сеул (а/к Korean Air и Asiana Airlines), Пекин (Hainan Air), а также со всевозможными стыковками в Австралии и Новой Зеландии, так как оттуда совершается наибольшее количество рейсов в/из аэропорты Фиджи.
-                        </li>
-                    </ul>
-                    <div class="card-footer p-3">
-                        <a href="https://booking.scat.kz/websky/#/search" class="btn btn-block btn-outline-success">Подобрать рейс</a>
-                    </div>
-                </div>
+                    <figcaption class="figure-caption text-right">Nadi International Airport International Departure Hall<br>© FlightTravels</figcaption>
+                </figure>           
             </div>
         </div>
     </div>
@@ -271,84 +423,136 @@
         <h2>Автомобиль</h2>
 
         <div class="row justify-content-between">
-            <div class="col">
-                <p>Движение здесь левостороннее.</p>
-                <p>Для того чтобы взять автомобиль напрокат, необходимо иметь водительское удостоверение международного образца и паспорт.</p>
-                <p>Для переезда на другие острова обычно нанимают катер.</p>
+            <div class="col-md-8 col-lg-7">
+                <p>Дорожная система развита только на двух островах — Вануа-Леву и Вити-Леву. Общая протяженность дорог – всего 5 тыс. км, и только часть из них с твердым покрытием.</p>
+                <p>Особенности дорожного движения:</p>
+                <ul>
+                    <li>движение левостороннее;</li>
+                    <li>обгон совершается справа;</li>
+                    <li>максимально допустимая скорость в черте города составляет 50 км/час, вне населенного пункта — 80 км/час;</li>
+                    <li>обязательно использование ремней безопасности водителю и всем пассажирам;</li>
+                    <li>дети перевозятся только в специальных автокреслах;</li>
+                    <li>в отдаленных районах могут отсутствовать заправочные станции.</li>
+                </ul>
+                <p>Для иностранцев, особенно для новичков, управление автомобилем небезопасно в связи с тем, что местные жители зачастую пренебрегают правилами дорожного движения, поэтому рекомендуется быть предельно внимательным за рулем, особенно в ночное время.</p>
+
+                <h5>Аренда авто</h5>
+                <p>Арендовать автомобиль можно в прокатных фирмах в аэропорту или любом крупном отеле. Для заключения договора аренды потребуются паспорт, водительские права и кредитная карта.</p>
+                <p>Необходимо внимательно ознакомиться со всеми пунктами договора, а также осмотреть арендуемое транспортное средство на предмет царапин или иных повреждений и зафиксировать их документально.</p>
+                <p>Минимальная стоимость проката автомобиля составляет 100 FJD в сутки. За дополнительную плату можно приобрести автокресло, багажник и навигатор.</p>
+                
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="bg-secondary">
+                        <div class="card-body">
+                            <p>Граждане Республики Казахстан могут управлять транспортным средством на территории Фиджи при наличии водительского удостоверения международного образца.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <i class="float-right icon-credit"></i>
+                        <span class="h6">
+                            <b>Стоимость топлива</b>
+                        </span>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <div>Бензин</div>
+                                <span>2,06 FJD за литр</span>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="d-flex justify-content-between">
+                                <div>Дизель</div>
+                                <span>1,76 FJD за литр</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <figure class="figure d-block">
+                    <div class="video-cover box-shadow">
+                        <img alt="За городом Лаутока, Фиджи, 2012" src="https://i.ytimg.com/vi/nH8uqNC3hvo/maxresdefault.jpg" class="bg-image"/>
+                        <div class="video-play-icon">
+                            <i class="icon-controller-play"></i>
+                        </div>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/nH8uqNC3hvo?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <figcaption class="figure-caption text-right">За городом Лаутока, Фиджи, 2012<br>© Andrey Tierov</figcaption>
+                </figure>
             </div>
         </div>
+
     </div>
 </section>
 
 <section id="health" class="bg-white">
     <div class="container">
         <h2>Здравоохранение</h2>
-
-        <div class="row justify-content-between">
-            <div class="col-md-8 col-lg-7">
-                <p>На Фиджи медицинское обслуживание находится на довольно высоком уровне.</p>
-                <p>При посещение островов рекомендуется вакцинация от гепатита (А,В), столбняка, брюшного тифа и дифтерии.</p>
-                <p>Случаи малярии здесь не отмечены.</p>
-
-                <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
-            </div>
-
-            <div class="col-md-4">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="float-right icon-warning"></i>
-                        <span class="h6"><b>Прививка от желтой лихорадки</b></span>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">Обязательно требуется наличие сертификата о прививке от жёлтой лихорадки при прибытии из эндемичных регионов (включая транзит).
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+       
+        <p>Санитарно-эпидемиологическая обстановка на островах в целом благоприятная. Перед поездкой рекомендуется вакцинация от гепатита (А, В), столбняка, брюшного тифа и дифтерии.</p>
+        <p>Во избежание проблем со здоровьем туристам рекомендуется:</p>
+        <ul>
+            <li>учитывать жаркие климатические условия, особенно лицам с хроническими заболеваниями, ограничивать пребывание на солнце, пользоваться солнцезащитным кремом;</li>
+            <li>тщательно соблюдать личную гигиену, обрабатывать руки дезинфицирующим раствором;</li>
+            <li>пить только бутилированную воду;</li>
+            <li>местные фрукты и овощи перед употреблением мыть с антисептическим мылом;</li>
+            <li>пользоваться специальными репеллентами от комаров и прочих насекомых.</li>
+        </ul>
+        <p>Медицинские услуги для иностранцев платные, а при наличии страховки все расходы берет на себя страховая компания.</p>
+                
+        <a href="https://medical.account.travel" class="btn btn-outline-success">Оформить туристическую страховку</a>
     </div>
 </section>
 
 <section id="communication">
     <div class="container">
-        <h2>Связь и коммуникации</h2>
-
         <div class="row justify-content-between">
             <div class="col-md-8 col-lg-7">
-                <p>Местным оператором является компания Vodafone Fiji Ltd.</p>
-                <p>Роуминг ограничен и предлагается ведущими операторами только через сети других операторов тихоокеанского региона.</p>
-                <p>Местные СИМ-карты туристы могут купить в офисах Vodafone, а также на почте и в аэропорту.</p>
+                <h2>Мобильная связь и интернет</h2>
+                <p>Связь на островах предоставляют три мобильных оператора:</p>
+                <ul>
+                    <li>Vodafone — <a href="https://www.vodafone.com.fj/" target="_blank">перейти на сайт</a></li>
+                    <li>Digicel Group — <a href="https://www.digicelgroup.com/fj/en/" target="_blank">перейти на сайт</a></li>
+                    <li>Inkk Mobile — <a href="http://inkkmobile.com.fj/" target="_blank">перейти на сайт</a></li>
+                </ul>
+                <p>Приобрести местную SIM-карту можно в специализированных офисах продаж при предъявлении загранпаспорта. Стоимость такой карты зависит от оператора и пакета услуг — в среднем 20 FJD, при этом часть суммы переводится на баланс.</p>
+                <p>Что касается интернета, то платные и бесплатные wi-fi точки есть в отелях, ресторанах и кафе. В Суве работает несколько интернет-кафе, где час доступа к сети интернет обойдется примерно в 10 FJD.</p>
             </div>
 
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <i class="float-right icon-old-phone"></i>
-                        <span class="h6"><b>Полезные телефоны</b></span>
+                        <span class="h6">
+                            <b>Полезные телефоны</b>
+                        </span>
                     </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
-                                <div>Пожарная</div>
-                                <span>9170</span>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="d-flex justify-content-between">
-                                <div>Полиция</div>
+                                <div>Единый экстренный номер</div>
                                 <span>911</span>
                             </div>
                         </li>
                         <li class="list-group-item">
                             <div class="d-flex justify-content-between">
-                                <div>Скорая</div>
-                                <span>911</span>
+                                <div>Криминальная полиция </div>
+                                <span>919</span>
                             </div>
                         </li>
                     </ul>
                 </div>
-            </div>
 
+                <?= $this->render('_electricity', $country) ?>
+                
+            </div>
         </div>
 
     </div>
@@ -360,3 +564,104 @@
         <?= $this->render('_excursions', $country) ?>
     </div>
 </section>
+
+
+
+    <footer class="bg-gray footer-long text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3">
+                    <img alt="Image" src="/img/logo-white.svg" class="mb-2" />
+                    <p class="text-muted">
+                        &copy; 2018 Аккаунт Трэвел
+                    </p>
+
+                    <ul class="list-inline" style="font-size: large;">
+                        <li class="list-inline-item"><a href="https://vk.com/"><i class="socicon-vkontakte"></i></a></li>
+                        <li class="list-inline-item"><a href="https://facebook.com/"><i class="socicon-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://t.me/"><i class="socicon-telegram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-9">
+                    <div class="row no-gutters">
+                        <div class="col-6 col-lg-3">
+                            <h6>Возможности</h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="/guide">Информация по странам</a>
+                                </li>
+                                <li>
+                                    <a href="/work">Предложения по работе</a>
+                                </li>
+                                <li>
+                                    <a href="/people">Интересные люди</a>
+                                </li>
+                                <li>
+                                    <a href="/learn">Школа туризма</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <h6>Кому полезен</h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">Туристам</a>
+                                </li>
+                                <li>
+                                    <a href="#">Фотографам</a>
+                                </li>
+                                <li>
+                                    <a href="#">Экскурсоводам</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <h6>Сообщество</h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">Форум</a>
+                                </li>
+                                <li>
+                                    <a href="#">Частые вопросы</a>
+                                </li>
+                                <li>
+                                    <a href="#">Найти эксперта</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-6 col-lg-3">
+                            <h6>О компании</h6>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#">О нас</a>
+                                </li>
+                                <li>
+                                    <a href="#">История</a>
+                                </li>
+                                <li>
+                                    <a href="#">Команда</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="/assets/6a91caec/jquery.js"></script>
+<script src="/assets/46ef669b/yii.js"></script>
+<script src="/design/dist/assets/js/popper.min.js"></script>
+<script src="/design/dist/assets/js/jquery.smartWizard.min.js"></script>
+<script src="/design/dist/assets/js/flickity.pkgd.min.js"></script>
+<script src="/design/dist/assets/js/scrollMonitor.js"></script>
+<script src="/design/dist/assets/js/smooth-scroll.polyfills.js"></script>
+<script src="/design/dist/assets/js/prism.js"></script>
+<script src="/design/dist/assets/js/zoom.min.js"></script>
+<script src="/design/dist/assets/js/bootstrap.js"></script>
+<script src="/design/dist/assets/js/theme.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="/js/highcharts-theme.js"></script>
+<script src="/js/country.js"></script>
+</body>
+</html>
