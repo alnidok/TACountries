@@ -78,7 +78,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li><a href="/guide/uzbekistan">Узбекистан</a></li>
             <li><a href="/guide/philippines">Филиппины</a></li>
             <li><a href="/guide/sri_lanka">Шри-Ланка</a></li>
-            <li>Южная Корея</li>
+            <li><a href="/guide/south_korea">Южная Корея</a></li>
             <li>Япония</li>
         </ul>
     </div>
