@@ -6,6 +6,7 @@ use yii\helpers\Url;
 $this->title = "{$article->name}. {$article->country->name} ".date('Y');
 $description = $article->getDescription();
 $image = $article->getImage();
+$videos = $article->getHolidaysVideos()->all();
 
 $this->registerLinkTag(['rel' => 'canonical', 'href' => Url::canonical()]);
 $this->registerMetaTag(['name' => 'description', 'content' => $description]);
@@ -65,6 +66,28 @@ $this->registerMetaTag(['property' => 'article:tag', 'content' => 'праздн�
                 <?php endif ?>
 
                 <?= $article->text ?>
+
+                <?php if($videos): ?>
+                    <div class="row justify-content-center">
+                        <?php foreach($videos as $video): ?>
+                            <?php $data = unserialize($video->data) ?>
+                            <div class="col-lg-6">
+                                <figure class="figure d-block">
+                                    <div class="video-cover box-shadow">
+                                        <?php if($data['image']): ?><img alt="<?=$data['title']?>" src="<?=$data['image']?>" class="bg-image"/><?php endif ?>
+                                        <div class="video-play-icon">
+                                            <i class="icon-controller-play"></i>
+                                        </div>
+                                        <div class="embed-responsive embed-responsive-<?=$data['resolution']?>">
+                                            <iframe class="embed-responsive-item" data-src="<?=$data['src']?>" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    <figcaption class="figure-caption text-right"><?=$data['title']?><br>© <?=$data['author']?> <?=$data['date']?></figcaption>
+                                </figure>
+                            </div>
+                        <?php endforeach ?>
+                    </div>
+                <?php endif ?>
             </div>
         </div>
     </div>
