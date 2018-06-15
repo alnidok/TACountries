@@ -118,9 +118,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#communication">Связь</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="#sight">Что посмотреть</a>
-            </li>
+            </li>-->
         </ul>
     </div>
 </nav>
@@ -136,7 +136,7 @@
         <p>Постоянным населением в Ватикане являются преимущественно мужчины, также в государстве проживают два монашеских ордена.</p>
         
         
-        <?= $this->render('_population') ?>
+        <?/*= $this->render('_population') */?>
 
     </div>
 </section>
@@ -192,17 +192,17 @@
 
 <section id="climate">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
+        <!--<div class="row">
+            <div class="col-lg-6">-->
                 <h2>Климат</h2>
                 
                 <p>На территории государства господствует средиземноморский климат. Для него характерны жаркое сухое лето (около +27 °С) и мягкая дождливая зима (от +8 до +11 °С). Часто бывает ветрено с преобладанием западных и северных ветров.</p>
                 <p>Идеальное время для посещения страны — с мая по сентябрь.</p>
-            </div>
+            <!--</div>
             <div class="col-lg-6">
                 <div id="chart-climate"></div>
             </div>
-        </div>
+        </div>-->
     </div>
 </section>
 
@@ -476,9 +476,8 @@
     </div>
 </section>
 
-<section id="sight" class="bg-white">
+<!--<section id="sight" class="bg-white">
     <div class="container">
-        <!--Блок экскурсий-->
-        <?= $this->render('_excursions', $country) ?>
+        <?/*= $this->render('_excursions', $country) */?>
     </div>
-</section>
+</section>-->

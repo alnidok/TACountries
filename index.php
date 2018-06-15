@@ -74,7 +74,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li><a href="/guide/tajikistan">Таджикистан</a></li>
             <li><a href="/guide/thailand">Таиланд</a></li>
             <li><a href="/guide/turkmenistan">Туркменистан</a></li>
-            <li>Турция</li>
+            <li><a href="/guide/turkey">Турция</a></li>
             <li><a href="/guide/uzbekistan">Узбекистан</a></li>
             <li><a href="/guide/philippines">Филиппины</a></li>
             <li><a href="/guide/sri_lanka">Шри-Ланка</a></li>
@@ -113,7 +113,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li><a href="/guide/belgium">Бельгия</a></li>
             <li><a href="/guide/bulgaria">Болгария</a></li>
             <li><a href="/guide/bosnia">Босния и Герцеговина</a></li>
-            <li>Ватикан</li>
+            <li><a href="/guide/vatican">Ватикан</a></li>
             <li><a href="/guide/united_kindom">Великобритания</a></li>
             <li><a href="/guide/hungary">Венгрия</a></li>
             <li><a href="/guide/germany">Германия</a></li>
@@ -131,7 +131,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Македония</li>
             <li><a href="/guide/malta">Мальта</a></li>
             <li><a href="/guide/moldova">Молдавия</a></li>
-            <li>Монако</li>
+            <li><a href="/guide/monaco">Монако</a></li>
             <li><a href="/guide/netherlands">Нидерланды</a></li>
             <li><a href="/guide/norway">Норвегия</a></li>
             <li><a href="/guide/poland">Польша</a></li>
@@ -204,7 +204,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li><a href="/guide/venezuela">Венесуэла</a></li>
             <li>Гватемала</li>
             <li>Гренада</li>
-            <li>Гренландия</li>
+            <li><a href="/guide/greenland">Гренландия</a></li>
             <li><a href="/guide/dominican_republic">Доминиканская Республика</a></li>
             <li><a href="/guide/canada">Канада</a></li>
             <li><a href="/guide/columbia">Колумбия</a></li>

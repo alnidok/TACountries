@@ -14,7 +14,7 @@
                     <br>
                     <b>Население</b>: 57,7 тыс. человек
                     <br>
-                    <b>Часовой пояс</b>: UTC –3 — +0. Разница во времени между Нууком и Астаной составляет –9 часов зимой и -8 часов летом 
+                    <b>Часовой пояс</b>: от UTC–3 до UTC+0. Разница во времени между Нууком и Астаной составляет –9 часов зимой и -8 часов летом
                 </div>
             </div>
 
@@ -119,9 +119,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#communication">Связь</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="#sight">Что посмотреть</a>
-            </li>
+            </li>-->
         </ul>
     </div>
 </nav>
@@ -469,9 +469,8 @@
     </div>
 </section>
 
-<section id="sight" class="bg-white">
+<!--<section id="sight" class="bg-white">
     <div class="container">
-        <!--Блок экскурсий-->
-        <?= $this->render('_excursions', $country) ?>
+        <?/*= $this->render('_excursions', $country) */?>
     </div>
-</section>
+</section>-->
