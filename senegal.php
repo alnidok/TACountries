@@ -118,9 +118,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#communication">Связь</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="#sight">Что посмотреть</a>
-            </li>
+            </li>-->
         </ul>
     </div>
 </nav>
@@ -459,7 +459,7 @@
                 <p>Мобильная связь в Сенегале предоставляется следующими операторами:</p>
                 <ul>
                     <li>Tigo - <a href="https://www.tigo.sn/" target="_blank" rel="nofollow">перейти на сайт</a></li>
-                    <li>Orange - <a href="https://www.orange.sn/2/particuliers/1/3/homepage-1.html" target="_blank" rel="nofollow">перейти на сайт</a></li>
+                    <li>Orange - <a href="https://www.orange.sn/" target="_blank" rel="nofollow">перейти на сайт</a></li>
                     <li>Expresso Telecom - <a href="http://www.expressotelecom.com/senegal.php" target="_blank" rel="nofollow">перейти на сайт</a></li>
                 </ul>
                 <p>Сотовая связь использует стандарт GSM-900, зоны охвата покрывают, как правило, только крупные города и главные трассы, поэтому связь в путешествии по стране может быть ограничена.</p>
@@ -505,9 +505,8 @@
     </div>
 </section>
 
-<section id="sight" class="bg-white">
+<!--<section id="sight" class="bg-white">
     <div class="container">
-        <!--Блок экскурсий-->
-        <?= $this->render('_excursions', $country) ?>
+        <?/*= $this->render('_excursions', $country) */?>
     </div>
-</section>
+</section>-->

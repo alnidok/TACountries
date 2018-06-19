@@ -256,7 +256,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Кабо-Верде</li>
             <li><a href="/guide/kenya">Кения</a></li>
             <li><a href="/guide/mauritius">Маврикий</a></li>
-            <li>Мадагаскар</li>
+            <li><a href="/guide/madagascar">Мадагаскар</a></li>
             <li><a href="/guide/morocco">Марокко</a></li>
             <li>Мозамбик</li>
             <li>Намибия</li>
@@ -264,7 +264,7 @@ $this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
             <li>Руанда</li>
             <li>Сан-Томе и Принсипи</li>
             <li><a href="/guide/seychelles">Сейшельские острова</a></li>
-            <li>Сенегал</li>
+            <li><a href="/guide/senegal">Сенегал</a></li>
             <li><a href="/guide/tanzania">Танзания</a></li>
             <li><a href="/guide/tunisia">Тунис</a></li>
             <li>Уганда</li>
