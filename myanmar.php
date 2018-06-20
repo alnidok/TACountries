@@ -116,9 +116,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="#communication">Связь</a>
             </li>
-            <li class="nav-item">
+            <!--<li class="nav-item">
                 <a class="nav-link" href="#sight">Что посмотреть</a>
-            </li>
+            </li>-->
         </ul>
     </div>
 </nav>
@@ -496,9 +496,8 @@
     </div>
 </section>
 
-<section id="sight" class="bg-white">
+<!--<section id="sight" class="bg-white">
     <div class="container">
-        <!--Блок экскурсий-->
-        <?= $this->render('_excursions', $country) ?>
+        <?/*= $this->render('_excursions', $country) */?>
     </div>
-</section>
+</section>-->
