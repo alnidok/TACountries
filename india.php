@@ -180,18 +180,15 @@
 
                 <figure class="figure d-block">
                     <div class="video-cover box-shadow">
-                        <img alt="ЗАГАДОЧНАЯ И МУДРАЯ Индия! | ЭТО НУЖНО ЗНАТЬ" src="https://i.ytimg.com/vi/1Wgc2i-Yngg/maxresdefault.jpg" class="bg-image"
-                        />
+                        <img alt="Пешком из Дели через всю Индию ИЛИ как отмечают индийские праздники? Удивительные фестивали мира." src="https://i.ytimg.com/vi/2lWiQP3nxEM/hqdefault.jpg" class="bg-image"/>
                         <div class="video-play-icon">
                             <i class="icon-controller-play"></i>
                         </div>
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/1Wgc2i-Yngg?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen
-                                mozallowfullscreen allowfullscreen></iframe>
+                            <iframe class="embed-responsive-item" data-src="https://www.youtube.com/embed/2lWiQP3nxEM?autoplay=1&rel=0&showinfo=0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                         </div>
                     </div>
-                    <figcaption class="figure-caption text-right">ЗАГАДОЧНАЯ И МУДРАЯ Индия! | ЭТО НУЖНО ЗНАТЬ
-                        <br>© The Scale \\ Масштабы 2016</figcaption>
+                    <figcaption class="figure-caption text-right">Пешком из Дели через всю Индию ИЛИ как отмечают индийские праздники? Удивительные фестивали мира.<br>© Вокруг Света 2015</figcaption>
                 </figure>
 
 
