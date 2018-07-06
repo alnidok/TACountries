@@ -2,6 +2,7 @@
 
 use app\components\widgets\Breadcrumbs;
 use yii\helpers\Url;
+use yii\helpers\Html;
 
 echo $article->jsonLD();
 
@@ -81,9 +82,9 @@ $this->registerMetaTag(['property' => 'article:tag', 'content' => 'праздн�
     <?php if($photos): ?>
         <div id="gallery" style="display: none;" class="mt-5">
             <?php foreach($photos as $photo): ?>
-                <img alt="<?=$photo->caption?>" src="<?=$photo->url?>"
+                <img alt="<?=Html::encode($photo->caption)?>" src="<?=$photo->url?>"
                      data-image="<?=$photo->url?>"
-                     data-description="<?=$photo->caption?>">
+                     data-description="<?=Html::encode($photo->caption)?>">
             <?php endforeach ?>
         </div>
     <?php endif ?>

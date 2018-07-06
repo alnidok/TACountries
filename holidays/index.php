@@ -2,6 +2,7 @@
 use app\models\Holidays;
 use app\assets\CalendarAsset;
 use app\components\widgets\Breadcrumbs;
+use yii\helpers\Html;
 
 CalendarAsset::register($this, $holidays);
 
@@ -62,9 +63,9 @@ if ($photos) {
 <section class="bg-white">
     <div id="gallery" style="display: none;">
         <?php foreach($photos as $photo): ?>
-            <img alt="<?=$photo['caption']?>" src="<?=$photo['url']?>"
+            <img alt="<?=Html::encode($photo['caption'])?>" src="<?=$photo['url']?>"
                  data-image="<?=$photo['url']?>"
-                 data-description="<?=$photo['caption']?>">
+                 data-description="<?=Html::encode($photo['caption'])?>">
         <?php endforeach ?>
     </div>
 </section>
