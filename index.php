@@ -1,7 +1,7 @@
 <?php
 $this->title = 'Страны для посещения гражданам Казахстана';
 $this->registerMetaTag(['name' => 'description', 'content' => 'Собранный здесь материал позволит погрузиться в культурные особенности и традиции стран, узнать интересные факты о достопримечательностях, а также всю необходимую для туриста информацию.']);
-$this->registerJsFile('/js/country.js', ['depends' => 'app\assets\AppAsset']);
+$this->registerJsFile('@web/js/country.js', ['depends' => 'app\assets\AppAsset']);
 ?>
 
 <section>
