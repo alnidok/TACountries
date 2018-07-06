@@ -1,19 +1,21 @@
 <?php
 use app\models\Holidays;
 use app\assets\CalendarAsset;
-use app\assets\UniteGalleryAsset;
 use app\components\widgets\Breadcrumbs;
 
 CalendarAsset::register($this, $holidays);
-UniteGalleryAsset::register($this);
 
 $country_form = explode(',', $country->nameForm)[1];
 $year = date('Y');
 $this->title = "Праздники $country_form";
 
 $this->registerMetaTag(['name' => 'description', 'content' => "Праздники $country_form. Календарь праздников с описаниями на $year год"]);
-$this->registerJsFile('@web/js/holidays-gallery.js', ['depends' => 'app\assets\UniteGalleryAsset']);
 $this->registerJsFile('@web/js/calendar.js', ['depends' => 'app\assets\CalendarAsset']);
+
+if ($photos) {
+    \app\assets\UniteGalleryAsset::register($this);
+    $this->registerJsFile('@web/js/holidays-gallery.js', ['depends' => 'app\assets\UniteGalleryAsset']);
+}
 ?>
 
 <?= Breadcrumbs::widget([
@@ -29,13 +31,8 @@ $this->registerJsFile('@web/js/calendar.js', ['depends' => 'app\assets\CalendarA
 
 <section class="bg-white">
     <div class="container">
-<!--        <div class="row justify-content-center">-->
-<!--            <div class="col-md-11 col-lg-9">-->
-                <h1 class="display-4"><?=$this->title?></h1>
-                <?=$country->holidaysText?>
-                <!--<a class="btn btn-primary text-light" id="show-calendar"><i class="icon-calendar"></i> Календарь</a>-->
-<!--            </div>-->
-<!--        </div>-->
+        <h1 class="display-4"><?=$this->title?></h1>
+        <?=$country->holidaysText?>
     </div>
 </section>
 
@@ -46,10 +43,6 @@ $this->registerJsFile('@web/js/calendar.js', ['depends' => 'app\assets\CalendarA
             <div class="col-md-11 col-lg-9">
                 <h2>Список праздников на <?=$year?> год</h2>
                 <table class="table table-sm table-borderless table-hover">
-                    <!--<tr>
-                        <th>Дата</th>
-                        <th>Название</th>
-                    </tr>-->
                     <?php foreach($items as $item): ?>
                     <?php $holiday = Holidays::findOne($item['holiday_id']) ?>
                     <tr>

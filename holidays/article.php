@@ -9,6 +9,12 @@ $this->title = "{$article->name}. {$article->country->name} ".date('Y');
 $description = $article->getDescription();
 $image = $article->getImage();
 $videos = $article->getHolidaysVideos()->all();
+$photos = $article->getHolidaysPhotos()->all();
+
+if ($photos) {
+    \app\assets\UniteGalleryAsset::register($this);
+    $this->registerJsFile('@web/js/holidays-gallery.js', ['depends' => 'app\assets\UniteGalleryAsset']);
+}
 
 $this->registerLinkTag(['rel' => 'canonical', 'href' => Url::canonical()]);
 $this->registerMetaTag(['name' => 'description', 'content' => $description]);
@@ -71,6 +77,16 @@ $this->registerMetaTag(['property' => 'article:tag', 'content' => 'праздн�
             </div>
         </div>
     </div>
+
+    <?php if($photos): ?>
+        <div id="gallery" style="display: none;" class="mt-5">
+            <?php foreach($photos as $photo): ?>
+                <img alt="<?=$photo->caption?>" src="<?=$photo->url?>"
+                     data-image="<?=$photo->url?>"
+                     data-description="<?=$photo->caption?>">
+            <?php endforeach ?>
+        </div>
+    <?php endif ?>
 </section>
 
 <?php if($videos): ?>
