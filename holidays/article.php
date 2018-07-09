@@ -5,8 +5,8 @@ use yii\helpers\Url;
 use yii\helpers\Html;
 
 echo $article->jsonLD();
-
-$this->title = "{$article->name}. {$article->country->name} ".date('Y');
+$country_form = explode(',', $article->country->nameForm)[1];
+$this->title = "{$article->country->emoji} {$article->name}. Праздники $country_form ".date('Y');
 $description = $article->getDescription();
 $image = $article->getImage();
 $videos = $article->getHolidaysVideos()->all();
@@ -58,7 +58,7 @@ $this->registerMetaTag(['property' => 'article:tag', 'content' => 'праздн�
         <div class="row justify-content-center">
             <div class="col-md-11 col-lg-9">
                 <span class="lead"><?=$article->date()?></span>
-                <h1 class="display-4"><?= $article->name ?></h1>
+                <h1 class="display-4"><?=$article->name?></h1>
             </div>
         </div>
     </div>
@@ -69,7 +69,7 @@ $this->registerMetaTag(['property' => 'article:tag', 'content' => 'праздн�
             <div class="col-md-11 col-lg-9">
                 <?php if ($article->image): ?>
                     <figure class="w-50 mb-5 center">
-                        <img src="<?=$article->image?>" alt="" class="img-fluid" data-action="zoom">
+                        <img src="<?=$article->image?>" alt="<?=$article->name?>" class="img-fluid" data-action="zoom">
                         <figcaption></figcaption>
                     </figure>
                 <?php endif ?>

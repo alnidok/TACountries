@@ -21,7 +21,7 @@ $frequency = explode(',', $frequency);
                 </div>
                 <span class="text-right">
                     <?php foreach($types as $type): ?>
-                        <img src="/img/electric/type_<?=strtolower($type)?>.<?php if (in_array($type, ['M', 'N'])): ?>png<?php else: ?>svg<?php endif ?>" style="width:100px; max-width:100%;" title="Разъем типа <?=$type?>">
+                        <img src="/img/electric/type_<?=strtolower($type)?>.<?php if (in_array($type, ['M', 'N'])): ?>png<?php else: ?>svg<?php endif ?>" style="width:100px; max-width:100%;" alt="Разъем типа <?=$type?>" title="Разъем типа <?=$type?>">
                     <?php endforeach ?>
                 </span>
             </div>

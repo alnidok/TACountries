@@ -8,7 +8,8 @@ CalendarAsset::register($this, $holidays);
 
 $country_form = explode(',', $country->nameForm)[1];
 $year = date('Y');
-$this->title = "Праздники $country_form";
+$title = "Праздники $country_form";
+$this->title = $country->emoji ? "{$country->emoji} $title" : $title;
 
 $this->registerMetaTag(['name' => 'description', 'content' => "Праздники $country_form. Календарь праздников с описаниями на $year год"]);
 $this->registerJsFile('@web/js/calendar.js', ['depends' => 'app\assets\CalendarAsset']);
@@ -32,7 +33,7 @@ if ($photos) {
 
 <section class="bg-white">
     <div class="container">
-        <h1 class="display-4"><?=$this->title?></h1>
+        <h1 class="display-4"><?=$title?></h1>
         <?=$country->holidaysText?>
     </div>
 </section>
