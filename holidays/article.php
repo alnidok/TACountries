@@ -19,7 +19,7 @@ if ($photos) {
 
 $this->registerLinkTag(['rel' => 'canonical', 'href' => Url::canonical()]);
 $this->registerMetaTag(['name' => 'description', 'content' => $description]);
-$this->registerMetaTag(['name' => 'keywords', 'content' => '']);
+//$this->registerMetaTag(['name' => 'keywords', 'content' => '']);
 $this->registerMetaTag(['property' => 'og:locale', 'content' => 'ru_RU']);
 $this->registerMetaTag(['property' => 'og:url', 'content' => Url::canonical()]);
 $this->registerMetaTag(['property' => 'og:title', 'content' => $this->title]);
