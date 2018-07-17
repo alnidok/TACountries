@@ -6,7 +6,7 @@ use yii\helpers\Html;
 
 echo $article->jsonLD();
 $country_form = explode(',', $article->country->nameForm)[1];
-$this->title = "{$article->country->emoji} {$article->name}. Праздники $country_form ".date('Y');
+$this->title = "{$article->name}. Праздники $country_form ".date('Y');
 $description = $article->getDescription();
 $image = $article->getImage();
 $videos = $article->getHolidaysVideos()->all();
@@ -18,7 +18,7 @@ if ($photos) {
 }
 
 $this->registerLinkTag(['rel' => 'canonical', 'href' => Url::canonical()]);
-$this->registerMetaTag(['name' => 'description', 'content' => $description]);
+$this->registerMetaTag(['name' => 'description', 'content' => "{$article->country->emoji} $description"]);
 //$this->registerMetaTag(['name' => 'keywords', 'content' => '']);
 $this->registerMetaTag(['property' => 'og:locale', 'content' => 'ru_RU']);
 $this->registerMetaTag(['property' => 'og:url', 'content' => Url::canonical()]);
@@ -34,7 +34,7 @@ $this->registerMetaTag(['name' => 'twitter:title', 'content' => $this->title]);
 $this->registerMetaTag(['name' => 'twitter:description', 'content' => $description]);
 $this->registerMetaTag(['name' => 'twitter:image', 'content' => $image]);
 $this->registerMetaTag(['name' => 'twitter:site', 'content' => Yii::$app->params['social']['twitter']]);
-//$this->registerMetaTag(['name' => 'twitter:creator', 'content' => Yii::$app->params['social']['twitter']]);
+$this->registerMetaTag(['name' => 'twitter:creator', 'content' => Yii::$app->params['social']['twitter']]);
 
 $this->registerMetaTag(['property' => 'article:publisher', 'content' => 'https://facebook.com/'.Yii::$app->params['social']['facebook']]);
 $this->registerMetaTag(['property' => 'article:published_time', 'content' => date('c', $article->created_at)]);
