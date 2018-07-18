@@ -17,7 +17,6 @@ if ($photos) {
     $this->registerJsFile('@web/js/holidays-gallery.js', ['depends' => 'app\assets\UniteGalleryAsset']);
 }
 
-$this->registerLinkTag(['rel' => 'canonical', 'href' => Url::canonical()]);
 $this->registerMetaTag(['name' => 'description', 'content' => "{$article->country->emoji} $description"]);
 //$this->registerMetaTag(['name' => 'keywords', 'content' => '']);
 $this->registerMetaTag(['property' => 'og:locale', 'content' => 'ru_RU']);
