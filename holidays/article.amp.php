@@ -1,14 +1,11 @@
 <?php
-
 use app\components\widgets\Breadcrumbs;
+
+// SEO
+require(Yii::getAlias('@app'.'/views/guide/holidays/article_seo.php'));
 
 $this->params['amp-components'] = ['carousel', 'youtube', 'vimeo'];
 
-echo $article->jsonLD();
-$country_form = explode(',', $article->country->nameForm)[1];
-$this->title = "{$article->name}. Праздники $country_form ".date('Y');
-$description = $article->getDescription();
-$image = $article->getImage();
 $videos = $article->getHolidaysVideos()->all();
 $photos = $article->getHolidaysPhotos()->all();
 
